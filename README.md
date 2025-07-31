@@ -30,3 +30,17 @@ AquaGate/
 ├── references/                ← PDFs, whitepapers, external documents
 ├── diagrams/                  ← System architecture & flowcharts
 └── notes/                     ← Interviews, raw notes, datasets
+
+## Status
+In Progress
+Start Date: July 2025
+Author: Shreeram Ghimire
+
+## License
+This project is open for public reference but not redistribution. Please contact the author for collaboration or citation.
+
+##Contact
+For inquiries or collaboration:
+shreeram@salmonometers.com
+
+
