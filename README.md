@@ -27,7 +27,7 @@ Author: Shreeram Ghimire
 ## License
 This project is open for public reference but not redistribution. Please contact the author for collaboration or citation.
 
-##Contact
+## Contact
 For inquiries or collaboration:
 shreeram@salmonometers.com
 
