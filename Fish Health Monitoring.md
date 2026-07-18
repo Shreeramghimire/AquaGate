@@ -219,3 +219,50 @@ Post-harvest measurements describing the physical and sensory attributes of the 
 - Linking on-farm rearing conditions (diet, density, water quality) to end-product quality
 - Quality control and defect-rate tracking across processing batches
 - Feedback loop to improve feed formulation and harvest timing
+
+### 5. Chemical Composition Data
+
+**What it is:**
+
+Detailed biochemical/nutritional profile of the fish flesh — relevant to nutrition science, product labeling, and feed R&D.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Proximate composition** | Moisture, crude protein, crude fat, ash |
+| **Fatty acids** | Fatty acid profile (e.g., omega-3 EPA/DHA content) |
+| **Amino acids** | Amino acid profile |
+| **Micronutrients** | Astaxanthin/pigment content, vitamins (A, D, E), minerals |
+| **Contaminants** | Heavy metals, dioxins, PCBs (for food safety) |
+
+---
+
+#### How It's Collected
+
+- Laboratory wet chemistry (Kjeldahl for protein, Soxhlet for fat extraction)
+- Chromatography for fatty acid and amino acid profiling
+- Spectroscopy-based rapid estimation on fillet samples
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Gas chromatography (GC) and HPLC systems | Fatty acid and amino acid analysis |
+| NIR and FTIR spectroscopy | Rapid, non-destructive composition estimates |
+| Kjeldahl apparatus | Protein analysis |
+| Soxhlet extractors | Fat extraction |
+| Atomic absorption spectroscopy (AAS) or ICP-MS | Contaminant and mineral analysis |
+
+---
+
+#### How It's Used
+
+- Nutritional labeling and health-claim substantiation (e.g., omega-3 content)
+- Feed formulation optimization (linking feed inputs to flesh composition)
+- Food safety compliance and contaminant monitoring
+- Comparative studies (wild vs. farmed, species/strain benchmarking)
