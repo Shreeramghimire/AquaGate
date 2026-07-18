@@ -21,8 +21,8 @@ The project aims to provide a comprehensive technical and strategic overview for
 
 ## Status
 In Progress
-Start Date: July 2025
-Author: Shreeram Ghimire
+Start Date: **July 2025**
+Author: **Shreeram Ghimire**
 
 ## License
 This project is open for public reference but not redistribution. Please contact the author for collaboration or citation.
