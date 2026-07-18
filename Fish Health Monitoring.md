@@ -170,3 +170,52 @@ Data capturing presence, spread, and impact of pathogens, parasites, and disease
 - Epidemiological modeling of disease spread across sites/regions
 - Informing vaccination programs and treatment scheduling
 - Regulatory reporting and certification/traceability compliance
+
+### 4. Fillet Quality Data
+
+**What it is:**
+
+Post-harvest measurements describing the physical and sensory attributes of the fish fillet, key for grading, pricing, and market acceptance.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Texture** | Firmness, shear force |
+| **Color** | SalmoFan score (for salmonids), L*a*b* color values |
+| **Fat** | Fat distribution and marbling |
+| **Defects** | Gaping (muscle separation), bruising, blood spots |
+| **Yield** | Fillet weight as % of body weight |
+| **Uniformity** | Size/shape uniformity |
+
+---
+
+#### How It's Collected
+
+- Sensory panel evaluation and standardized grading charts
+- Instrumental texture analysis on sampled fillets
+- Machine vision grading lines at processing plants
+- Manual defect inspection during processing
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Texture analyzers / penetrometers | Shear force and firmness testing |
+| Colorimeters and SalmoFan color cards | Objective color measurement |
+| Automated optical/X-ray grading systems | Processing line quality inspection |
+| Near-infrared (NIR) sensors | Fat and composition estimation |
+| 3D/vision-based yield estimation cameras | Yield and size measurement |
+
+---
+
+#### How It's Used
+
+- Automated grading and sorting for market/price segmentation
+- Linking on-farm rearing conditions (diet, density, water quality) to end-product quality
+- Quality control and defect-rate tracking across processing batches
+- Feedback loop to improve feed formulation and harvest timing
