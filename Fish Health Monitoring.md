@@ -119,3 +119,54 @@ The physicochemical properties of the rearing environment, which directly drive 
 - Feeding into automated feeding systems (behavior-based feed adjustment)
 - Benchmarking welfare against certification schemes (e.g., ASC, GlobalG.A.P.)
 - Training computer-vision models for automated welfare scoring at scale
+
+### 3. Disease-Related Data
+
+**What it is:**
+
+Data capturing presence, spread, and impact of pathogens, parasites, and disease outbreaks — central to biosecurity and epidemiological modeling.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Pathogen load** | Pathogen load / prevalence (bacterial, viral, parasitic — e.g., sea lice counts) |
+| **Mortality** | Mortality and morbidity rates, time-series of daily mortality |
+| **Pathology** | Histopathology scores (gill, liver, kidney lesions) |
+| **Diagnostics** | PCR/qPCR Ct values, ELISA titers, culture results |
+| **Interventions** | Treatment/intervention records (medications, vaccinations, dosages) |
+| **Biosecurity** | Biosecurity compliance metrics (fallowing periods, disinfection logs) |
+
+---
+
+#### How It's Collected
+
+- Routine health surveillance sampling (necropsy, gill/skin swabs)
+- Sea lice counts via manual or image-based counting
+- Diagnostic lab submission (PCR, histology, bacteriology)
+- Farm management system logging of treatments and events
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| qPCR machines | Pathogen detection and quantification |
+| Diagnostic test kits | Lateral flow, ELISA for rapid screening |
+| Microscopes | Parasite and histopathology examination |
+| Automated sea lice counting cameras | Stereo-vision cage systems for lice monitoring |
+| Necropsy kits | Post-mortem examination |
+| Sample preservation equipment | Formalin, RNAlater for tissue storage |
+| Farm management software | Event logging (e.g., Fishtalk, AKVA, Mercatus) |
+
+---
+
+#### How It's Used
+
+- Outbreak detection and early warning systems
+- Epidemiological modeling of disease spread across sites/regions
+- Informing vaccination programs and treatment scheduling
+- Regulatory reporting and certification/traceability compliance
