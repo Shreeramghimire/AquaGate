@@ -266,3 +266,80 @@ Detailed biochemical/nutritional profile of the fish flesh — relevant to nutri
 - Feed formulation optimization (linking feed inputs to flesh composition)
 - Food safety compliance and contaminant monitoring
 - Comparative studies (wild vs. farmed, species/strain benchmarking)
+
+### Fish Health Data: Reference Ranges & Regulatory Limits (Norway)
+
+---
+
+### 1. Welfare Data
+
+| Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Stocking density (sea cage) | kg/m³ | ≤ 25 | 🔴 Legal max | Akvakulturdriftsforskriften (2004) |
+| Stocking density (observed industry avg.) | kg/m³ | 40–50 (commonly exceeds legal cap under exemptions) | 🟡 Reported | Rosten et al., 2007 |
+| Welfare score (skin, fin, eye) | OWI score (0–3 or categorical) | No numeric legal threshold; scored via Nofima's Welfare Indicator protocol | 🟡 Guideline | Noble et al., 2018 (Nofima WFI) |
+| Plasma cortisol (acute stress) | ng/mL | Baseline ~5–20; >50–100 indicates acute stress | 🟡 Guideline | Aquaculture physiology literature |
+| Condition factor (K) | dimensionless | 1.0–1.4 typical healthy range for salmon | 🟡 Guideline | Standard fisheries biology reference |
+| Mortality rate | % per period (weekly/monthly) | No fixed cap, but must be recorded and reported; sustained elevated mortality triggers inspection | 🔴 Reporting obligation | Akvakulturdriftsforskriften |
+
+---
+
+### 2. Water Quality Data
+
+| Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Dissolved oxygen (saturation) | % saturation | ≥ 80% recommended; welfare risk emerging below 70%; severe hypoxia risk < 60% | 🟡 Guideline | Havforskningsinstituttet (HI); Skagseth et al., 2025 |
+| Temperature | °C | Species/life-stage dependent; ~8–14°C optimal growth range for Atlantic salmon at sea | 🟡 Guideline | Standard salmon physiology literature |
+| CO₂ (dissolved) | mg/L | ≤ 10–15 mg/L (restrictive operational limit) | 🟡 Guideline | Thorarensen & Farrell, 2011 |
+| Total ammonia nitrogen (TAN) | mg N/L | Recommended kept low; safe operational target generally < 1–2 mg/L un-ionized | 🟡 Guideline | Norwegian Food Safety Authority / Fivelstad et al. |
+| pH | pH units | ~6.5–8.0 (species/life-stage tolerant range) | 🟡 Guideline | Nofima freshwater intake studies |
+| Labile (inorganic) aluminium | µg/L | ≤ 10 µg/L (in low-pH water) | 🟡 Guideline | Norwegian freshwater intake water quality studies |
+| Salinity | ‰ (PSU) | Full seawater ~34‰ for grow-out; life-stage dependent | 🟡 Guideline | Standard production practice |
+| Specific water flow (RAS/flow-through) | L/kg fish/min | 0.2–0.6 typical operational range depending on system and season | 🟡 Guideline | Nofima RAS/S-CCS studies |
+
+---
+
+### 3. Disease-Related Data
+
+| Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Adult female sea lice per fish (general) | avg. lice/fish/farm | < 0.5 at all times | 🔴 Legal max | Forskrift om lakselusbekjempelse |
+| Adult female sea lice per fish (spring wild-smolt migration window) | avg. lice/fish/farm | < 0.2 (window varies by region: wk 16–21 Trøndelag & south; wk 21–26 Nordland & north) | 🔴 Legal max | Forskrift om lakselusbekjempelse (2017 amendment) |
+| Adult female sea lice per fish (ASC certification) | avg. lice/fish/farm | < 0.1 during sensitive out-migration period | ⚪ Certification | ASC Salmon Standard |
+| Sea lice counting frequency | counts/week | Weekly if water temp > 4°C; biweekly if ≤ 4°C; min. 10–20 fish/cage sampled | 🔴 Legal requirement | Forskrift om lakselusbekjempelse |
+| PCR/qPCR diagnostic result | Ct value | Lab/pathogen-specific; no universal numeric standard, interpreted per assay | 🟡 Lab-specific | Veterinærinstituttet diagnostic protocols |
+| Notifiable disease status (e.g., ILA, PD, IPN) | presence/absence | Zero-tolerance — must be reported immediately on suspicion/confirmation | 🔴 Legal (notifiable) | Norwegian Food Safety Authority (Mattilsynet) list |
+| Biomass cap per license/production area | tonnes MAB (Maximum Allowed Biomass) | Site/region-specific, tied to the "Traffic Light System" (green/yellow/red risk zones) | 🔴 Legal | Produksjonsområdeforskriften |
+
+---
+
+### 4. Fillet Quality Data
+
+| Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Quality grade | categorical: Superior / Ordinary / Production | Superior: no significant defects; Ordinary: minor defects; Production: fails above criteria — cannot be exported un-processed | 🔴 Legal grading system | Kvalitetsforskriften for fisk og fiskevarer |
+| Superior-grade typical yield (industry) | % of harvest | Historically ~90–97%, though recent years show ~30–33% falling to Production grade | 🟡 Reported (varies by year/site) | SalmonBusiness / SeafoodSource industry reporting (2024) |
+| Color (pigmentation) | SalmoFan™ score (1–34 scale) | ~24–26 typically associated with premium/superior appearance | 🟡 Industry guideline (not law) | Industry grading practice |
+| Gaping / melanin deposits / bruising | categorical severity | Presence of any disqualifies from Superior; degree determines Ordinary vs. Production | 🔴 Legal grading criterion | Kvalitetsforskriften |
+
+---
+
+### 5. Chemical Composition Data
+
+| Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Crude fat | % of fillet weight | Typically 12–20% in farmed Atlantic salmon (feed-dependent) | 🟡 Typical range (not regulated as a "limit") | Nutritional composition literature |
+| Crude protein | % of fillet weight | ~18–22% typical | 🟡 Typical range | Nutritional composition literature |
+| Omega-3 (EPA+DHA) | g/100g fillet | No legal minimum in Norway, but often reported/labeled; typical farmed salmon ~1–2 g/100g | 🟡 Typical/labeling | Nutrition science, food labeling practice |
+| Astaxanthin (pigment) | mg/kg flesh | Max permitted inclusion in feed regulated (EU/EFSA feed additive limits apply, ~100 mg/kg feed); flesh concentration not separately capped | 🔴 Feed additive regulated | EU/EFSA feed additive regulation (adopted in Norway via EEA) |
+| Contaminants (dioxins/PCBs, heavy metals) | ng/kg or mg/kg | Must comply with EU/EEA maximum levels (e.g., dioxins+DL-PCBs ≤ 3.5 pg WHO-TEQ/g fresh weight for fish) | 🔴 Legal (food safety) | EU Regulation on contaminants, applied via EEA |
+
+---
+
+### Legend
+
+| Icon | Meaning |
+|------|---------|
+| 🔴 | Legal requirement / mandatory limit |
+| 🟡 | Guideline / recommended range |
+| ⚪ | Certification requirement / voluntary standard |
