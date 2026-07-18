@@ -28,6 +28,57 @@ Indicators of the fish's physiological and behavioral state — a proxy for stre
 
 ---
 
+### 2. Water Quality Data
+
+**What it is:**
+
+The physicochemical properties of the rearing environment, which directly drive fish physiology, growth, and disease susceptibility.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Dissolved oxygen** | DO (mg/L or % saturation) |
+| **Temperature** | °C |
+| **pH** | pH units |
+| **Nitrogen compounds** | Ammonia (NH₃/NH₄⁺), nitrite (NO₂⁻), nitrate (NO₃⁻) |
+| **Salinity** | Salinity / conductivity |
+| **Turbidity** | Turbidity / total suspended solids (TSS) |
+| **Carbon** | CO₂ and alkalinity |
+| **Flow** | Flow rate and water exchange rate (in RAS/flow-through systems) |
+
+---
+
+#### How It's Collected
+
+- Continuous in-situ sensor monitoring (multiparameter probes)
+- Periodic grab-sample lab testing (titration, spectrophotometry)
+- Remote/satellite sensing for open-water sites (sea temperature, algal blooms)
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Multiparameter sondes/probes | Continuous monitoring (YSI, Hach, In-Situ Aqua TROLL, etc.) |
+| DO and pH probes | Dissolved oxygen and pH measurement with SCADA/telemetry |
+| Spectrophotometers | Nutrient analysis |
+| Titration kits | Lab-based water chemistry analysis |
+| IoT buoys and floating sensor arrays | Cage/pond system monitoring |
+| Automated water quality loggers | Cloud data upload and remote access |
+
+---
+
+#### How It's Used
+
+- Real-time alerts and automated aeration/water exchange control
+- Correlating water parameter excursions with growth dips or mortality
+- Predictive modeling for harmful algal blooms or hypoxia events
+- Optimizing RAS (recirculating aquaculture system) efficiency
+
 #### Key Metrics
 
 | Category | Metrics |
