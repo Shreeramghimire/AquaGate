@@ -63,3 +63,51 @@ The recipe itself — which raw materials are used and at what inclusion rate, p
 - Root-cause analysis when linked to fillet composition or disease resistance issues
 
 
+### 2. Nutritional Specification Data
+
+**What it is:**
+
+The target nutrient profile the formulated feed is designed to deliver — this is the "nutritional contract" the feed is built to.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Proximate composition** | Crude protein (%), crude fat (%), moisture (%), ash (%), fiber (%) |
+| **Energy** | Digestible energy (DE) and metabolizable energy (ME), in MJ/kg |
+| **Amino acids** | Essential amino acid profile (lysine, methionine, threonine, etc., g/100g or % of protein) |
+| **Fatty acids** | Omega-3 (EPA+DHA), omega-6, saturated/unsaturated ratio |
+| **Micronutrients** | Vitamins (A, D, E, C), minerals (phosphorus, zinc, selenium) |
+| **Functional additives** | Pigments (astaxanthin, canthaxanthin), prebiotics/probiotics, immunostimulants, organic acids, phytogenics |
+
+---
+
+#### How It's Collected
+
+- Formulation software output (theoretical/calculated nutrient profile)
+- Post-production lab verification (proximate + amino/fatty acid analysis on finished feed)
+- Digestibility trials (apparent digestibility coefficients, ADC)
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Kjeldahl apparatus | Crude protein analysis |
+| Soxhlet extraction | Crude fat analysis |
+| Gas chromatography (GC) | Fatty acid profiling |
+| HPLC | Amino acid and vitamin analysis |
+| NIR/FTIR spectroscopy | Rapid finished-feed composition checks |
+| Bomb calorimeter | Gross energy content |
+
+---
+
+#### How It's Used
+
+- Life-stage-specific diet design (starter, grower, finisher feeds)
+- Functional feed design (e.g., immune-boosting feeds ahead of expected disease pressure — links directly to your disease-related data domain)
+- Verifying label/formulation claims match actual finished product
+- Feeding data forward into fillet chemical composition modeling (does higher dietary omega-3 translate to higher flesh omega-3?)
