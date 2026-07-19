@@ -162,7 +162,7 @@ How the pellet behaves physically affects feed intake, waste, and water quality,
 
 **What it is:**
 
-How the feed actually performs once it's fed to real fish — this is where feed formulation data connects back to your fish health monitoring data.
+How the feed actually performs once it's fed to real fish, and this is where feed formulation data connects back to your fish health monitoring data.
 
 ---
 
