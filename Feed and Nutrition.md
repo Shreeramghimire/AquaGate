@@ -325,4 +325,3 @@ Residue/MRL limits (like the 5 mg/kg canthaxanthin+adonirubin in muscle) are the
 | **Feed Formulation** | Input (additive inclusion rate) |
 | **Chemical Composition** | Output (residue level in fillet) |
 
-**Recommendation:** Flag shared fields like this explicitly in your data dictionary.
