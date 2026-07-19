@@ -204,3 +204,75 @@ How the feed actually performs once it's fed to real fish, and this is where fee
 - Feed-to-flesh traceability: linking a specific feed batch to final fillet composition and quality grade
 - Feeding data into growth prediction models
 - Evaluating functional feed ROI (e.g., does a lice-resistant feed additive reduce delousing costs enough to justify the premium?)
+
+---
+
+### Feed and Nutrition Data: Reference Ranges & Regulatory Status
+
+Since Norway regulates feed largely through EU/EEA feed law (adopted domestically via the EEA Agreement) plus Mattilsynet enforcement, most "legal" limits here are EU-wide but binding in Norway.
+
+---
+
+### Legend
+
+| Icon | Meaning |
+|------|---------|
+| 🔴 | **Legally binding** — EU/EFSA feed additive or contaminant regulation (applies in Norway via EEA), or Norwegian-specific feed regulation (Mattilsynet) |
+| 🟡 | **Guideline/industry practice** — nutritional targets and formulation practice, not a numeric legal cap |
+| ⚪ | **Certification-level** — voluntary standard (ASC, MarinTrust, etc.), stricter than law |
+
+---
+
+### 1. Ingredient Composition Data
+
+| Metric | Unit | Typical / Acceptable Range | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Fishmeal inclusion | % of feed | Highly variable; declining in modern formulations | 🟡 Guideline | Industry formulation practice |
+| Fish oil inclusion | % of feed | Declining; partially replaced by vegetable oils | 🟡 Guideline | Industry formulation practice |
+| Marine ingredient share | % of feed | No legal minimum/maximum; linked to sustainability reporting | ⚪ Certification | ASC feed standard |
+| Fish-in-fish-out (FIFO) ratio | kg wild fish / kg farmed fish | No legal cap; reported under certification | ⚪ Certification | ASC, MarinTrust |
+| Ingredient traceability | — | No legal requirement to track origin, but required under certification | ⚪ Certification | MarinTrust, RTRS soy |
+
+---
+
+### 2. Nutritional Specification Data
+
+| Metric | Unit | Typical / Acceptable Range | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Crude protein | % | 35–45% typical for salmonid grower feeds | 🟡 Guideline | Nutritional formulation practice |
+| Crude fat | % | 25–35% typical for high-energy salmonid feeds | 🟡 Guideline | Nutritional formulation practice |
+| EPA+DHA (omega-3) | % of feed | Variable; linked to fish oil inclusion | 🟡 Guideline | Formulation practice, label claims |
+| Astaxanthin (pigment) | mg/kg feed | Max permitted inclusion in feed regulated at ~100 mg/kg feed | 🔴 Legally binding | EU/EFSA feed additive regulation |
+| Vitamins & minerals | Various | Inclusion levels follow NRC or manufacturer recommendations | 🟡 Guideline | Nutritional formulation practice |
+| Contaminants (dioxins, PCBs, heavy metals) | Various | Must comply with EU/EEA maximum levels for feed materials | 🔴 Legally binding | EU feed contaminants regulation |
+
+---
+
+### 3. Physical/Functional Feed Properties
+
+| Metric | Unit | Typical / Acceptable Range | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| Pellet size | mm | Species/life-stage dependent | 🟡 Guideline | Feed manufacturer recommendation |
+| Water stability | % mass retained | No legal standard; operational target varies by feed type | 🟡 Guideline | Industry practice |
+| Sinking rate | cm/s | Designed per species/feeding strategy | 🟡 Guideline | Feed design specification |
+| Dust/fines content | % | Low; no legal standard | 🟡 Guideline | Feed quality control practice |
+
+---
+
+### 4. Feed Performance Data
+
+| Metric | Unit | Typical / Acceptable Range | Type | Source / Basis |
+|--------|------|---------------------------|------|----------------|
+| FCR (Feed Conversion Ratio) | kg feed / kg gain | Target ~1.0–1.2 for modern salmon feeds | 🟡 Guideline | Industry performance benchmarking |
+| SGR (Specific Growth Rate) | % body weight/day | Species/life-stage dependent | 🟡 Guideline | Growth performance literature |
+| ADC (Apparent Digestibility Coefficient) | % | Nutrient-specific; high for protein/lipid, variable for others | 🟡 Guideline | Digestibility trial data |
+
+---
+
+### Key Takeaway
+
+Most feed formulation metrics are **guidelines or industry standards**, not legally enforced limits. The main legally binding constraints relate to:
+
+- **Feed additives** (e.g., astaxanthin, vitamins)
+- **Contaminants** (e.g., dioxins, PCBs, heavy metals)
+- **Certification requirements** (e.g., ASC, MarinTrust) which impose stricter voluntary limits on marine ingredient sourcing and traceability
