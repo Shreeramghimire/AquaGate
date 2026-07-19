@@ -67,7 +67,7 @@ The recipe itself — which raw materials are used and at what inclusion rate, p
 
 **What it is:**
 
-The target nutrient profile the formulated feed is designed to deliver — this is the "nutritional contract" the feed is built to.
+The target nutrient profile that the formulated feed is designed to deliver: this is the "nutritional contract" that the feed is built to.
 
 ---
 
