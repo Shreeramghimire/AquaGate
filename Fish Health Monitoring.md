@@ -28,6 +28,48 @@ Indicators of the fish's physiological and behavioral state — a proxy for stre
 
 ---
 
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Operational Welfare Indicators (OWIs)** | Fin damage, skin lesions, scale loss, eye condition, gill status |
+| **Behavioral indicators** | Swimming activity, schooling cohesion, feeding response, avoidance behavior |
+| **Physiological stress markers** | Plasma cortisol, glucose, lactate |
+| **Growth performance** | Condition factor (K), specific growth rate (SGR), feed conversion ratio (FCR) |
+| **Mortality** | Mortality rate and cause-coded mortality logs |
+
+---
+
+#### How It's Collected
+
+- Visual/manual scoring during routine sampling (crowding, dip-netting)
+- Continuous video observation of shoal behavior
+- Blood sampling for stress hormone assays
+- Automated activity tracking via tags or acoustic tracking
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Underwater cameras (mono/stereo) | Video observation and behavioral analysis |
+| Video analytics software | Automated behavioral scoring |
+| Acoustic telemetry tags and hydrophone receivers | Track movement and activity |
+| Accelerometer/biologger tags | Individual fish movement tracking |
+| Portable blood analyzers | Point-of-care lactate/glucose measurement |
+| ELISA kits | Cortisol assay in lab |
+
+---
+
+#### How It's Used
+
+- Early detection of chronic or acute stress before mortality events
+- Feeding into automated feeding systems (behavior-based feed adjustment)
+- Benchmarking welfare against certification schemes (e.g., ASC, GlobalG.A.P.)
+- Training computer-vision models for automated welfare scoring at scale
+---
+
 ### 2. Water Quality Data
 
 **What it is:**
