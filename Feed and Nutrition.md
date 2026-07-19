@@ -111,3 +111,49 @@ The target nutrient profile that the formulated feed is designed to deliver: thi
 - Functional feed design (e.g., immune-boosting feeds ahead of expected disease pressure — links directly to your disease-related data domain)
 - Verifying label/formulation claims match actual finished product
 - Feeding data forward into fillet chemical composition modeling (does higher dietary omega-3 translate to higher flesh omega-3?)
+
+### 3. Physical/Functional Feed Properties
+
+**What it is:**
+
+How the pellet behaves physically affects feed intake, waste, and water quality, so it's a genuine bridge to your water quality data domain.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Size and shape** | Pellet size and shape (mm) |
+| **Buoyancy** | Sinking rate / floating behavior (cm/s or categorical: floating, slow-sink, fast-sink) |
+| **Water stability** | % mass retained after set time submerged |
+| **Durability** | Pellet hardness/durability index (resistance to fragmentation during handling/feeding) |
+| **Density** | Bulk density (kg/m³) |
+| **Fines** | Dust/fines content (%) |
+
+---
+
+#### How It's Collected
+
+- In-line sensors during extrusion (temperature, pressure, moisture)
+- Post-production physical testing (durability tester, water stability soak tests)
+- On-farm observation of feed waste/uneaten pellets
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Extruder with process control sensors | Temperature, screw speed, moisture injection monitoring |
+| Pellet durability testers | Tumbling/vibration test rigs for hardness testing |
+| Stopwatch/sensor rigs | Sinking rate measurement |
+| Underwater cameras at feeding stations | Waste feed detection — links to automated feeding systems in your welfare data domain |
+
+---
+
+#### How It's Used
+
+- Reducing feed waste (which also reduces organic loading on water quality)
+- Matching pellet type to species/life stage and feeding system (surface feeders vs. bottom feeders)
+- Optimizing feeding system calibration (feed delivered vs. feed actually consumed)
