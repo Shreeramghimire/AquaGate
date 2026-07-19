@@ -329,19 +329,25 @@ Residue/MRL limits (like the 5 mg/kg canthaxanthin+adonirubin in muscle) are the
 ---
 ### References
 
-European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2014). Scientific opinion on the safety and efficacy of synthetic astaxanthin as feed additive for salmon and trout, other fish, ornamental fish, crustaceans and ornamental birds. *EFSA Journal*, *12*(6), Article 3724. https://doi.org/10.2903/j.efsa.2014.3724
+Aas, T. S., Åsgård, T., & Ytrestøyl, T. (2022). Utilization of feed resources in the production of Atlantic salmon (*Salmo salar*) in Norway: An update for 2020. *Aquaculture Reports, 26*, Article 101316. https://doi.org/10.1016/j.aqrep.2022.101316
 
-European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2019). Safety and efficacy of astaxanthin-dimethyldisuccinate (Carophyll® Stay-Pink 10%-CWS) for salmonids, crustaceans and other fish. *EFSA Journal*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7008914/
+Aas, T. S., Ytrestøyl, T., & Åsgård, T. (2019). Utilization of feed resources in the production of Atlantic salmon (*Salmo salar*) in Norway: An update for 2016. *Aquaculture Reports, 15*, Article 100216. https://doi.org/10.1016/j.aqrep.2019.100216
 
-European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2024). Assessment of the feed additive consisting of red carotenoid-rich *Paracoccus carotinifaciens* NITE SD 00017 for salmon and trout for the renewal of its authorisation (ENEOS Techno Materials Corporation). *EFSA Journal*. https://doi.org/10.2903/j.efsa.2024.8905
-
-European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2026). Assessment of the feed additive consisting of astaxanthin (2a161j) for fish, crustaceans and ornamental fish for the renewal of its authorisation (BASF SE, DSM Nutritional Products Ltd., JYB Europe BV, NHU EUROPE GmbH). *EFSA Journal*. https://doi.org/10.2903/j.efsa.2026.10036
+Bruvoll, I., Krogdahl, Å., et al. (2024). Conceptualization of the Norwegian feed system of farmed Atlantic salmon. *Frontiers in Marine Science, 11*, Article 1378970. https://doi.org/10.3389/fmars.2024.1378970
 
 European Food Safety Authority (EFSA). (n.d.). Safety and efficacy of a feed additive consisting of astaxanthin-rich *Phaffia rhodozyma* for salmon and trout (Igene Biotechnology, Inc.). *PMC*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8867524/
 
 European Food Safety Authority (EFSA). (n.d.). Safety for the environment of vitamin D3 for salmonids. *PMC*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7009116/
 
 European Food Safety Authority (EFSA). (n.d.). Safety of astaxanthin for its use as a novel food in food supplements. *PMC*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7448075/
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2014). Scientific opinion on the safety and efficacy of synthetic astaxanthin as feed additive for salmon and trout, other fish, ornamental fish, crustaceans and ornamental birds. *EFSA Journal, 12*(6), Article 3724. https://doi.org/10.2903/j.efsa.2014.3724
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2019). Safety and efficacy of astaxanthin-dimethyldisuccinate (Carophyll® Stay-Pink 10%-CWS) for salmonids, crustaceans and other fish. *EFSA Journal*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7008914/
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2024). Assessment of the feed additive consisting of red carotenoid-rich *Paracoccus carotinifaciens* NITE SD 00017 for salmon and trout for the renewal of its authorisation (ENEOS Techno Materials Corporation). *EFSA Journal*. https://doi.org/10.2903/j.efsa.2024.8905
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2026). Assessment of the feed additive consisting of astaxanthin (2a161j) for fish, crustaceans and ornamental fish for the renewal of its authorisation (BASF SE, DSM Nutritional Products Ltd., JYB Europe BV, NHU EUROPE GmbH). *EFSA Journal*. https://doi.org/10.2903/j.efsa.2026.10036
 
 European Food Safety Authority (EFSA) Panel on Contaminants in the Food Chain (CONTAM). (n.d.). Assessment of decontamination processes for dioxins and dioxin-like PCBs in fish oil by physical filtration with activated carbon. *PMC*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7010189/
 
@@ -357,4 +363,18 @@ Eurofins Scientific. (n.d.). Dioxins and PCBs in feed products: Maximum levels a
 
 FoodTimes. (2023, February 5). Dioxins and PCBs: New EU contamination thresholds in EU for meat, shellfish, eggs, dairy products. https://www.foodtimes.eu/food-system/dioxins-and-pcbs-new-eu-contamination-thresholds-in-eu-for-meat-shellfish-eggs-dairy-products/
 
+Havforskningsinstituttet. (2026). *Overvåknings- og kartleggingsprogrammet for fiskefôr 2025* [Monitoring programme for fish feed 2025] (Rapport fra havforskningen 2026-41). Conducted on behalf of Mattilsynet. https://www.hi.no/hi/nettrapporter/rapport-fra-havforskningen-en-2026-41
+
+Mattilsynet. (n.d.). *Krav til fôr* [Requirements for feed]. https://www.mattilsynet.no/for/krav-til-for
+
 Measurlabs. (2025, September 16). Food contaminant testing by EU regulations. https://measurlabs.com/blog/eu-regulations-on-food-contaminants/
+
+Nofima. (2021, December 1). Salmon feed more or less unchanged [Results summary of Aas, T. S., Ytrestøyl, T., & Åsgård, T., *Resource utilisation of Norwegian salmon farming in 2016*, funded by the Fishery and Aquaculture Industry Research Fund (FHF)]. https://nofima.com/results/salmon-feed-more-or-less-unchanged/
+
+Nofima. (2026, January 29). Salmon feed is slowly changing [Results summary of the 2020 feed resource utilization update]. https://nofima.com/results/salmon-feed-is-slowly-changing/
+
+Norway. (2002). *Forskrift om fôrvarer* [Regulation on feedingstuffs] (FOR-2002-11-07-1290). Landbruksdepartementet og Fiskeridepartementet. https://lovdata.no/dokument/SF/forskrift/2002-11-07-1290
+
+Sørensen, M., Berge, G. M., Thomassen, M. S., Ruyter, B., Hatlen, B., Ytrestøyl, T., Aas, T. S., & Åsgård, T. (n.d.). Today's and tomorrow's feed ingredients in Norwegian aquaculture. Nofima. https://nofima.com/publication/1161977/
+
+Ytrestøyl, T., Aas, T. S., & Åsgård, T. (2015). Utilisation of feed resources in production of Atlantic salmon (*Salmo salar*) in Norway. *Aquaculture, 448*, 365–374. https://doi.org/10.1016/j.aquaculture.2015.06.023
