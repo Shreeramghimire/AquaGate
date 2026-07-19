@@ -108,9 +108,9 @@ The target nutrient profile that the formulated feed is designed to deliver: thi
 #### How It's Used
 
 - Life-stage-specific diet design (starter, grower, finisher feeds)
-- Functional feed design (e.g., immune-boosting feeds ahead of expected disease pressure — links directly to your disease-related data domain)
-- Verifying label/formulation claims match actual finished product
-- Feeding data forward into fillet chemical composition modeling (does higher dietary omega-3 translate to higher flesh omega-3?)
+- Functional feed design (e.g., immune-boosting feeds ahead of expected disease pressure links directly to your disease-related data domain)
+- Verifying label/formulation claims match the actual finished product
+- Feeding data forward into fillet chemical composition modeling (Does a higher dietary omega-3 translate to higher flesh omega-3?)
 
 ### 3. Physical/Functional Feed Properties
 
@@ -158,3 +158,49 @@ How the pellet behaves physically affects feed intake, waste, and water quality,
 - Matching pellet type to species/life stage and feeding system (surface feeders vs. bottom feeders)
 - Optimizing feeding system calibration (feed delivered vs. feed actually consumed)
 
+### 4. Feed Performance Data
+
+**What it is:**
+
+How the feed actually performs once it's fed to real fish — this is where feed formulation data connects back to your fish health monitoring data.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Feed efficiency** | Feed conversion ratio (FCR): kg feed fed / kg biomass gained |
+| **Growth** | Specific growth rate (SGR, % body weight/day) |
+| **Digestibility** | Apparent digestibility coefficient (ADC, % — per nutrient) |
+| **Feed intake** | Feed intake rate (% body weight/day) |
+| **Economics** | Economic feed conversion (feed cost per kg gain) |
+| **Health correlation** | Health/disease outcome correlation (e.g., mortality or lice resistance under a functional feed trial) |
+
+---
+
+#### How It's Collected
+
+- Farm-level feeding logs cross-referenced with biomass estimates (camera-based biomass estimation, bulk weighing)
+- Controlled feeding trials (tank/cage-level, with known biomass and feed input)
+- Digestibility trials using fecal collection (settling columns or stripping method)
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Automated feeders | Feed delivery logging |
+| Biomass estimation cameras/sonar | Biomass measurement |
+| Fecal collection systems | Digestibility trials |
+| Farm management software | Linking feed batch ID to growth and health outcomes |
+
+---
+
+#### How It's Used
+
+- Direct FCR/SGR benchmarking across feed formulations
+- Feed-to-flesh traceability: linking a specific feed batch to final fillet composition and quality grade
+- Feeding data into growth prediction models
+- Evaluating functional feed ROI (e.g., does a lice-resistant feed additive reduce delousing costs enough to justify the premium?)
