@@ -3,7 +3,7 @@ Feed and nutrition data describe everything about what goes into the feed and ho
 
 The two domains are tightly linked: feed formulation is the primary lever farms pull to influence growth, disease resistance, and fillet composition, so this domain is really the "input" side of the story your fish health repository already covers on the "output" side.
 
-This document breaks feed formulation data into four sub-domains, following the same structure as before: what it is → metrics → how it's collected → equipment → how it's used.
+This document breaks feed data into four sub-domains, following the same structure as before: what it is → metrics → how it's collected → equipment → how it's used.
 
 ---
 
