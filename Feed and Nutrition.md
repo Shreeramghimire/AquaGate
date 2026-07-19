@@ -276,3 +276,53 @@ Most feed formulation metrics are **guidelines or industry standards**, not lega
 - **Feed additives** (e.g., astaxanthin, vitamins)
 - **Contaminants** (e.g., dioxins, PCBs, heavy metals)
 - **Certification requirements** (e.g., ASC, MarinTrust) which impose stricter voluntary limits on marine ingredient sourcing and traceability
+
+---
+### Feed Formulation Data: Key Regulatory Principles
+
+---
+
+#### 1. Binding Limits Are Additive/Contaminant Ceilings, Not Nutrient Targets
+
+Most binding numeric limits in feed formulation are additive/contaminant ceilings, not nutrient targets. Norway (via the EEA Agreement) directly applies EU feed additive authorizations and Directive 2002/32/EC contaminant limits — these are the most law-backed, auditable fields:
+
+- **Astaxanthin / carotenoid sum**
+- **Vitamin D3**
+- **Dioxins in fish oil**
+
+These are enforceable, auditable limits.
+
+---
+
+#### 2. Nutritional Specification Is Formulation Practice, Not Law
+
+Nutritional specification (protein %, fat %, energy) is formulation practice, not law. There is no Norwegian statute saying salmon feed must be 38% protein — these numbers reflect what feed companies (Skretting, BioMar, Cargill/EWOS) and researchers (Nofima) currently formulate to achieve target growth and FCR.
+
+| Field | Treatment in Schema |
+|-------|---------------------|
+| Protein %, fat %, energy | `recommended_range` (not `legal_limit`) |
+
+---
+
+#### 3. FIFO and Marine Sourcing Are Sustainability Metrics, Not Regulation
+
+FIFO ratio and marine ingredient sourcing are sustainability metrics, not regulatory ones — but they're increasingly gatekept by certification schemes (ASC, MarinTrust) rather than government law. They sit in the same "voluntary but commercially enforced" bucket as the ASC sea lice threshold.
+
+| Metric | Status | Enforced By |
+|--------|--------|-------------|
+| FIFO ratio | ⚪ Voluntary | ASC, MarinTrust |
+| Marine ingredient sourcing | ⚪ Voluntary | ASC, MarinTrust |
+| Sea lice (ASC threshold) | ⚪ Voluntary | ASC Salmon Standard |
+
+---
+
+#### 4. Residue/MRL Limits Bridge Feed Formulation and Fillet Composition
+
+Residue/MRL limits (like the 5 mg/kg canthaxanthin+adonirubin in muscle) are the bridge back to your fillet chemical composition domain. This is a good example of one regulatory number touching **two of your five original data domains**:
+
+| Domain | Role |
+|--------|------|
+| **Feed Formulation** | Input (additive inclusion rate) |
+| **Chemical Composition** | Output (residue level in fillet) |
+
+**Recommendation:** Flag shared fields like this explicitly in your data dictionary.
