@@ -1,5 +1,5 @@
 
-Feed and nutrition data describe everything about what goes into the feed and how that feed is designed — as distinct from fish health data, which describes what happens to the fish afterward.
+Feed and nutrition data describe everything about what goes into the feed and how that feed is designed, as distinct from fish health data, which describes what happens to the fish afterward.
 
 The two domains are tightly linked: feed formulation is the primary lever farms pull to influence growth, disease resistance, and fillet composition, so this domain is really the "input" side of the story your fish health repository already covers on the "output" side.
 
@@ -61,3 +61,5 @@ The recipe itself — which raw materials are used and at what inclusion rate, p
 - Cost optimization (least-cost formulation subject to nutrient constraints)
 - Regulatory/certification compliance (e.g., ASC feed ingredient sourcing rules)
 - Root-cause analysis when linked to fillet composition or disease resistance issues
+
+
