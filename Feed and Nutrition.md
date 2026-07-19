@@ -326,3 +326,35 @@ Residue/MRL limits (like the 5 mg/kg canthaxanthin+adonirubin in muscle) are the
 | **Feed Formulation** | Input (additive inclusion rate) |
 | **Chemical Composition** | Output (residue level in fillet) |
 
+---
+### References
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2014). Scientific opinion on the safety and efficacy of synthetic astaxanthin as feed additive for salmon and trout, other fish, ornamental fish, crustaceans and ornamental birds. *EFSA Journal*, *12*(6), Article 3724. https://doi.org/10.2903/j.efsa.2014.3724
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2019). Safety and efficacy of astaxanthin-dimethyldisuccinate (Carophyll® Stay-Pink 10%-CWS) for salmonids, crustaceans and other fish. *EFSA Journal*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7008914/
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2024). Assessment of the feed additive consisting of red carotenoid-rich *Paracoccus carotinifaciens* NITE SD 00017 for salmon and trout for the renewal of its authorisation (ENEOS Techno Materials Corporation). *EFSA Journal*. https://doi.org/10.2903/j.efsa.2024.8905
+
+European Food Safety Authority (EFSA) Panel on Additives and Products or Substances used in Animal Feed. (2026). Assessment of the feed additive consisting of astaxanthin (2a161j) for fish, crustaceans and ornamental fish for the renewal of its authorisation (BASF SE, DSM Nutritional Products Ltd., JYB Europe BV, NHU EUROPE GmbH). *EFSA Journal*. https://doi.org/10.2903/j.efsa.2026.10036
+
+European Food Safety Authority (EFSA). (n.d.). Safety and efficacy of a feed additive consisting of astaxanthin-rich *Phaffia rhodozyma* for salmon and trout (Igene Biotechnology, Inc.). *PMC*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8867524/
+
+European Food Safety Authority (EFSA). (n.d.). Safety for the environment of vitamin D3 for salmonids. *PMC*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7009116/
+
+European Food Safety Authority (EFSA). (n.d.). Safety of astaxanthin for its use as a novel food in food supplements. *PMC*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7448075/
+
+European Food Safety Authority (EFSA) Panel on Contaminants in the Food Chain (CONTAM). (n.d.). Assessment of decontamination processes for dioxins and dioxin-like PCBs in fish oil by physical filtration with activated carbon. *PMC*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7010189/
+
+European Food Safety Authority (EFSA) Panel on Contaminants in the Food Chain (CONTAM). (n.d.). Assessment of a decontamination process for dioxins and dioxin-like PCBs in fish oil by physical filtration with activated carbon. *PMC*. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7010074/
+
+European Union. (n.d.). Maximum levels for certain contaminants in food. *EUR-Lex*. https://eur-lex.europa.eu/EN/legal-content/summary/maximum-levels-for-certain-contaminants-in-food.html
+
+Eurofins Scientific. (2020, February). EU maximum levels for dioxins and PCBs in feed additives. https://www.eurofins.de/food-analysis/food-news/food-testing-news/eu-maximum-levels-dioxins-pcbs-in-feed-additives/
+
+Eurofins Scientific. (2024, February). Reduction of EU maximum levels for dioxins and PCBs in animal feed. https://www.eurofins.de/food-analysis/food-news/food-testing-news/maximum-levels-for-dioxins-and-dioxin-like-pcbs-in-feed-products/
+
+Eurofins Scientific. (n.d.). Dioxins and PCBs in feed products: Maximum levels and action levels [PDF]. https://cdnmedia.eurofins.com/eurofins-germany/media/2853422/max_level_dioxins-pcbs_feed_en.pdf
+
+FoodTimes. (2023, February 5). Dioxins and PCBs: New EU contamination thresholds in EU for meat, shellfish, eggs, dairy products. https://www.foodtimes.eu/food-system/dioxins-and-pcbs-new-eu-contamination-thresholds-in-eu-for-meat-shellfish-eggs-dairy-products/
+
+Measurlabs. (2025, September 16). Food contaminant testing by EU regulations. https://measurlabs.com/blog/eu-regulations-on-food-contaminants/
