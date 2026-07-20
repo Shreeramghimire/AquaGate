@@ -318,8 +318,56 @@ Planning the seawater grow-out phase in open net pens sited in fjords or coastal
 *(This sub-domain carries over largely unchanged, since it's inherently a sea-cage/open-system concept — hatcheries don't have an MAB or traffic-light equivalent.)*
 
 ---
+### 3c. Feeding Plan (Net Pen)
 
-### 3c. Growth & Biomass Forecasting (Open System)
+**What it is:**
+
+Cage-level ration and feeding schedule planning — the on-growing equivalent of Section 1d, but noticeably more adaptive, because you're feeding into an environment you don't control.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Feeding rate** | % body weight/day — lower than hatchery rates, typically ~0.5–1.5% depending on fish size and ambient temperature |
+| **Daily ration** | Daily feed ration per cage (kg/day), calculated from standing biomass estimate × feeding rate |
+| **Feeding events** | Number/duration of feeding events per day |
+| **Appetite-based adjustment** | Many modern systems use underwater cameras with waste-pellet/appetite detection to cut feeding automatically when appetite drops; environmental appetite suppression (temperature swings, low oxygen, algal bloom stress) can't be engineered away the way it can in a hatchery — you have to detect and react rather than prevent |
+| **Current adjustment** | Current-adjusted feed spread pattern — feed distribution across the cage needs adjusting for current strength so pellets don't drift out of reach before fish can eat them |
+
+---
+
+#### How It's Collected
+
+- Automated feed barges with camera-based appetite/waste feedback loops
+- Feed delivery logs cross-referenced with biomass estimates
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Feed barges/silos | Feed storage and delivery |
+| Pneumatic feed distribution systems | Feed delivery across cages |
+| Underwater feeding cameras | AI-based appetite/waste detection (e.g., Observe Technologies, AKVA feeding control systems) |
+| Current sensors | Feed spread pattern adjustment |
+
+---
+
+#### How It's Used
+
+This is the primary lever farms use to manage FCR in real time — actual intake vs. planned ration is one of the most closely watched daily numbers on a farm:
+
+| Outcome | Consequence |
+|---------|-------------|
+| **Overfeeding** | Wastes money and adds organic loading at the site (linking back to your water quality domain) |
+| **Underfeeding** | Costs growth and extends time to harvest |
+
+The adaptivity of net pen feeding — responding to current, appetite, and environmental conditions — is what makes it fundamentally different from hatchery feeding, where the environment is controlled and feeding tables can be followed more rigidly.
+
+### 3d. Growth & Biomass Forecasting (Open System)
 
 #### Key Metrics
 
@@ -334,7 +382,7 @@ Planning the seawater grow-out phase in open net pens sited in fjords or coastal
 - Same forecasting logic as hatcheries, but with **materially higher uncertainty** because temperature — the dominant driver of TGC — is **observed, not set**
 ---
 
-### 3d. Harvest Planning Data
+### 3e. Harvest Planning Data
 
 **What it is:**
 
@@ -383,7 +431,7 @@ Data governing when and how fish are taken out of production is the point where 
 
 ---
 
-### 3e. Logistics & Resource Planning Data
+### 3f. Logistics & Resource Planning Data
 
 **What it is:**
 
