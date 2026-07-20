@@ -28,7 +28,7 @@ This document breaks production planning into five sub-domains, following the sa
 
 **What it is:**
 
-Data describing when new fish enter the production system, in what numbers, and as part of which cohort — the starting point of every production plan.
+Data describing when new fish enter the production system, in what numbers, and as part of which cohort: the starting point of every production plan.
 
 ---
 
@@ -172,7 +172,7 @@ Data governing where biomass can legally and physically be held, and how product
 
 **What it is:**
 
-Data governing when and how fish are taken out of production — the point where biological, market, and logistical planning all converge.
+Data governing when and how fish are taken out of production is the point where biological, market, and logistical planning all converge.
 
 ---
 
@@ -221,7 +221,7 @@ Data governing when and how fish are taken out of production — the point where
 
 **What it is:**
 
-The physical and human resources required to execute the production plan — feed delivery, transport, and labor.
+The physical and human resources required to execute the production plan include feed delivery, transport, and labor.
 
 ---
 
