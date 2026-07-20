@@ -1,34 +1,144 @@
-## Production Planning Data in Aquaculture
+### Production Planning Data in Aquaculture
 
 ---
 
-### Overview
+#### Overview
 
-Production planning data is the layer that turns biological reality (growth, health, feed) into operational and business decisions: when to stock, how much biomass to carry, when to harvest, and how to allocate capacity across sites and time.
+Production planning in salmon aquaculture is really two distinct planning problems that happen to share a supply chain.
 
-Where fish health data tells us what's happening to the fish and feed formulation data tells us what we're feeding them, production planning data tells us **when and where** things happen, and it's the domain that ultimately determines whether the biological and economic sides of the farm line up.
+**Smolt production planning** happens in the hatchery — a closed, engineered freshwater system where you control flow, water exchange, and density directly, the way you'd manage a factory process.
 
-This document breaks production planning into five sub-domains, following the same structure as before: what it is → metrics → how it's collected → equipment → how it's used.
+**On-growing production planning** happens in sea net pens — an open system embedded in a fjord, where you select a site based on its natural hydrology and then plan around conditions you can monitor but not control.
 
----
+This distinction matters enough that it should shape the schema, not just the prose. A hatchery's "acceptable flow rate" is an engineering setpoint you dial in; a net pen's "acceptable current speed" is a site-selection criterion you live with. Treating both as the same kind of variable would blur a genuinely important difference.
 
-### The Five Sub-Domains
-
-| Sub-Domain | Scope |
-|------------|-------|
-| **Stocking & cohort planning data** | When and how many fish enter production |
-| **Growth & biomass forecasting data** | Predicting how a cohort will grow over time |
-| **Site & capacity planning data** | Where biomass sits, and how much a site/region can legally and physically hold |
-| **Harvest planning data** | When and how fish come out of production |
-| **Logistics & resource planning data** | The physical and human resources needed to execute the plan |
+This document restructures production planning around that split, with a bridging section for the handoff between them (smolt transfer).
 
 ---
 
-### 1. Stocking & Cohort Planning Data
+#### Stage Comparison
+
+| Stage | Environment | What you control | What you select for |
+|-------|-------------|------------------|---------------------|
+| **Smolt production planning** | Closed tanks, freshwater, engineered | Flow rate, water exchange, density, photoperiod, temperature | Hatchery location (raw water source quality) |
+| **Smolt transfer** | Transport (wellboat/truck) | Timing, transport water quality | — |
+| **On-growing production planning** | Open net pens, seawater, natural system | Stocking density (within site limits), feeding, harvest timing | Site location (natural flushing/current regime) |
+
+---
+
+## 1. Smolt Production Planning (Hatchery)
 
 **What it is:**
 
-Data describing when new fish enter the production system, in what numbers, and as part of which cohort: the starting point of every production plan.
+Planning the freshwater phase — from egg/fry through parr to smolt — in a closed facility where the operator engineers the water environment directly, typically via flow-through or recirculating aquaculture systems (RAS).
+
+---
+
+### 1a. Stocking & Cohort Planning (Hatchery-Specific)
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Egg/fry intake** | Egg/fry intake numbers and source (own broodstock vs. purchased eyed eggs) |
+| **Cohort identification** | Cohort ID, year-class, hatch date |
+| **First-feeding** | Planned vs. actual first-feeding date |
+| **Tank allocation** | Tank allocation per cohort (which tank, at what life stage) |
+
+#### How It's Collected
+
+- Hatchery management records
+- Egg delivery manifests
+- First-feeding logs
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Hatchery management software | Modules within farm-wide platforms (e.g., Fishtalk/AKVA), configured for hatchery workflows |
+| Incubator trays | Automated counting |
+
+---
+
+### 1b. Hydrological & Environmental Planning Parameters (Engineered)
+
+*This is the core of what makes hatchery planning different — these are **control variables**, not just monitored conditions.*
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Tank capacity** | Tank volume (m³) and tank count allocated per cohort |
+| **Flow** | Flow rate (L/min or L/kg fish/min) — a direct engineering setpoint |
+| **Water exchange** | Water exchange rate (tank volume turnovers per hour/day) |
+| **Specific flow** | Specific water flow relative to biomass (L/kg/min) — scales with fish growth, actively re-planned as biomass increases |
+| **Stocking density** | Stocking density (kg/m³) — typically 40–80 kg/m³ in RAS (vs. 25 kg/m³ legal cap in sea cages) |
+| **Dissolved oxygen** | DO (mg/L or % saturation) — actively dosed, not just monitored |
+| **Temperature** | Temperature (°C) — actively controlled, manipulated to accelerate/delay smoltification |
+| **Photoperiod** | Hours light/dark — a planning lever unique to hatcheries, used to control smoltification timing |
+| **Water chemistry** | pH, total ammonia nitrogen (TAN), CO₂ — managed via biofilter capacity and water exchange rate |
+| **Biofilter** | Biofilter capacity and loading (for RAS) — a hard capacity constraint, independent of physical tank volume |
+
+#### How It's Collected
+
+- Continuous sensor monitoring integrated with automated dosing/control systems (oxygen injection, degassing, UV/ozone disinfection)
+- Flow meters and pump control logs
+- Biofilter performance monitoring (ammonia removal efficiency)
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| RAS control systems | Integrated flow, oxygen, temperature, and biofilter management |
+| Flow meters, oxygen cones/injectors, degassing towers | Environmental control |
+| UV and ozone disinfection units | Water treatment |
+| Biofilters | Moving bed, trickling, or fluidized sand with automated loading sensors |
+| Photoperiod control | Lighting systems on timers |
+
+#### How It's Used
+
+- Planning is **proactive**: you decide the flow rate, density, and photoperiod schedule in advance to hit a target smolt weight and smoltification date — fundamentally different from on-growing planning
+- Capacity planning is driven by **biofilter/engineering limits**, not a legal MAB-style cap
+- Smoltification readiness scheduling is directly steered by manipulating temperature and photoperiod
+
+---
+
+### 1c. Growth & Smoltification Staging
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Degree-days** | Degree-days accumulated toward smoltification readiness |
+| **Weight** | Smolt weight trajectory (g) — target vs. actual |
+| **Smoltification indicators** | Gill Na⁺/K⁺-ATPase activity, silvering, condition factor change |
+| **Transfer timing** | Planned vs. actual smolt release ("transfer") date |
+
+#### How It's Collected
+
+- Periodic sampling and lab assays (gill enzyme activity)
+- Bulk weighing
+- Visual smoltification scoring (silvering)
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Lab assay kits | Gill Na⁺/K⁺-ATPase activity |
+| Bulk weighers | Weight measurement |
+| Visual scoring protocols | Smoltification staging |
+
+#### How It's Used
+
+- Timing the transfer to sea to coincide with both **biological readiness** (smoltification window) and **site/market planning** on the on-growing side — the direct link into Section 2
+
+---
+
+## 2. The Handoff: Smolt Transfer Data
+
+**What it is:**
+
+The data bridging the two planning stages — a single, high-stakes event where responsibility moves from an engineered system to a natural one.
 
 ---
 
@@ -36,139 +146,109 @@ Data describing when new fish enter the production system, in what numbers, and 
 
 | Category | Metrics |
 |----------|---------|
-| **Release details** | Smolt release date and number of smolts released per cohort |
-| **Size at release** | Smolt weight/size at release (g) |
-| **Cohort identification** | Cohort/batch ID and hatchery origin |
-| **Year-class** | Year-class designation (e.g., "2026 spring generation") |
-| **Stocking density** | Stocking density at release (fish/m³ or kg/m³) |
-| **Variance** | Planned vs. actual stocking numbers |
-
----
+| **Transfer details** | Transfer date and method (wellboat vs. truck-to-wellboat) |
+| **Fish data** | Transfer weight and number of fish |
+| **Transport water quality** | Oxygen, temperature, ammonia during transit |
+| **Logistics** | Transport duration |
+| **Destination** | Destination site ID and net pen assignment |
+| **Post-transfer** | Post-transfer mortality (first 7–14 days, a standard sensitivity window) |
 
 #### How It's Collected
 
-- Hatchery production records and delivery logs
-- Farm management system entries at the time of transfer/stocking
-- Wellboat transfer manifests
-
----
+- Wellboat sensor logs
+- Farm management system transfer records
+- Post-transfer mortality tracking
 
 #### Equipment
 
 | Equipment | Purpose |
 |-----------|---------|
-| Farm management software | Batch/cohort registration (e.g., Fishtalk, AKVA, Mercatus, Aquacloud) |
-| Automated fish counters/graders | Transfer counting (e.g., VAKI counters) |
-| RFID/PIT tagging systems | Cohort or individual tracking in research contexts |
-
----
+| Wellboat onboard water quality monitoring | Transport water quality |
+| Fish counters/graders | Loading and unloading counting |
 
 #### How It's Used
 
-- Anchoring every downstream dataset to a traceable cohort ID (the same `cohort_id` that ties into fish health and feed formulation schemas)
-- Capacity planning — matching smolt supply to available site capacity
-- Year-class risk diversification (spreading cohorts across sites/times to avoid single-point failure)
+- This is the natural place in your schema for a **stage transition field** — the same fish, same `batch_id`, but the record marks the switch from `facility_type = hatchery` to `facility_type = sea_cage`, and from engineered to natural hydrology
 
 ---
 
-### 2. Growth & Biomass Forecasting Data
+## 3. On-Growing Production Planning (Net Pen)
 
 **What it is:**
 
-Predictive data estimate how a cohort's biomass will develop over the production cycle, combining biological growth models with real-time measurements.
+Planning the seawater grow-out phase in open net pens sited in fjords or coastal waters — a natural system you plan around, not inside.
 
 ---
+
+### 3a. Site Selection & Hydrological Planning Parameters (Natural)
+
+*This is the on-growing equivalent of section 1b, and the contrast is the point: these are **conditions you select for and monitor**, not variables you set.*
 
 #### Key Metrics
 
 | Category | Metrics |
 |----------|---------|
-| **Biomass** | Predicted vs. actual biomass (tonnes) over time |
-| **Weight** | Individual/average fish weight trajectory (g or kg) |
-| **Growth rate** | Specific growth rate (SGR, %/day) — used predictively here |
-| **Temperature-normalized growth** | Thermal growth coefficient (TGC) — growth normalized for temperature |
-| **Degree-days** | Degree-days accumulated (°C-days) — used to predict smoltification readiness |
-| **Forecast error** | Biomass growth variance (% deviation from plan) |
-
----
+| **Current** | Current speed and direction (cm/s) — determines natural flushing/waste dispersal; a site-selection criterion |
+| **Tidal exchange** | Tidal exchange pattern — natural water turnover |
+| **Bathymetry** | Water depth and site bathymetry |
+| **Dissolved oxygen** | Natural DO levels (% saturation) — monitored, with mitigation (supplemental aeration, site rotation) rather than direct control |
+| **Temperature** | Temperature profile and thermocline depth — seasonal stratification affects cage placement/depth |
+| **Salinity** | Salinity profile |
+| **Carrying capacity** | Site carrying capacity — a function of natural flushing rate, not a fixed engineering number |
+| **Stocking density** | Stocking density (kg/m³) — legally capped at 25 kg/m³ in Norwegian sea cages |
 
 #### How It's Collected
 
-- Camera-based biomass estimation (stereo-vision or sonar-based fish counting/sizing)
-- Periodic net-pen sampling and bulk weighing
-- Growth model software fed by temperature, feed input, and historical growth curves
-- Automated bulk-weighing systems on feed barges
-
----
+- Pre-site-selection hydrographic surveys (current meters, bathymetric mapping)
+- Continuous in-situ sensor monitoring during operation (buoys, cage-mounted sondes)
+- Regulatory environmental monitoring (MOM-B/C sediment monitoring under Norwegian rules)
 
 #### Equipment
 
 | Equipment | Purpose |
 |-----------|---------|
-| Stereo/mono underwater cameras | Biomass estimation (e.g., Observe Technologies, BioSort) |
-| Echo-sounder/sonar systems | Biomass estimation |
-| Automatic bulk weighers | Integrated with feeding systems |
-| Growth modeling software | Often built into farm management platforms, using TGC/degree-day models |
-
----
+| Current meters and ADCPs | Site assessment |
+| Multiparameter sondes/buoys | Ongoing monitoring |
+| Satellite/remote sensing | Broader fjord conditions (temperature, algal bloom risk) |
 
 #### How It's Used
 
-- Feeding forward into feed procurement planning (how much feed will be needed, and when)
-- Harvest timing decisions (projecting when a cohort reaches target slaughter weight)
-- Site capacity/MAB (Maximum Allowed Biomass) compliance forecasting
-- Reconciling forecast vs. actual growth to detect underlying health or feed issues early — direct link back to fish health and feed performance data
+- **Site selection** itself is a planning decision made before stocking, based on hydrology — this has no real hatchery equivalent
+- Ongoing monitoring feeds into **reactive planning**: mitigating a bloom or hypoxia event, rather than preventing it via control
 
 ---
 
-### 3. Site & Capacity Planning Data
-
-**What it is:**
-
-Data governing where biomass can legally and physically be held, and how production is spread across sites and regions.
-
----
+### 3b. Site & Capacity Planning (Regulatory)
 
 #### Key Metrics
 
 | Category | Metrics |
 |----------|---------|
-| **License capacity** | Site license capacity / Maximum Allowed Biomass (MAB, tonnes) |
-| **Current biomass** | Current standing biomass per site (tonnes) and % of MAB utilized |
-| **Fallowing** | Fallowing period status and duration (site rest between cohorts) |
-| **Rotation** | Site rotation schedule (which sites are stocked, resting, or being harvested) |
-| **Regional allocation** | Regional biomass allocation (production area / "traffic light" zone capacity) |
-| **Coordinated fallowing** | Coordinated fallowing compliance across neighboring sites (biosecurity zones) |
+| **License capacity** | Site license Maximum Allowed Biomass (MAB, tonnes) — the sea-cage equivalent of hatchery biofilter capacity, but set by regulation rather than engineering |
+| **Biomass utilization** | Standing biomass vs. % MAB utilized |
+| **Fallowing** | Fallowing period status and site rotation schedule |
+| **Regional allocation** | Regional/production-area allocation (Norway's traffic light zones) |
+
+*(This sub-domain carries over largely unchanged, since it's inherently a sea-cage/open-system concept — hatcheries don't have an MAB or traffic-light equivalent.)*
 
 ---
 
-#### How It's Collected
+### 3c. Growth & Biomass Forecasting (Open System)
 
-- Regulatory license records (site-specific MAB allocations)
-- Farm management system tracking of standing biomass vs. license limits
-- Regional/zone-level aggregation via industry or regulatory reporting systems
+#### Key Metrics
 
----
-
-#### Equipment
-
-| Equipment | Purpose |
-|-----------|---------|
-| Farm management/ERP systems | Multi-site biomass dashboards |
-| GIS-based site mapping tools | Zone planning |
-| Regulatory reporting portals | Biomass and fallowing compliance submissions |
-
----
+| Category | Metrics |
+|----------|---------|
+| **Biomass** | Predicted vs. actual biomass, using TGC models calibrated to ambient (not controlled) sea temperature |
+| **Growth rate** | Specific growth rate (SGR) |
+| **Forecast error** | Biomass growth variance — typically wider than hatchery forecasts |
 
 #### How It's Used
 
-- Ensuring legal compliance with biomass caps and fallowing rules (directly linked to the disease-related data domain, since fallowing/rotation is a core biosecurity tool)
-- Long-term site rotation strategy to balance biosecurity risk against production continuity
-- Regional capacity planning in coordination with area-based management schemes (e.g., Norway's traffic light system)
-
+- Same forecasting logic as hatcheries, but with **materially higher uncertainty** because temperature — the dominant driver of TGC — is **observed, not set**
 ---
 
-### 4. Harvest Planning Data
+### 3d. Harvest Planning Data
 
 **What it is:**
 
@@ -217,7 +297,7 @@ Data governing when and how fish are taken out of production is the point where 
 
 ---
 
-### 5. Logistics & Resource Planning Data
+### 3e. Logistics & Resource Planning Data
 
 **What it is:**
 
