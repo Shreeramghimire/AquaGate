@@ -133,6 +133,92 @@ Planning the freshwater phase — from egg/fry through parr to smolt — in a cl
 - Timing the transfer to sea to coincide with both **biological readiness** (smoltification window) and **site/market planning** on the on-growing side — the direct link into Section 2
 
 ---
+### 1d. Feeding Plan (Hatchery)
+
+**What it is:**
+
+The day-to-day ration and feeding schedule decisions for cohorts in tanks — a planning task distinct from feed formulation (what's in the feed) and feed logistics (getting feed delivered) — this is "how much, how often, adjusted for what."
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Feeding rate** | % body weight/day — typically high for fry/parr (up to 3–8%), tapering down as fish approach smolt size |
+| **Ration** | Feed ration per tank (kg/day), calculated from biomass estimate × feeding rate |
+| **Meals** | Number of feedings/meals per day |
+| **Temperature adjustment** | Temperature-adjusted feeding table — feeding rate is typically looked up from a standardized table indexed by water temperature and fish size (e.g., manufacturer feeding tables from Skretting/BioMar); since temperature is a controlled variable here, the table itself becomes a planning input |
+| **Feeder settings** | Automated feeder settings (dispense interval, belt speed) |
+| **FCR tracking** | Tank-level feed conversion tracking — measurable in near real time in a closed system, since both intake and biomass are tightly monitored |
+
+---
+
+#### How It's Collected
+
+- Automated feeder logs
+- Periodic bulk-weighing for biomass estimates
+- Standardized temperature/size feeding-rate lookup tables
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Automated belt or disc feeders | Programmable schedules |
+| Biomass estimation equipment | Bulk weighing or camera-based |
+
+---
+
+#### How It's Used
+
+- Sets the daily feed order at hatchery scale
+- Because the environment is controlled, a gap between planned and actual intake is a **fast, reliable early-warning signal** — feeding response is one of the first things to drop when fish are stressed, linking directly back to your fish health welfare domain
+
+---
+
+### 1e. Growth & Smoltification Staging
+
+**What it is:**
+
+Tracking the biological development of smolts toward seawater readiness — the key milestone that determines when fish are ready to transfer to sea net pens.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Degree-days** | Degree-days accumulated toward smoltification readiness |
+| **Weight** | Smolt weight trajectory (g) — target vs. actual |
+| **Smoltification indicators** | Gill Na⁺/K⁺-ATPase activity, silvering, condition factor change |
+| **Transfer timing** | Planned vs. actual smolt release ("transfer") date |
+
+---
+
+#### How It's Collected
+
+- Periodic sampling and lab assays (gill enzyme activity)
+- Bulk weighing
+- Visual smoltification scoring (silvering)
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Lab assay kits | Gill Na⁺/K⁺-ATPase activity measurement |
+| Bulk weighers | Weight measurement |
+| Visual scoring protocols | Smoltification staging |
+
+---
+
+#### How It's Used
+
+- Timing the transfer to sea to coincide with both biological readiness (smoltification window) and site/market planning on the on-growing side
+- The direct link between hatchery planning and on-growing production planning
 
 ## 2. The Handoff: Smolt Transfer Data
 
