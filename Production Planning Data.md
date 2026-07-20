@@ -1,8 +1,8 @@
-### Production Planning Data in Aquaculture
+## Production Planning Data in Aquaculture
 
 ---
 
-#### Overview
+### Overview
 
 Production planning data is the layer that turns biological reality (growth, health, feed) into operational and business decisions: when to stock, how much biomass to carry, when to harvest, and how to allocate capacity across sites and time.
 
@@ -12,7 +12,7 @@ This document breaks production planning into five sub-domains, following the sa
 
 ---
 
-#### The Five Sub-Domains
+### The Five Sub-Domains
 
 | Sub-Domain | Scope |
 |------------|-------|
