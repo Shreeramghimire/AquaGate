@@ -306,16 +306,53 @@ Planning the seawater grow-out phase in open net pens sited in fjords or coastal
 
 ### 3b. Site & Capacity Planning (Regulatory)
 
+**What it is:**
+
+The regulatory framework governing where and how much biomass can be held, including site-level Maximum Allowed Biomass (MAB), fallowing requirements, and regional production-area color designations (Norway's traffic light system).
+
+---
+
 #### Key Metrics
 
 | Category | Metrics |
 |----------|---------|
-| **License capacity** | Site license Maximum Allowed Biomass (MAB, tonnes) — the sea-cage equivalent of hatchery biofilter capacity, but set by regulation rather than engineering |
+| **License capacity** | Site license Maximum Allowed Biomass (MAB, tonnes) — the sea-cage equivalent of the hatchery's biofilter capacity, but set by **regulation** rather than engineering |
 | **Biomass utilization** | Standing biomass vs. % MAB utilized |
-| **Fallowing** | Fallowing period status and site rotation schedule |
-| **Regional allocation** | Regional/production-area allocation (Norway's traffic light zones) |
+| **Fallowing** | Fallowing period status and duration (mandatory site rest between cohorts) |
+| **Site rotation** | Site rotation schedule across a company's license portfolio |
+| **Coordinated fallowing** | Coordinated fallowing compliance with neighboring sites (biosecurity zones — fallowing only works as a disease-control measure if neighboring sites synchronize) |
+| **Traffic light zones** | Regional/production-area allocation and color status (Norway's traffic light zones — green/yellow/red, reviewed on a roughly two-year cycle) |
+| **Environmental impact** | Sea lice-induced wild salmon mortality estimate for the production area — the underlying metric the traffic light color is actually based on, not standing biomass itself |
 
-*(This sub-domain carries over largely unchanged, since it's inherently a sea-cage/open-system concept — hatcheries don't have an MAB or traffic-light equivalent.)*
+---
+
+#### How It's Collected
+
+- Regulatory license records held by the site operator, specifying MAB per license and per site
+- Farm management/ERP systems tracking standing biomass against the license limit in near real time (from routine biomass estimation feeding into a running total)
+- Government-published production-area color designations (Fiskeridirektoratet / Ministry of Trade, Industry and Fisheries), issued periodically for each of Norway's 13 production areas
+- Fallowing compliance self-reporting, cross-checked against site inspection records
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Farm management/ERP systems | Multi-site biomass dashboards, flagging sites approaching their MAB limit |
+| GIS-based site and zone-mapping tools | Visualizing rotation schedules and neighboring-site coordination |
+| Regulatory reporting portals | Biomass and fallowing compliance submissions |
+
+---
+
+#### How It's Used
+
+| Application | Description |
+|-------------|-------------|
+| **Stocking decisions** | Every stocking decision has to check remaining MAB headroom at the site *before* committing a cohort — this is a hard constraint that on-growing planning has to clear before biology or logistics even enter the picture. Unlike the hatchery side, where the equivalent capacity check (biofilter loading) is an engineering constraint the operator can often expand by adding equipment, MAB is a **fixed legal ceiling** that can't be engineered around |
+| **Traffic light zone strategy** | Traffic light zone status directly shapes multi-year growth strategy: a green zone allows companies to bid for additional biomass allocation; a red zone forces reduction — this is as much a business-planning input as an operational one |
+| **Fallowing coordination** | Fallowing scheduling has to be coordinated across a company's site portfolio and, ideally, with neighboring operators' sites, since disease control benefits depend on synchronized rest periods rather than one site fallowing in isolation |
+| **Disease domain linkage** | This is the one part of production planning that ties most directly back to the **disease-related data domain** — MAB and fallowing exist primarily as sea lice and pathogen management tools, not pure production-capacity tools |
 
 ---
 ### 3c. Feeding Plan (Net Pen)
