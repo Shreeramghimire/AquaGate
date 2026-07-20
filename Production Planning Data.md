@@ -1,8 +1,8 @@
-### Production Planning Data in Aquaculture
+## Production Planning Data in Aquaculture
 
 ---
 
-#### Overview
+### Overview
 
 Production planning in salmon aquaculture is really two distinct planning problems that happen to share a supply chain.
 
@@ -16,7 +16,7 @@ This document restructures production planning around that split, with a bridgin
 
 ---
 
-#### Stage Comparison
+### Stage Comparison
 
 | Stage | Environment | What you control | What you select for |
 |-------|-------------|------------------|---------------------|
@@ -220,7 +220,7 @@ Tracking the biological development of smolts toward seawater readiness — the 
 - Timing the transfer to sea to coincide with both biological readiness (smoltification window) and site/market planning on the on-growing side
 - The direct link between hatchery planning and on-growing production planning
 
-## 2. The Handoff: Smolt Transfer Data
+## 2. Smolt Transfer Data
 
 **What it is:**
 
