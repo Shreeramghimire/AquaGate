@@ -118,3 +118,51 @@ Direct measurements of traits on breeding candidates and their relatives — thi
 
 ---
 
+### 3. Genomic/Genetic Data
+
+**What it is:**
+
+DNA-level data used both to confirm pedigree and, increasingly, to predict breeding value directly from genetic markers rather than relying on pedigree-based relationships alone.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **SNP genotypes** | SNP (single nucleotide polymorphism) genotype calls across a panel of tens of thousands of markers |
+| **Genomic relationships** | Genomic relationship matrix (GRM) — actual realized genetic similarity between individuals, more precise than pedigree-based expected relationships |
+| **Marker associations** | Marker-trait associations (from QTL mapping/GWAS studies) for specific traits, e.g., a well-known major QTL affecting IPN resistance in Atlantic salmon |
+| **Breeding values** | Genomic estimated breeding values (GEBVs) — see Section 4 |
+| **Linkage disequilibrium** | LD patterns used to inform SNP panel design |
+
+---
+
+#### How It's Collected
+
+- Tissue sampling (fin clip is standard — minimally invasive, doesn't require sacrificing the fish)
+- DNA extraction and genotyping via SNP arrays or targeted genotyping panels
+- Whole-genome or reduced-representation sequencing for reference population development and QTL discovery
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| SNP genotyping arrays/chips | Commercial salmon-specific panels exist (e.g., from Affymetrix/ThermoFisher or Illumina-based platforms) |
+| DNA extraction robots/kits | High-throughput processing |
+| Next-generation sequencing platforms | Reference population and QTL discovery work (less commonly used routinely on every breeding candidate due to cost) |
+| Bioinformatics pipelines | SNP calling, quality control, and genomic relationship matrix construction |
+
+---
+
+#### How It's Used
+
+- **Genomic data increases the accuracy** of breeding value prediction beyond what pedigree alone can achieve, particularly for traits with low heritability or where full-sib families would otherwise be hard to distinguish
+- **Marker-assisted selection** can be used directly for traits with a known major QTL (fewer traits qualify for this than for genomic selection generally, but IPN resistance in salmon is a commonly cited example)
+- **Parentage verification/assignment** replaces or supplements physical tagging in communal rearing systems
+
+---
+
+
