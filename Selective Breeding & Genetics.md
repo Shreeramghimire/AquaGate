@@ -164,5 +164,43 @@ DNA-level data used both to confirm pedigree and, increasingly, to predict breed
 - **Parentage verification/assignment** replaces or supplements physical tagging in communal rearing systems
 
 ---
+### 4. Breeding Value Estimation & Selection Data
 
+**What it is:**
 
+The statistical output that actually drives which fish get selected as parents — this is where pedigree, phenotype, and genomic data converge into a single actionable number per individual per trait.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Breeding values** | Estimated breeding value (EBV) or genomic estimated breeding value (GEBV) per individual, per trait |
+| **Selection index** | Selection index value — a single combined score weighting multiple traits (growth, disease resistance, fillet quality, maturation timing) according to the breeding program's economic or strategic priorities |
+| **Accuracy** | Accuracy of breeding value estimates (a statistical confidence measure, higher with more genomic/phenotypic data) |
+| **Genetic trend** | Genetic trend — the change in average breeding value across generations, the actual measure of genetic progress achieved |
+| **Inbreeding rate** | Rate of inbreeding per generation |
+
+---
+
+#### How It's Collected
+
+- Computed via specialized quantitative genetics software (not measured directly — this is a derived/modeled output)
+- BLUP or genomic BLUP (GBLUP) mixed-model analysis combining pedigree/genomic relationship matrices with phenotypic records
+
+---
+
+#### Equipment / Tools
+
+| Tool | Purpose |
+|------|---------|
+| **Statistical genetics software** | ASReml, BLUPF90 family of programs, or custom R/Python pipelines built around packages for mixed-model animal breeding analysis |
+| **Selection index software/spreadsheets** | Translating multi-trait EBVs into a single ranking |
+
+---
+
+#### How It's Used
+
+- **Decision layer:** Breeding candidates are ranked by selection index, and the top-ranked individuals (subject to inbreeding constraints) become the parents of the next generation
+- **Validation:** Genetic trend data is used to report and validate the breeding program's progress to stakeholders — e.g., demonstrating that disease resistance or growth rate has genuinely improved generation over generation, not just as a marketing claim but as a tracked, auditable number
