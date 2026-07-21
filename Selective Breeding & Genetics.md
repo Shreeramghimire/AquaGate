@@ -204,3 +204,48 @@ The statistical output that actually drives which fish get selected as parents �
 
 - **Decision layer:** Breeding candidates are ranked by selection index, and the top-ranked individuals (subject to inbreeding constraints) become the parents of the next generation
 - **Validation:** Genetic trend data is used to report and validate the breeding program's progress to stakeholders — e.g., demonstrating that disease resistance or growth rate has genuinely improved generation over generation, not just as a marketing claim but as a tracked, auditable number
+
+---
+
+### 5. Reproduction & Family Production Data
+
+**What it is:**
+
+The operational data around actually executing the mating plan — turning a list of selected parents into the next generation's family cohorts.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Mating plan** | Mating plan / crossing list (which sire × dam pairs, chosen to balance genetic gain against inbreeding) |
+| **Family production** | Number of families produced per year-class |
+| **Fertilization** | Fertilization rate and egg survival rate per family |
+| **Family size** | Number of offspring per family reaching key life stages |
+| **Cryopreservation** | Gamete/tissue cryopreservation records (for genetic banking and biosecurity backup) |
+
+---
+
+#### How It's Collected
+
+- Hatchery reproduction records (stripping dates, fertilization outcomes)
+- Family-level survival tracking through incubation and early rearing, before individual tagging is applied
+- Cryobank inventory records (milt/sperm cryopreservation is well-established in salmon breeding; egg cryopreservation is much less mature)
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Standard hatchery stripping and fertilization equipment | Reproduction operations |
+| Cryopreservation systems | Liquid nitrogen storage, controlled-rate freezers for milt banking |
+| Family-level rearing containers | Keeping families separate before tagging, to preserve pedigree information |
+
+---
+
+#### How It's Used
+
+- Feeds directly into **Section 1 (Broodstock & Pedigree Data)** for the next generation, closing the breeding cycle
+- **Cryobanking** provides a genetic insurance policy against a catastrophic loss of the live breeding nucleus (disease outbreak, facility failure) and preserves genetic diversity that might otherwise be lost as selection intensifies
