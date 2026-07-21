@@ -249,3 +249,29 @@ The operational data around actually executing the mating plan — turning a lis
 
 - Feeds directly into **Section 1 (Broodstock & Pedigree Data)** for the next generation, closing the breeding cycle
 - **Cryobanking** provides a genetic insurance policy against a catastrophic loss of the live breeding nucleus (disease outbreak, facility failure) and preserves genetic diversity that might otherwise be lost as selection intensifies
+
+---
+
+## References
+
+Barria, A., Christensen, K. A., Yoshida, G., Correa, K., Jiménez-Reyes, N., Lhorente, J. P., & Yáñez, J. M. (2021). Population genomic structure and genome-wide linkage disequilibrium in farmed Atlantic salmon (*Salmo salar* L.) using dense SNP genotypes. *Frontiers in Genetics, 9*, Article 649. https://doi.org/10.3389/fgene.2018.00649
+
+Houston, R. D., Haley, C. S., Hamilton, A., Guy, D. R., Tinch, A. E., Taggart, J. B., McAndrew, B. J., & Bishop, S. C. (2008). Major quantitative trait loci affect resistance to infectious pancreatic necrosis in Atlantic salmon (*Salmo salar*). *Genetics, 178*(2), 1109–1115. https://doi.org/10.1534/genetics.107.082974
+
+Kjetså, M. H., Ødegård, J., & Meuwissen, T. H. E. (2020). Accuracy of genomic prediction of host resistance to salmon lice in Atlantic salmon (*Salmo salar*) using imputed high-density genotypes. *Aquaculture, 526*, Article 735415. https://doi.org/10.1016/j.aquaculture.2020.735415
+
+Moen, T., Baranski, M., Sonesson, A. K., & Kjøglum, S. (2009). Confirmation and fine-mapping of a major QTL for resistance to infectious pancreatic necrosis in Atlantic salmon (*Salmo salar*): Population-level associations between markers and trait. *BMC Genomics, 10*, Article 368. https://doi.org/10.1186/1471-2164-10-368
+
+Moen, T., Sonesson, A. K., Hayes, B., Lien, S., Munck, H., & Meuwissen, T. H. E. (2007). Mapping of a quantitative trait locus for resistance against infectious salmon anaemia in Atlantic salmon (*Salmo salar*): Comparing survival analysis with analysis on affected/resistant data. *BMC Genetics, 8*, Article 53. https://doi.org/10.1186/1471-2156-8-53
+
+Moen, T., Torgersen, J., Santi, N., Davidson, W. S., Baranski, M., Ødegård, J., Kjøglum, S., Velle, B., Kent, M., Lubieniecki, K. P., Isdal, E., & Lien, S. (2015). Epithelial cadherin determines resistance to infectious pancreatic necrosis virus in Atlantic salmon. *Genetics, 200*(4), 1313–1326. https://doi.org/10.1534/genetics.115.175406
+
+Nofima. (2022, August 11). Major advances in modern breeding [Results summary of a Norwegian Research Council Innovation Project involving SalMar, SalmoBreed, and Marine Harvest, using the Atlantic salmon reference genome (completed 2014) to develop new selection tools with NMBU]. https://nofima.com/results/major-advances-in-modern-breeding/
+
+Ødegård, J., Moen, T., Santi, N., Korsvoll, S. A., Kjøglum, S., & Meuwissen, T. H. E. (2014). Genomic prediction in an admixed population of Atlantic salmon (*Salmo salar*). *Frontiers in Genetics, 5*, Article 402. https://doi.org/10.3389/fgene.2014.00402
+
+Robledo, D., Matika, O., Hamilton, A., & Houston, R. D. (2019). Atlantic salmon (*Salmo salar* L.) genetics in the 21st century: Taking leaps forward in aquaculture and biological understanding. *Marine Biotechnology*. https://pmc.ncbi.nlm.nih.gov/articles/PMC6492011/
+
+Sonesson, A. K., & Meuwissen, T. H. E. (2009). Testing strategies for genomic selection in aquaculture breeding programs. *Genetics Selection Evolution, 41*, Article 37. https://doi.org/10.1186/1297-9686-41-37
+
+Sonesson, A. K., & Ødegård, J. (2016). Mating structures for genomic selection breeding schemes. *Genetics Selection Evolution, 48*, Article 46.
