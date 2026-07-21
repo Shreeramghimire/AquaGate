@@ -69,3 +69,52 @@ Identity and lineage data for breeding fish — the foundation everything else i
 
 ---
 
+### 2. Phenotypic Trait Recording Data
+
+**What it is:**
+
+Direct measurements of traits on breeding candidates and their relatives — this is the raw material that, combined with pedigree/genomic data, lets you estimate how much of a trait is heritable and predict breeding values.
+
+---
+
+#### Key Metrics
+
+| Category | Metrics |
+|----------|---------|
+| **Growth traits** | Body weight, length, condition factor at standardized ages |
+| **Disease resistance** | Survival/time-to-death in controlled pathogen challenge tests (e.g., ISA, IPN, PD, sea lice resistance) |
+| **Fillet quality** | Fat content, color, texture — measured non-destructively where possible (since you can't breed from a fish you've filleted) |
+| **Maturation** | Late maturation / delayed sexual maturity (a major commercial breeding target, since early maturation reduces flesh quality and growth) |
+| **Robustness** | Deformity rate, cardiac/vertebral health indicators |
+| **Parasite resistance** | Sea lice count on individually tagged fish in shared challenge environments |
+
+---
+
+#### How It's Collected
+
+- Standardized growth trials in dedicated breeding program facilities, with individually tagged fish reared communally
+- Disease challenge tests in biosecure containment facilities, where sibling groups are exposed to a pathogen under controlled conditions and survival is recorded
+- Non-destructive imaging and sensor-based phenotyping for traits like fillet fat content (e.g., via X-ray or ultrasound-based body composition estimation on live fish)
+
+> **Note on sib testing:** Since you generally can't deliberately infect the actual breeding candidates, a portion of full-sibling family members serve as proxies — a method called "sib testing."
+
+---
+
+#### Equipment
+
+| Equipment | Purpose |
+|-----------|---------|
+| Individual weighing/measuring stations | Often automated, RFID-linked to individual records |
+| Biosecure challenge-test tanks/facilities | Isolated from commercial production |
+| X-ray and ultrasound systems | Live-fish body composition estimation |
+| 3D imaging / computer vision systems | Body shape and external trait scoring |
+
+---
+
+#### How It's Used
+
+- **Sib-testing survival data** is the primary route to breeding for disease resistance, since the actual elite breeding candidates are kept pathogen-free while their siblings' challenge-test results serve as the resistance estimate for the family
+- Combined with pedigree, phenotypic records let you calculate **heritability (h²)** for each trait — a number that tells you how much of the trait variation is genetic versus environmental, and therefore how much genetic progress is possible per generation
+
+---
+
