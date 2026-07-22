@@ -1,4 +1,4 @@
-## Production Planning Data in Aquaculture
+## Production Planning Data
 
 ---
 
@@ -6,22 +6,18 @@
 
 Production planning in salmon aquaculture is really two distinct planning problems that happen to share a supply chain.
 
-**Smolt production planning** happens in the hatchery — a closed, engineered freshwater system where you control flow, water exchange, and density directly, the way you'd manage a factory process.
+**Smolt production planning** happens in the hatchery, a closed, engineered freshwater system where you control flow, water exchange, and density much like managing a factory process.
 
-**On-growing production planning** happens in sea net pens — an open system embedded in a fjord, where you select a site based on its natural hydrology and then plan around conditions you can monitor but not control.
-
-This distinction matters enough that it should shape the schema, not just the prose. A hatchery's "acceptable flow rate" is an engineering setpoint you dial in; a net pen's "acceptable current speed" is a site-selection criterion you live with. Treating both as the same kind of variable would blur a genuinely important difference.
-
-This document restructures production planning around that split, with a bridging section for the handoff between them (smolt transfer).
+**On-growing production planning** happens in sea net pens, an open system embedded in a fjord, where we select a site based on its natural hydrology and then plan around conditions we can monitor but not control.
 
 ---
 
 ### Stage Comparison
 
-| Stage | Environment | What you control | What you select for |
+| Stage | Environment | What is controlled | What we select for |
 |-------|-------------|------------------|---------------------|
 | **Smolt production planning** | Closed tanks, freshwater, engineered | Flow rate, water exchange, density, photoperiod, temperature | Hatchery location (raw water source quality) |
-| **Smolt transfer** | Transport (wellboat/truck) | Timing, transport water quality | — |
+| **Smolt transfer** | Transport (wellboat/truck) | Timing, transport water quality | well-boat |
 | **On-growing production planning** | Open net pens, seawater, natural system | Stocking density (within site limits), feeding, harvest timing | Site location (natural flushing/current regime) |
 
 ---
@@ -30,7 +26,7 @@ This document restructures production planning around that split, with a bridgin
 
 **What it is:**
 
-Planning the freshwater phase — from egg/fry through parr to smolt — in a closed facility where the operator engineers the water environment directly, typically via flow-through or recirculating aquaculture systems (RAS).
+Planning the freshwater phase, from egg/fry through parr to smolt, in a closed facility where the operator engineers the water environment directly, typically via flow-through or recirculating aquaculture systems (RAS).
 
 ---
 
@@ -62,22 +58,22 @@ Planning the freshwater phase — from egg/fry through parr to smolt — in a cl
 
 ### 1b. Hydrological & Environmental Planning Parameters (Engineered)
 
-*This is the core of what makes hatchery planning different — these are **control variables**, not just monitored conditions.*
+This is the core of what makes hatchery planning different; these are **control variables**, not just monitored conditions.
 
 #### Key Metrics
 
 | Category | Metrics |
 |----------|---------|
 | **Tank capacity** | Tank volume (m³) and tank count allocated per cohort |
-| **Flow** | Flow rate (L/min or L/kg fish/min) — a direct engineering setpoint |
+| **Flow** | Flow rate (L/min or L/kg fish/min): a direct engineering setpoint |
 | **Water exchange** | Water exchange rate (tank volume turnovers per hour/day) |
-| **Specific flow** | Specific water flow relative to biomass (L/kg/min) — scales with fish growth, actively re-planned as biomass increases |
-| **Stocking density** | Stocking density (kg/m³) — typically 40–80 kg/m³ in RAS (vs. 25 kg/m³ legal cap in sea cages) |
+| **Specific flow** | Specific water flow relative to biomass (L/kg/min): scales with fish growth, actively re-planned as biomass increases |
+| **Stocking density** | Stocking density (kg/m³): typically 40–80 kg/m³ in RAS (vs. 25 kg/m³ legal cap in sea cages) |
 | **Dissolved oxygen** | DO (mg/L or % saturation) — actively dosed, not just monitored |
-| **Temperature** | Temperature (°C) — actively controlled, manipulated to accelerate/delay smoltification |
-| **Photoperiod** | Hours light/dark — a planning lever unique to hatcheries, used to control smoltification timing |
-| **Water chemistry** | pH, total ammonia nitrogen (TAN), CO₂ — managed via biofilter capacity and water exchange rate |
-| **Biofilter** | Biofilter capacity and loading (for RAS) — a hard capacity constraint, independent of physical tank volume |
+| **Temperature** | Temperature (°C): actively controlled, manipulated to accelerate/delay smoltification |
+| **Photoperiod** | Hours light/dark: a planning lever unique to hatcheries, used to control smoltification timing |
+| **Water chemistry** | pH, total ammonia nitrogen (TAN), CO₂: managed via biofilter capacity and water exchange rate |
+| **Biofilter** | Biofilter capacity and loading (for RAS): a hard capacity constraint, independent of physical tank volume |
 
 #### How It's Collected
 
@@ -97,7 +93,7 @@ Planning the freshwater phase — from egg/fry through parr to smolt — in a cl
 
 #### How It's Used
 
-- Planning is **proactive**: you decide the flow rate, density, and photoperiod schedule in advance to hit a target smolt weight and smoltification date — fundamentally different from on-growing planning
+- Planning is **proactive**: you decide the flow rate, density, and photoperiod schedule in advance to hit a target smolt weight and smoltification date, fundamentally different from on-growing planning
 - Capacity planning is driven by **biofilter/engineering limits**, not a legal MAB-style cap
 - Smoltification readiness scheduling is directly steered by manipulating temperature and photoperiod
 
@@ -110,7 +106,7 @@ Planning the freshwater phase — from egg/fry through parr to smolt — in a cl
 | Category | Metrics |
 |----------|---------|
 | **Degree-days** | Degree-days accumulated toward smoltification readiness |
-| **Weight** | Smolt weight trajectory (g) — target vs. actual |
+| **Weight** | Smolt weight trajectory (g): target vs. actual |
 | **Smoltification indicators** | Gill Na⁺/K⁺-ATPase activity, silvering, condition factor change |
 | **Transfer timing** | Planned vs. actual smolt release ("transfer") date |
 
@@ -130,14 +126,14 @@ Planning the freshwater phase — from egg/fry through parr to smolt — in a cl
 
 #### How It's Used
 
-- Timing the transfer to sea to coincide with both **biological readiness** (smoltification window) and **site/market planning** on the on-growing side — the direct link into Section 2
+- Timing the transfer to sea to coincide with both **biological readiness** (smoltification window) and **site/market planning** on the on-growing side.
 
 ---
 ### 1d. Feeding Plan (Hatchery)
 
 **What it is:**
 
-The day-to-day ration and feeding schedule decisions for cohorts in tanks — a planning task distinct from feed formulation (what's in the feed) and feed logistics (getting feed delivered) — this is "how much, how often, adjusted for what."
+The day-to-day ration and feeding schedule decisions for cohorts in tanks — a planning task distinct from feed formulation (what's in the feed) and feed logistics (getting feed delivered); this is "how much, how often, adjusted for what."
 
 ---
 
@@ -145,7 +141,7 @@ The day-to-day ration and feeding schedule decisions for cohorts in tanks — a 
 
 | Category | Metrics |
 |----------|---------|
-| **Feeding rate** | % body weight/day — typically high for fry/parr (up to 3–8%), tapering down as fish approach smolt size |
+| **Feeding rate** | % body weight/day, typically high for fry/parr (up to 3–8%), tapering down as fish approach smolt size |
 | **Ration** | Feed ration per tank (kg/day), calculated from biomass estimate × feeding rate |
 | **Meals** | Number of feedings/meals per day |
 | **Temperature adjustment** | Temperature-adjusted feeding table — feeding rate is typically looked up from a standardized table indexed by water temperature and fish size (e.g., manufacturer feeding tables from Skretting/BioMar); since temperature is a controlled variable here, the table itself becomes a planning input |
@@ -174,57 +170,16 @@ The day-to-day ration and feeding schedule decisions for cohorts in tanks — a 
 #### How It's Used
 
 - Sets the daily feed order at hatchery scale
-- Because the environment is controlled, a gap between planned and actual intake is a **fast, reliable early-warning signal** — feeding response is one of the first things to drop when fish are stressed, linking directly back to your fish health welfare domain
+- Because the environment is controlled, a gap between planned and actual intake is a **fast, reliable early-warning signal**—feeding response is one of the first things to drop when fish are stressed, linking directly back to our fish health welfare domain.
 
 ---
 
-### 1e. Growth & Smoltification Staging
-
-**What it is:**
-
-Tracking the biological development of smolts toward seawater readiness — the key milestone that determines when fish are ready to transfer to sea net pens.
-
----
-
-#### Key Metrics
-
-| Category | Metrics |
-|----------|---------|
-| **Degree-days** | Degree-days accumulated toward smoltification readiness |
-| **Weight** | Smolt weight trajectory (g) — target vs. actual |
-| **Smoltification indicators** | Gill Na⁺/K⁺-ATPase activity, silvering, condition factor change |
-| **Transfer timing** | Planned vs. actual smolt release ("transfer") date |
-
----
-
-#### How It's Collected
-
-- Periodic sampling and lab assays (gill enzyme activity)
-- Bulk weighing
-- Visual smoltification scoring (silvering)
-
----
-
-#### Equipment
-
-| Equipment | Purpose |
-|-----------|---------|
-| Lab assay kits | Gill Na⁺/K⁺-ATPase activity measurement |
-| Bulk weighers | Weight measurement |
-| Visual scoring protocols | Smoltification staging |
-
----
-
-#### How It's Used
-
-- Timing the transfer to sea to coincide with both biological readiness (smoltification window) and site/market planning on the on-growing side
-- The direct link between hatchery planning and on-growing production planning
 
 ## 2. Smolt Transfer Data
 
 **What it is:**
 
-The data bridging the two planning stages — a single, high-stakes event where responsibility moves from an engineered system to a natural one.
+The data bridging the two planning stages, a single, high-stakes event where responsibility moves from an engineered system to a natural one.
 
 ---
 
@@ -254,7 +209,7 @@ The data bridging the two planning stages — a single, high-stakes event where 
 
 #### How It's Used
 
-- This is the natural place in your schema for a **stage transition field** — the same fish, same `batch_id`, but the record marks the switch from `facility_type = hatchery` to `facility_type = sea_cage`, and from engineered to natural hydrology
+- This is the natural place in our schema for a **stage transition field** — the same fish, same `batch_id`, but the record marks the switch from `facility_type = hatchery` to `facility_type = sea_cage`, and from engineered to natural hydrology
 
 ---
 
@@ -262,26 +217,26 @@ The data bridging the two planning stages — a single, high-stakes event where 
 
 **What it is:**
 
-Planning the seawater grow-out phase in open net pens sited in fjords or coastal waters — a natural system you plan around, not inside.
+Planning the seawater grow-out phase in open net pens sited in fjords or coastal waters, a natural system you plan around, not inside.
 
 ---
 
 ### 3a. Site Selection & Hydrological Planning Parameters (Natural)
 
-*This is the on-growing equivalent of section 1b, and the contrast is the point: these are **conditions you select for and monitor**, not variables you set.*
+This is the on-growing equivalent of section 1b, and the contrast is the point: these are **conditions you select for and monitor**, not variables we set.
 
 #### Key Metrics
 
 | Category | Metrics |
 |----------|---------|
-| **Current** | Current speed and direction (cm/s) — determines natural flushing/waste dispersal; a site-selection criterion |
-| **Tidal exchange** | Tidal exchange pattern — natural water turnover |
+| **Current** | Current speed and direction (cm/s)— determines natural flushing/waste dispersal; a site-selection criterion |
+| **Tidal exchange** | Tidal exchange pattern— natural water turnover |
 | **Bathymetry** | Water depth and site bathymetry |
-| **Dissolved oxygen** | Natural DO levels (% saturation) — monitored, with mitigation (supplemental aeration, site rotation) rather than direct control |
-| **Temperature** | Temperature profile and thermocline depth — seasonal stratification affects cage placement/depth |
+| **Dissolved oxygen** | Natural DO levels (% saturation)— monitored, with mitigation (supplemental aeration, site rotation) rather than direct control |
+| **Temperature** | Temperature profile and thermocline depth— seasonal stratification affects cage placement/depth |
 | **Salinity** | Salinity profile |
-| **Carrying capacity** | Site carrying capacity — a function of natural flushing rate, not a fixed engineering number |
-| **Stocking density** | Stocking density (kg/m³) — legally capped at 25 kg/m³ in Norwegian sea cages |
+| **Carrying capacity** | Site carrying capacity— a function of natural flushing rate, not a fixed engineering number |
+| **Stocking density** | Stocking density (kg/m³)— legally capped at 25 kg/m³ in Norwegian sea cages |
 
 #### How It's Collected
 
@@ -299,7 +254,7 @@ Planning the seawater grow-out phase in open net pens sited in fjords or coastal
 
 #### How It's Used
 
-- **Site selection** itself is a planning decision made before stocking, based on hydrology — this has no real hatchery equivalent
+- **Site selection** itself is a planning decision made before stocking, based on hydrology; this has no real hatchery equivalent
 - Ongoing monitoring feeds into **reactive planning**: mitigating a bloom or hypoxia event, rather than preventing it via control
 
 ---
@@ -316,12 +271,12 @@ The regulatory framework governing where and how much biomass can be held, inclu
 
 | Category | Metrics |
 |----------|---------|
-| **License capacity** | Site license Maximum Allowed Biomass (MAB, tonnes) — the sea-cage equivalent of the hatchery's biofilter capacity, but set by **regulation** rather than engineering |
+| **License capacity** | Site license Maximum Allowed Biomass (MAB, tonnes), the sea-cage equivalent of the hatchery's biofilter capacity, but set by **regulation** rather than engineering |
 | **Biomass utilization** | Standing biomass vs. % MAB utilized |
 | **Fallowing** | Fallowing period status and duration (mandatory site rest between cohorts) |
 | **Site rotation** | Site rotation schedule across a company's license portfolio |
-| **Coordinated fallowing** | Coordinated fallowing compliance with neighboring sites (biosecurity zones — fallowing only works as a disease-control measure if neighboring sites synchronize) |
-| **Traffic light zones** | Regional/production-area allocation and color status (Norway's traffic light zones — green/yellow/red, reviewed on a roughly two-year cycle) |
+| **Coordinated fallowing** | Coordinated fallowing compliance with neighboring sites (biosecurity zones; fallowing only works as a disease-control measure if neighboring sites synchronize) |
+| **Traffic light zones** | Regional/production-area allocation and color status (Norway's traffic light zones, green/yellow/red, reviewed on a roughly two-year cycle) |
 | **Environmental impact** | Sea lice-induced wild salmon mortality estimate for the production area — the underlying metric the traffic light color is actually based on, not standing biomass itself |
 
 ---
@@ -349,17 +304,17 @@ The regulatory framework governing where and how much biomass can be held, inclu
 
 | Application | Description |
 |-------------|-------------|
-| **Stocking decisions** | Every stocking decision has to check remaining MAB headroom at the site *before* committing a cohort — this is a hard constraint that on-growing planning has to clear before biology or logistics even enter the picture. Unlike the hatchery side, where the equivalent capacity check (biofilter loading) is an engineering constraint the operator can often expand by adding equipment, MAB is a **fixed legal ceiling** that can't be engineered around |
-| **Traffic light zone strategy** | Traffic light zone status directly shapes multi-year growth strategy: a green zone allows companies to bid for additional biomass allocation; a red zone forces reduction — this is as much a business-planning input as an operational one |
+| **Stocking decisions** | Every stocking decision has to check remaining MAB headroom at the site *before* committing a cohort; this is a hard constraint that on-growing planning has to clear before biology or logistics even enter the picture. Unlike the hatchery side, where the equivalent capacity check (biofilter loading) is an engineering constraint the operator can often expand by adding equipment, MAB is a **fixed legal ceiling** that can't be engineered around |
+| **Traffic light zone strategy** | Traffic light zone status directly shapes multi-year growth strategy: a green zone allows companies to bid for additional biomass allocation; a red zone forces reduction, this is as much a business-planning input as an operational one |
 | **Fallowing coordination** | Fallowing scheduling has to be coordinated across a company's site portfolio and, ideally, with neighboring operators' sites, since disease control benefits depend on synchronized rest periods rather than one site fallowing in isolation |
-| **Disease domain linkage** | This is the one part of production planning that ties most directly back to the **disease-related data domain** — MAB and fallowing exist primarily as sea lice and pathogen management tools, not pure production-capacity tools |
+| **Disease domain linkage** | This is the one part of production planning that ties most directly back to the **disease-related data domain**—MAB and fallowing exist primarily as sea lice and pathogen management tools, not pure production-capacity tools |
 
 ---
 ### 3c. Feeding Plan (Net Pen)
 
 **What it is:**
 
-Cage-level ration and feeding schedule planning — the on-growing equivalent of Section 1d, but noticeably more adaptive, because you're feeding into an environment you don't control.
+Cage-level ration and feeding schedule planning, the on-growing equivalent of Section 1d, but noticeably more adaptive, because you're feeding into an environment you don't control.
 
 ---
 
@@ -367,11 +322,11 @@ Cage-level ration and feeding schedule planning — the on-growing equivalent of
 
 | Category | Metrics |
 |----------|---------|
-| **Feeding rate** | % body weight/day — lower than hatchery rates, typically ~0.5–1.5% depending on fish size and ambient temperature |
+| **Feeding rate** | % body weight/day, lower than hatchery rates, typically ~0.5–1.5% depending on fish size and ambient temperature |
 | **Daily ration** | Daily feed ration per cage (kg/day), calculated from standing biomass estimate × feeding rate |
 | **Feeding events** | Number/duration of feeding events per day |
-| **Appetite-based adjustment** | Many modern systems use underwater cameras with waste-pellet/appetite detection to cut feeding automatically when appetite drops; environmental appetite suppression (temperature swings, low oxygen, algal bloom stress) can't be engineered away the way it can in a hatchery — you have to detect and react rather than prevent |
-| **Current adjustment** | Current-adjusted feed spread pattern — feed distribution across the cage needs adjusting for current strength so pellets don't drift out of reach before fish can eat them |
+| **Appetite-based adjustment** | Many modern systems use underwater cameras with waste-pellet/appetite detection to cut feeding automatically when appetite drops; environmental appetite suppression (temperature swings, low oxygen, algal bloom stress) can't be engineered away the way it can in a hatchery; you have to detect and react rather than prevent |
+| **Current adjustment** | Current-adjusted feed spread pattern, feed distribution across the cage needs adjusting for current strength so pellets don't drift out of reach before fish can eat them |
 
 ---
 
@@ -395,14 +350,14 @@ Cage-level ration and feeding schedule planning — the on-growing equivalent of
 
 #### How It's Used
 
-This is the primary lever farms use to manage FCR in real time — actual intake vs. planned ration is one of the most closely watched daily numbers on a farm:
+This is the primary lever farms use to manage FCR in real time; actual intake vs. planned ration is one of the most closely watched daily numbers on a farm:
 
 | Outcome | Consequence |
 |---------|-------------|
 | **Overfeeding** | Wastes money and adds organic loading at the site (linking back to your water quality domain) |
 | **Underfeeding** | Costs growth and extends time to harvest |
 
-The adaptivity of net pen feeding — responding to current, appetite, and environmental conditions — is what makes it fundamentally different from hatchery feeding, where the environment is controlled and feeding tables can be followed more rigidly.
+The adaptivity of net pen feeding, responding to current, appetite, and environmental conditions, is what makes it fundamentally different from hatchery feeding, where the environment is controlled, and feeding tables can be followed more rigidly.
 
 ### 3d. Growth & Biomass Forecasting (Open System)
 
@@ -416,7 +371,7 @@ The adaptivity of net pen feeding — responding to current, appetite, and envir
 
 #### How It's Used
 
-- Same forecasting logic as hatcheries, but with **materially higher uncertainty** because temperature — the dominant driver of TGC — is **observed, not set**
+- Same forecasting logic as hatcheries, but with **materially higher uncertainty** because temperature, the dominant driver of TGC, is **observed, not set**
 ---
 
 ### 3e. Harvest Planning Data
@@ -464,7 +419,7 @@ Data governing when and how fish are taken out of production is the point where 
 - Matching supply to market demand and price windows
 - Optimizing processing plant utilization (avoiding bottlenecks or idle capacity)
 - Verifying welfare compliance during the harvest process (starvation period, transport duration limits)
-- Post-harvest reconciliation — comparing planned vs. actual yield and grade distribution to refine future growth/harvest models
+- Post-harvest reconciliation, comparing planned vs. actual yield and grade distribution to refine future growth/harvest models
 
 ---
 
