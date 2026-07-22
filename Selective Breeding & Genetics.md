@@ -1,4 +1,4 @@
-# Selective Breeding & Genetics Data in Aquaculture
+# Selective Breeding & Genetics Data 
 
 ---
 
@@ -64,7 +64,7 @@ Identity and lineage data for breeding fish — the foundation everything else i
 
 #### How It's Used
 
-- **Pedigree** is the backbone input for BLUP (Best Linear Unbiased Prediction) breeding value estimation — without accurate pedigree, none of the trait data downstream can be turned into a reliable selection decision
+- **Pedigree** is the backbone input for BLUP (Best Linear Unbiased Prediction) breeding value estimation; without accurate pedigree, none of the trait data downstream can be turned into a reliable selection decision
 - **Managing inbreeding** is an explicit constraint on every generation's mating plan, since aquaculture breeding nuclei are often smaller than wild populations and inbreeding depression is a real risk to long-term genetic gain
 
 ---
@@ -73,7 +73,7 @@ Identity and lineage data for breeding fish — the foundation everything else i
 
 **What it is:**
 
-Direct measurements of traits on breeding candidates and their relatives — this is the raw material that, combined with pedigree/genomic data, lets you estimate how much of a trait is heritable and predict breeding values.
+Direct measurements of traits on breeding candidates and their relatives; this is the raw material that, combined with pedigree/genomic data, lets you estimate how much of a trait is heritable and predict breeding values.
 
 ---
 
@@ -83,7 +83,7 @@ Direct measurements of traits on breeding candidates and their relatives — thi
 |----------|---------|
 | **Growth traits** | Body weight, length, condition factor at standardized ages |
 | **Disease resistance** | Survival/time-to-death in controlled pathogen challenge tests (e.g., ISA, IPN, PD, sea lice resistance) |
-| **Fillet quality** | Fat content, color, texture — measured non-destructively where possible (since you can't breed from a fish you've filleted) |
+| **Fillet quality** | Fat content, color, texture, measured non-destructively where possible (since you can't breed from a fish you've filleted) |
 | **Maturation** | Late maturation / delayed sexual maturity (a major commercial breeding target, since early maturation reduces flesh quality and growth) |
 | **Robustness** | Deformity rate, cardiac/vertebral health indicators |
 | **Parasite resistance** | Sea lice count on individually tagged fish in shared challenge environments |
@@ -96,7 +96,7 @@ Direct measurements of traits on breeding candidates and their relatives — thi
 - Disease challenge tests in biosecure containment facilities, where sibling groups are exposed to a pathogen under controlled conditions and survival is recorded
 - Non-destructive imaging and sensor-based phenotyping for traits like fillet fat content (e.g., via X-ray or ultrasound-based body composition estimation on live fish)
 
-> **Note on sib testing:** Since you generally can't deliberately infect the actual breeding candidates, a portion of full-sibling family members serve as proxies — a method called "sib testing."
+> **Note on sib testing:** Since we generally can't deliberately infect the actual breeding candidates, a portion of full-sibling family members serve as proxies — a method called "sib testing."
 
 ---
 
@@ -114,7 +114,7 @@ Direct measurements of traits on breeding candidates and their relatives — thi
 #### How It's Used
 
 - **Sib-testing survival data** is the primary route to breeding for disease resistance, since the actual elite breeding candidates are kept pathogen-free while their siblings' challenge-test results serve as the resistance estimate for the family
-- Combined with pedigree, phenotypic records let you calculate **heritability (h²)** for each trait — a number that tells you how much of the trait variation is genetic versus environmental, and therefore how much genetic progress is possible per generation
+- Combined with pedigree, phenotypic records let you calculate **heritability (h²)** for each trait, a number that tells you how much of the trait variation is genetic versus environmental, and therefore how much genetic progress is possible per generation
 
 ---
 
@@ -131,16 +131,16 @@ DNA-level data used both to confirm pedigree and, increasingly, to predict breed
 | Category | Metrics |
 |----------|---------|
 | **SNP genotypes** | SNP (single nucleotide polymorphism) genotype calls across a panel of tens of thousands of markers |
-| **Genomic relationships** | Genomic relationship matrix (GRM) — actual realized genetic similarity between individuals, more precise than pedigree-based expected relationships |
+| **Genomic relationships** | Genomic relationship matrix (GRM), actual realized genetic similarity between individuals, more precise than pedigree-based expected relationships |
 | **Marker associations** | Marker-trait associations (from QTL mapping/GWAS studies) for specific traits, e.g., a well-known major QTL affecting IPN resistance in Atlantic salmon |
-| **Breeding values** | Genomic estimated breeding values (GEBVs) — see Section 4 |
+| **Breeding values** | Genomic estimated breeding values (GEBVs) - see Section 4 |
 | **Linkage disequilibrium** | LD patterns used to inform SNP panel design |
 
 ---
 
 #### How It's Collected
 
-- Tissue sampling (fin clip is standard — minimally invasive, doesn't require sacrificing the fish)
+- Tissue sampling (fin clip is standard, minimally invasive, doesn't require sacrificing the fish)
 - DNA extraction and genotyping via SNP arrays or targeted genotyping panels
 - Whole-genome or reduced-representation sequencing for reference population development and QTL discovery
 
@@ -168,7 +168,7 @@ DNA-level data used both to confirm pedigree and, increasingly, to predict breed
 
 **What it is:**
 
-The statistical output that actually drives which fish get selected as parents — this is where pedigree, phenotype, and genomic data converge into a single actionable number per individual per trait.
+The statistical output that actually drives which fish get selected as parents, this is where pedigree, phenotype, and genomic data converge into a single actionable number per individual per trait.
 
 ---
 
@@ -177,16 +177,16 @@ The statistical output that actually drives which fish get selected as parents �
 | Category | Metrics |
 |----------|---------|
 | **Breeding values** | Estimated breeding value (EBV) or genomic estimated breeding value (GEBV) per individual, per trait |
-| **Selection index** | Selection index value — a single combined score weighting multiple traits (growth, disease resistance, fillet quality, maturation timing) according to the breeding program's economic or strategic priorities |
+| **Selection index** | Selection index value, a single combined score weighting multiple traits (growth, disease resistance, fillet quality, maturation timing) according to the breeding program's economic or strategic priorities |
 | **Accuracy** | Accuracy of breeding value estimates (a statistical confidence measure, higher with more genomic/phenotypic data) |
-| **Genetic trend** | Genetic trend — the change in average breeding value across generations, the actual measure of genetic progress achieved |
+| **Genetic trend** | Genetic trend, the change in average breeding value across generations, the actual measure of genetic progress achieved |
 | **Inbreeding rate** | Rate of inbreeding per generation |
 
 ---
 
 #### How It's Collected
 
-- Computed via specialized quantitative genetics software (not measured directly — this is a derived/modeled output)
+- Computed via specialized quantitative genetics software (not measured directly; this is a derived/modeled output)
 - BLUP or genomic BLUP (GBLUP) mixed-model analysis combining pedigree/genomic relationship matrices with phenotypic records
 
 ---
@@ -211,7 +211,7 @@ The statistical output that actually drives which fish get selected as parents �
 
 **What it is:**
 
-The operational data around actually executing the mating plan — turning a list of selected parents into the next generation's family cohorts.
+The operational data around actually executing the mating plan, turning a list of selected parents into the next generation's family cohorts.
 
 ---
 
@@ -219,7 +219,7 @@ The operational data around actually executing the mating plan — turning a lis
 
 | Category | Metrics |
 |----------|---------|
-| **Mating plan** | Mating plan / crossing list (which sire × dam pairs, chosen to balance genetic gain against inbreeding) |
+| **Mating plan** | Mating plan/crossing list (which sire × dam pairs, chosen to balance genetic gain against inbreeding) |
 | **Family production** | Number of families produced per year-class |
 | **Fertilization** | Fertilization rate and egg survival rate per family |
 | **Family size** | Number of offspring per family reaching key life stages |
