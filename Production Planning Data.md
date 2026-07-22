@@ -229,14 +229,14 @@ This is the on-growing equivalent of section 1b, and the contrast is the point: 
 
 | Category | Metrics |
 |----------|---------|
-| **Current** | Current speed and direction (cm/s)— determines natural flushing/waste dispersal; a site-selection criterion |
-| **Tidal exchange** | Tidal exchange pattern— natural water turnover |
+| **Current** | Current speed and direction (cm/s),determines natural flushing/waste dispersal; a site-selection criterion |
+| **Tidal exchange** | Tidal exchange pattern, natural water turnover |
 | **Bathymetry** | Water depth and site bathymetry |
-| **Dissolved oxygen** | Natural DO levels (% saturation)— monitored, with mitigation (supplemental aeration, site rotation) rather than direct control |
-| **Temperature** | Temperature profile and thermocline depth— seasonal stratification affects cage placement/depth |
+| **Dissolved oxygen** | Natural DO levels (% saturation), monitored, with mitigation (supplemental aeration, site rotation) rather than direct control |
+| **Temperature** | Temperature profile and thermocline depth, seasonal stratification affects cage placement/depth |
 | **Salinity** | Salinity profile |
-| **Carrying capacity** | Site carrying capacity— a function of natural flushing rate, not a fixed engineering number |
-| **Stocking density** | Stocking density (kg/m³)— legally capped at 25 kg/m³ in Norwegian sea cages |
+| **Carrying capacity** | Site carrying capacity, a function of natural flushing rate, not a fixed engineering number |
+| **Stocking density** | Stocking density (kg/m³), legally capped at 25 kg/m³ in Norwegian sea cages |
 
 #### How It's Collected
 
@@ -277,7 +277,7 @@ The regulatory framework governing where and how much biomass can be held, inclu
 | **Site rotation** | Site rotation schedule across a company's license portfolio |
 | **Coordinated fallowing** | Coordinated fallowing compliance with neighboring sites (biosecurity zones; fallowing only works as a disease-control measure if neighboring sites synchronize) |
 | **Traffic light zones** | Regional/production-area allocation and color status (Norway's traffic light zones, green/yellow/red, reviewed on a roughly two-year cycle) |
-| **Environmental impact** | Sea lice-induced wild salmon mortality estimate for the production area — the underlying metric the traffic light color is actually based on, not standing biomass itself |
+| **Environmental impact** | Sea lice-induced wild salmon mortality estimate for the production area, the underlying metric the traffic light color is actually based on, not standing biomass itself |
 
 ---
 
@@ -391,7 +391,7 @@ Data governing when and how fish are taken out of production is the point where 
 | **Processing capacity** | Slaughter/processing plant capacity and scheduled throughput (tonnes/day) |
 | **Market signals** | Market price signals and forward contracts influencing harvest timing |
 | **Welfare compliance** | Pre-harvest starvation/withdrawal period compliance (fasting time before slaughter) |
-| **Yield** | Yield at harvest (fillet yield %, grading distribution — linking to fillet quality domain) |
+| **Yield** | Yield at harvest (fillet yield %, grading distribution, linking to fillet quality domain) |
 
 ---
 
@@ -435,7 +435,7 @@ The physical and human resources required to execute the production plan include
 
 | Category | Metrics |
 |----------|---------|
-| **Feed logistics** | Feed delivery schedule and volume (tonnes, by site and date) — links directly to feed formulation data |
+| **Feed logistics** | Feed delivery schedule and volume (tonnes, by site and date), links directly to feed formulation data |
 | **Transport** | Wellboat scheduling and route planning (for smolt transfer, delousing operations, and harvest transport) |
 | **Labor** | Labor/crew scheduling per site and operation type |
 | **Maintenance** | Equipment maintenance schedules (feeding systems, nets, sensors) |
