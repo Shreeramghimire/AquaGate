@@ -371,4 +371,3 @@ CREATE INDEX idx_phenotype_individual  ON phenotype_records(individual_id);
 CREATE INDEX idx_genotype_individual   ON genotype_records(individual_id);
 CREATE INDEX idx_bv_individual         ON breeding_values(individual_id);
 CREATE INDEX idx_families_sire_dam     ON families(sire_id, dam_id);
-```
