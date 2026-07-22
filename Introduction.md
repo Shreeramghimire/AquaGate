@@ -38,11 +38,11 @@ shreeram@salmonometers.com
 ```plaintext
 AquaGate/
 │
-├── AquaGate_Report.docx       ← Main working document
-├── README.md                  ← Project overview (this file)
-├── references/                ← PDFs, whitepapers, external documents
-├── diagrams/                  ← System architecture & flowcharts
-└── notes/                     ← Interviews, raw notes, datasets
+├── Introduction.md                       ← Project overview (this file)
+├── Fish Health Monitoring.md             ← First Part
+├── Feed and Nutrition                    ← Second Part
+├── Production Planning                   ← Third Part
+└── Selective Breeding & Genetics         ← Fourth Part
 
 
 
