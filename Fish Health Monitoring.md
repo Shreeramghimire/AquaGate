@@ -24,7 +24,7 @@ This document organizes fish health data into five core domains, and for each on
 
 **What it is:**
 
-Indicators of the fish's physiological and behavioral state — a proxy for stress, comfort, and overall wellbeing, often guided by frameworks like the "Five Freedoms" or OIE/WOAH welfare indicators.
+Indicators of the fish's physiological and behavioral state, a proxy for stress, comfort, and overall well-being, often guided by frameworks like the "Five Freedoms"(Hunger, Discomfort, Pain/Disease, Normal Behavior, and Fear/Distress) or OIE/WOAH welfare indicators.
 
 ---
 
@@ -106,7 +106,7 @@ The physicochemical properties of the rearing environment, which directly drive 
 | Equipment | Purpose |
 |-----------|---------|
 | Multiparameter sondes/probes | Continuous monitoring (YSI, Hach, In-Situ Aqua TROLL, etc.) |
-| DO and pH probes | Dissolved oxygen and pH measurement with SCADA/telemetry |
+| DO and pH probes | Dissolved oxygen and pH measurement with SCADA(Supervisory Control and Data Acquisition)/telemetry |
 | Spectrophotometers | Nutrient analysis |
 | Titration kits | Lab-based water chemistry analysis |
 | IoT buoys and floating sensor arrays | Cage/pond system monitoring |
@@ -166,7 +166,7 @@ The physicochemical properties of the rearing environment, which directly drive 
 
 **What it is:**
 
-Data capturing presence, spread, and impact of pathogens, parasites, and disease outbreaks — central to biosecurity and epidemiological modeling.
+Data capturing presence, spread, and impact of pathogens, parasites, and disease outbreaks, central to biosecurity and epidemiological modeling.
 
 ---
 
@@ -174,7 +174,7 @@ Data capturing presence, spread, and impact of pathogens, parasites, and disease
 
 | Category | Metrics |
 |----------|---------|
-| **Pathogen load** | Pathogen load / prevalence (bacterial, viral, parasitic — e.g., sea lice counts) |
+| **Pathogen load** | Pathogen load/prevalence (bacterial, viral, parasitic, e.g. sea lice counts) |
 | **Mortality** | Mortality and morbidity rates, time-series of daily mortality |
 | **Pathology** | Histopathology scores (gill, liver, kidney lesions) |
 | **Diagnostics** | PCR/qPCR Ct values, ELISA titers, culture results |
@@ -266,7 +266,7 @@ Post-harvest measurements describing the physical and sensory attributes of the 
 
 **What it is:**
 
-Detailed biochemical/nutritional profile of the fish flesh — relevant to nutrition science, product labeling, and feed R&D.
+Detailed biochemical/nutritional profile of the fish flesh, relevant to nutrition science, product labeling, and feed R&D.
 
 ---
 
@@ -322,7 +322,7 @@ Detailed biochemical/nutritional profile of the fish flesh — relevant to nutri
 | Welfare score (skin, fin, eye) | OWI score (0–3 or categorical) | No numeric legal threshold; scored via Nofima's Welfare Indicator protocol | 🟡 Guideline | Noble et al., 2018 (Nofima WFI) |
 | Plasma cortisol (acute stress) | ng/mL | Baseline ~5–20; >50–100 indicates acute stress | 🟡 Guideline | Aquaculture physiology literature |
 | Condition factor (K) | dimensionless | 1.0–1.4 typical healthy range for salmon | 🟡 Guideline | Standard fisheries biology reference |
-| Mortality rate | % per period (weekly/monthly) | No fixed cap, but must be recorded and reported; sustained elevated mortality triggers inspection | 🔴 Reporting obligation | Akvakulturdriftsforskriften |
+| Mortality rate | % per period (weekly/monthly) | No fixed cap, but must be recorded and reported; sustained elevated mortality triggers inspection | 🔴 Reporting obligation | Akvakulturdriftsforskriften(https://lovdata.no/dokument/SF/forskrift/2008-06-17-822) |
 
 ---
 
@@ -350,8 +350,8 @@ Detailed biochemical/nutritional profile of the fish flesh — relevant to nutri
 | Adult female sea lice per fish (ASC certification) | avg. lice/fish/farm | < 0.1 during sensitive out-migration period | ⚪ Certification | ASC Salmon Standard |
 | Sea lice counting frequency | counts/week | Weekly if water temp > 4°C; biweekly if ≤ 4°C; min. 10–20 fish/cage sampled | 🔴 Legal requirement | Forskrift om lakselusbekjempelse |
 | PCR/qPCR diagnostic result | Ct value | Lab/pathogen-specific; no universal numeric standard, interpreted per assay | 🟡 Lab-specific | Veterinærinstituttet diagnostic protocols |
-| Notifiable disease status (e.g., ILA, PD, IPN) | presence/absence | Zero-tolerance — must be reported immediately on suspicion/confirmation | 🔴 Legal (notifiable) | Norwegian Food Safety Authority (Mattilsynet) list |
-| Biomass cap per license/production area | tonnes MAB (Maximum Allowed Biomass) | Site/region-specific, tied to the "Traffic Light System" (green/yellow/red risk zones) | 🔴 Legal | Produksjonsområdeforskriften |
+| Notifiable disease status (e.g., ILA, PD, IPN) | presence/absence | Zero-tolerance; must be reported immediately on suspicion/confirmation | 🔴 Legal (notifiable) | Norwegian Food Safety Authority (Mattilsynet) list |
+| Biomass cap per license/production area | tonnes MAB (Maximum Allowed Biomass) | Site/region-specific, tied to the "Traffic Light System" (green/yellow/red risk zones) | 🔴 Legal | Produksjonsområdeforskriften(https://lovdata.no/dokument/SF/forskrift/2017-01-16-61) |
 
 ---
 
@@ -359,10 +359,10 @@ Detailed biochemical/nutritional profile of the fish flesh — relevant to nutri
 
 | Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
 |--------|------|---------------------------|------|----------------|
-| Quality grade | categorical: Superior / Ordinary / Production | Superior: no significant defects; Ordinary: minor defects; Production: fails above criteria — cannot be exported un-processed | 🔴 Legal grading system | Kvalitetsforskriften for fisk og fiskevarer |
+| Quality grade | categorical: Superior / Ordinary / Production | Superior: no significant defects; Ordinary: minor defects; Production: fails above criteria — cannot be exported unprocessed | 🔴 Legal grading system | Kvalitetsforskriften for fisk og fiskevarer |
 | Superior-grade typical yield (industry) | % of harvest | Historically ~90–97%, though recent years show ~30–33% falling to Production grade | 🟡 Reported (varies by year/site) | SalmonBusiness / SeafoodSource industry reporting (2024) |
 | Color (pigmentation) | SalmoFan™ score (1–34 scale) | ~24–26 typically associated with premium/superior appearance | 🟡 Industry guideline (not law) | Industry grading practice |
-| Gaping / melanin deposits / bruising | categorical severity | Presence of any disqualifies from Superior; degree determines Ordinary vs. Production | 🔴 Legal grading criterion | Kvalitetsforskriften |
+| Gaping / melanin deposits / bruising | categorical severity | Presence of any disqualifies from Superior; degree determines Ordinary vs. Production | 🔴 Legal grading criterion | Kvalitetsforskriften (https://lovdata.no/dokument/SF/forskrift/2013-06-28-844) |
 
 ---
 
