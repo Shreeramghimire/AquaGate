@@ -4,7 +4,7 @@ Feed and nutrition data describe everything that goes into the feed and how that
 
 The two domains are tightly linked: feed formulation is the primary lever farms pull to influence growth, disease resistance, and fillet composition, so this domain is really the "input" side of the story your fish health repository already covers on the "output" side.
 
-This document breaks feed data into four sub-domains, following the same structure as before: what it is → metrics → how it's collected → equipment → how it's used.
+This document breaks feed data into four sub-domains, following the structure: what it is → metrics → how it's collected → equipment → how it's used.
 
 ---
 
@@ -33,7 +33,7 @@ The recipe itself: which raw materials used and at what inclusion rate, plus whe
 | **Marine ingredients** | Fishmeal %, fish oil %, marine ingredient share |
 | **Plant-based ingredients** | Soy protein concentrate, wheat gluten, rapeseed/canola oil, pea protein, etc. |
 | **Novel/alternative ingredients** | Insect meal, single-cell protein, microalgae, byproduct meals |
-| **Sustainability** | Fish-in-fish-out ratio (FIFO) — kg of wild fish used per kg of farmed fish produced |
+| **Sustainability** | Fish-in-fish-out ratio (FIFO): kg of wild fish used per kg of farmed fish produced |
 | **Traceability** | Ingredient origin/traceability (supplier, region, certification status e.g. MarinTrust, RTRS soy) |
 
 ---
@@ -173,7 +173,7 @@ How the feed actually performs once it's fed to real fish, and this is where fee
 |----------|---------|
 | **Feed efficiency** | Feed conversion ratio (FCR): kg feed fed / kg biomass gained |
 | **Growth** | Specific growth rate (SGR, % body weight/day) |
-| **Digestibility** | Apparent digestibility coefficient (ADC, % — per nutrient) |
+| **Digestibility** | Apparent digestibility coefficient (ADC) |
 | **Feed intake** | Feed intake rate (% body weight/day) |
 | **Economics** | Economic feed conversion (feed cost per kg gain) |
 | **Health correlation** | Health/disease outcome correlation (e.g., mortality or lice resistance under a functional feed trial) |
@@ -285,7 +285,7 @@ Most feed formulation metrics are **guidelines or industry standards**, not lega
 
 #### 1. Binding Limits Are Additive/Contaminant Ceilings, Not Nutrient Targets
 
-Most binding numeric limits in feed formulation are additive/contaminant ceilings, not nutrient targets. Norway (via the EEA Agreement) directly applies EU feed additive authorizations and Directive 2002/32/EC contaminant limits — these are the most law-backed, auditable fields:
+Most binding numeric limits in feed formulation are additive/contaminant ceilings, not nutrient targets. Norway (via the EEA Agreement) directly applies EU feed additive authorizations and Directive 2002/32/EC contaminant limits where these are the most law-backed, auditable fields:
 
 - **Astaxanthin / carotenoid sum**
 - **Vitamin D3**
@@ -297,11 +297,7 @@ These are enforceable, auditable limits.
 
 #### 2. Nutritional Specification Is Formulation Practice, Not Law
 
-Nutritional specification (protein %, fat %, energy) is formulation practice, not law. There is no Norwegian statute saying salmon feed must be 38% protein — these numbers reflect what feed companies (Skretting, BioMar, Cargill/EWOS) and researchers (Nofima) currently formulate to achieve target growth and FCR.
-
-| Field | Treatment in Schema |
-|-------|---------------------|
-| Protein %, fat %, energy | `recommended_range` (not `legal_limit`) |
+Nutritional specification (protein %, fat %, energy) is formulation practice, not law. There is no Norwegian statute saying salmon feed must be 38% protein. These numbers reflect what feed companies (Skretting, BioMar, Cargill/EWOS) and researchers (Nofima) currently formulate to achieve target growth and FCR.
 
 ---
 
@@ -319,8 +315,7 @@ FIFO ratio and marine ingredient sourcing are sustainability metrics, not regula
 
 #### 4. Residue/MRL Limits Bridge Feed Formulation and Fillet Composition
 
-Residue/MRL limits (like the 5 mg/kg canthaxanthin+adonirubin in muscle) are the bridge back to your fillet chemical composition domain. This is a good example of one regulatory number touching **two of your five original data domains**:
-
+Residue/MRL limits (like the 5 mg/kg canthaxanthin+adonirubin in muscle) are the bridge back to fillet chemical composition domain. 
 | Domain | Role |
 |--------|------|
 | **Feed Formulation** | Input (additive inclusion rate) |
