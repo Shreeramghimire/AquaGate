@@ -1,4 +1,4 @@
-# AquaGate: Mapping the Digital Landscape of Aquaculture in Norway and Beyond
+# AquaGate: Mapping the Digital Landscape of Aquaculture Data in Norway and Beyond
 
 **AquaGate** is an independent research and reporting project that explores the digital systems in use within the Norwegian aquaculture industry across four core domains:
 
