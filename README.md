@@ -3,7 +3,7 @@
 **AquaGate** is an independent research and reporting project that explores the digital systems in use within the Norwegian aquaculture industry across four core domains:
 
 1. **Fish Health Monitoring**
-2. **Feed Formulation**
+2. **Feed and Nutrition**
 3. **Production Planning**
 4. **Selective Breeding & Genetics**
 
