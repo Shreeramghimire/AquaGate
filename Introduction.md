@@ -40,9 +40,9 @@ AquaGate/
 │
 ├── Introduction.md                       ← Project overview (this file)
 ├── Fish Health Monitoring.md             ← First Part
-├── Feed and Nutrition                    ← Second Part
-├── Production Planning                   ← Third Part
-└── Selective Breeding & Genetics         ← Fourth Part
+├── Feed and Nutrition.md                 ← Second Part
+├── Production Planning.md                ← Third Part
+└── Selective Breeding & Genetics.md      ← Fourth Part
 
 
 
