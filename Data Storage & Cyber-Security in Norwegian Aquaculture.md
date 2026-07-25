@@ -195,5 +195,16 @@ If your company operates aquaculture production at meaningful scale, you may alr
 
 If a system goes down or data is compromised, there needs to be a clear internal process for recognizing that fast and getting it reported to NSM within that window — not figuring out the process for the first time during an actual incident.
 
+**3. Vendor dependency is now a direct cybersecurity exposure**
+
+Since most Norwegian farms run on a small number of shared vendor platforms (Fishtalk/AKVA, Mercatus/ScaleAQ), a single vendor-side breach (as already happened with AKVA in 2021) can affect production planning, feeding schedules, and health records across many farms simultaneously.
+
+**Practical action:**
+
+> Ask your vendors directly:
+> - What's their own incident history?
+> - What's their contractual commitment on breach notification timing to you, given you may need to pass that information to NSM within 24 hours yourself?
+
+
 
 
