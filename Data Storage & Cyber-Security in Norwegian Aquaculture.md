@@ -205,6 +205,10 @@ Since most Norwegian farms run on a small number of shared vendor platforms (Fis
 > - What's their own incident history?
 > - What's their contractual commitment on breach notification timing to you, given you may need to pass that information to NSM within 24 hours yourself?
 
+**4. The broader seafood sector is a recognized ransomware target**
 
+Industry cybersecurity commentary specifically flags that a fish processing/packaging operation shut down for days or weeks is exactly the kind of operational pain ransomware actors price their demands around, since the cost of downtime (spoiling product, missed harvest windows) creates strong pressure to pay quickly.
+
+---
 
 
