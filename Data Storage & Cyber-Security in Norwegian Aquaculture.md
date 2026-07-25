@@ -150,7 +150,7 @@ Norway's regulatory reporting is moving in the same direction; the Mattilsynet A
 
 ---
 
-**AKVA Group ASA** — the company behind Fishtalk, the farm management system with an estimated ~60% market share among Norwegian salmon farmers — was hit by a cyberattack on **10 January 2021** that took down several key systems and cost the company **NOK 49.7 million (roughly USD 6 million)** in Q1 2021 losses alone.
+**AKVA Group ASA**, the company behind Fishtalk, the farm management system with an estimated ~60% market share among Norwegian salmon farmers, was hit by a cyberattack on **10 January 2021** that took down several key systems and cost the company **NOK 49.7 million (roughly USD 6 million)** in Q1 2021 losses alone.
 
 AKVA worked with Norwegian authorities to contain it and declined to confirm publicly whether a ransom was paid.
 
