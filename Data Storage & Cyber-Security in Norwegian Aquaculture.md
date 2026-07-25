@@ -87,4 +87,63 @@ This reflects an industry-wide move away from single-vendor data lock-in.
 | Multi-vendor integration is expected | Farmers can (and do) mix and match hardware, software, and analytics vendors |
 | Reference architectures exist | Cognite's data lake → knowledge graph pattern is a proven model for aquaculture data |
 
-The shift is both vendor-driven (AKVA's own ERP migration) and farmer-driven (open API expectations from ScaleAQ customers) — suggesting the industry is converging on a cloud-native, API-first, multi-vendor data ecosystem.
+The shift is both vendor-driven (AKVA's own ERP migration) and farmer-driven (open API expectations from ScaleAQ customers), suggesting the industry is converging on a cloud-native, API-first, multi-vendor data ecosystem.
+
+---
+
+## What This Means Practically for Someone Working in the Industry
+
+---
+
+#### 1. Your Farm's Data Is No Longer On-Premises
+
+Your farm's data almost certainly isn't sitting on a server in your own building anymore — it's on a vendor's cloud infrastructure (increasingly AWS-based, based on the vendors examined here), accessed via a browser or app.
+
+**Implications:**
+
+| Responsibility | Who Handles It |
+|----------------|----------------|
+| Backups | Vendor (under service agreement) |
+| Uptime / availability | Vendor (under SLA) |
+| Breach response | Vendor (under service agreement) |
+
+This is a shift from **self-managed risk** to **vendor-managed risk** — but it's still **your data**, and you remain legally responsible for it under GDPR and Norwegian data protection law.
+
+---
+
+#### 2. Open APIs Are Becoming Standard
+
+Open APIs are becoming standard, which is good for interoperability but means your data is designed to flow between more systems than before.
+
+**Practical action:**
+
+> Worth knowing exactly which third parties have API access to your farm's data, and reviewing that list periodically.
+
+| Action | Frequency |
+|--------|-----------|
+| Review third-party API access list | At least quarterly |
+| Audit which systems have API keys | Before signing any new vendor contract |
+| Check what data each integration can access | Whenever a new system is added |
+
+---
+
+#### 3. Regulatory Reporting Is Moving to Machine-to-Machine
+
+Norway's regulatory reporting is moving the same direction — the Mattilsynet API replacing Altinn manual forms means your farm software may soon report directly to government systems without a human checkpoint in between.
+
+**The Trade-off:**
+
+| Aspect | Benefit | Risk |
+|--------|---------|------|
+| **Efficiency** | Data flows automatically; no manual re-entry | A bad data entry propagates automatically rather than getting caught at manual submission |
+| **Error checking** | Fewer transcription errors | The error-checking dynamic changes — you need to catch errors at the source system level, not the reporting step |
+
+---
+
+### Summary
+
+| Shift | What It Means |
+|-------|---------------|
+| **Data is cloud-hosted** | Vendors manage infrastructure, but you remain legally responsible for your data |
+| **Open APIs are standard** | Your data flows between more systems — audit third-party access regularly |
+| **Regulatory reporting is automated** | Efficient, but error-checking has shifted upstream to source systems |
