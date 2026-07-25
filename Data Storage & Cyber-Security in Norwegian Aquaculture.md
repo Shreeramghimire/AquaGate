@@ -1,6 +1,6 @@
 # Data Storage & Cybersecurity in Norwegian Aquaculture's Digital Systems
 
-This file presents two piece of informations: **where does aquaculture data actually live** and **what are the real, current cybersecurity stakes**
+This file presents two piece of informations: **where does aquaculture data actually live** and **what are the real, current cybersecurity stakes.**
 
 ---
 
@@ -185,17 +185,11 @@ If your company operates aquaculture production at meaningful scale, you may alr
 
 **2. The 24-hour reporting clock is the practical thing to plan for**
 
-If a system goes down or data is compromised, there needs to be a clear internal process for recognizing that fast and getting it reported to NSM within that window — not figuring out the process for the first time during an actual incident.
+If a system goes down or data is compromised, there needs to be a clear internal process for recognizing that fast and getting it reported to NSM within that window, not figuring out the process for the first time during an actual incident.
 
 **3. Vendor dependency is now a direct cybersecurity exposure**
 
 Since most Norwegian farms run on a small number of shared vendor platforms (Fishtalk/AKVA, Mercatus/ScaleAQ), a single vendor-side breach (as already happened with AKVA in 2021) can affect production planning, feeding schedules, and health records across many farms simultaneously.
-
-**Practical action:**
-
-> Ask your vendors directly:
-> - What's their own incident history?
-> - What's their contractual commitment on breach notification timing to you, given you may need to pass that information to NSM within 24 hours yourself?
 
 **4. The broader seafood sector is a recognized ransomware target**
 
@@ -220,7 +214,7 @@ Industry cybersecurity commentary specifically flags that a fish processing/pack
 
 | Priority | Action |
 |----------|--------|
-| **Immediate** | Determine whether your company falls under NIS2 scope |
+| **Immediate** | Determine whether the company falls under NIS2 scope |
 | **Immediate** | Establish internal incident response procedures that meet the 24-hour reporting requirement |
 | **Near-term** | Review vendor agreements for breach notification terms and cybersecurity commitments |
 | **Near-term** | Conduct a cybersecurity risk assessment of your network and information systems |
