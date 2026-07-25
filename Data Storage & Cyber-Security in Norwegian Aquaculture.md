@@ -224,3 +224,12 @@ Industry cybersecurity commentary specifically flags that a fish processing/pack
 ---
 
 
+### Recommended Actions
+
+| Priority | Action |
+|----------|--------|
+| **Immediate** | Determine whether your company falls under NIS2 scope |
+| **Immediate** | Establish internal incident response procedures that meet the 24-hour reporting requirement |
+| **Near-term** | Review vendor agreements for breach notification terms and cybersecurity commitments |
+| **Near-term** | Conduct a cybersecurity risk assessment of your network and information systems |
+| **Ongoing** | Treat vendor dependency as a cybersecurity risk, not just an operational one |
