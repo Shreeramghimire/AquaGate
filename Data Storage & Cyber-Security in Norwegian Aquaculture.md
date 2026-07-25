@@ -191,3 +191,9 @@ If your company operates aquaculture production at meaningful scale, you may alr
 
 > *"If Norway counts your firm as critical, you have had legal digital-security duties since October 2025, and most boards have not noticed."*
 
+**2. The 24-hour reporting clock is the practical thing to plan for**
+
+If a system goes down or data is compromised, there needs to be a clear internal process for recognizing that fast and getting it reported to NSM within that window — not figuring out the process for the first time during an actual incident.
+
+
+
