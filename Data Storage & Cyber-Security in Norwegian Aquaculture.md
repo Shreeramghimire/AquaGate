@@ -147,3 +147,38 @@ Norway's regulatory reporting is moving the same direction — the Mattilsynet A
 | **Data is cloud-hosted** | Vendors manage infrastructure, but you remain legally responsible for your data |
 | **Open APIs are standard** | Your data flows between more systems; audit third-party access regularly |
 | **Regulatory reporting is automated** | Efficient, but error-checking has shifted upstream to source systems |
+
+### System-Level Cybersecurity & Data Protection
+
+---
+
+#### The Single Most Important Fact for This Section
+
+This isn't hypothetical for Norwegian aquaculture — it has already happened to the sector's leading technology vendor.
+
+**AKVA Group ASA** — the company behind Fishtalk, the farm management system with an estimated ~60% market share among Norwegian salmon farmers — was hit by a cyberattack on **10 January 2021** that took down several key systems and cost the company **NOK 49.7 million (roughly USD 6 million)** in Q1 2021 losses alone.
+
+AKVA worked with Norwegian authorities to contain it and declined to confirm publicly whether a ransom was paid.
+
+**Why this matters:**
+
+> This is worth treating as the sector's own case study, not an abstract "cybersecurity is important" warning — if the dominant vendor's own systems went down, every farm depending on that vendor's software for daily production planning was exposed to the same disruption.
+
+---
+
+#### The Regulatory Landscape Just Changed
+
+Norway's **Digital Security Act (Digitalsikkerhetsloven)** — the national implementation of the EU's NIS/NIS2 cybersecurity framework — entered into force on **1 October 2025**, with no grace period.
+
+This is directly relevant to aquaculture specifically:
+
+| Aspect | Detail |
+|--------|--------|
+| **Sector classification** | Under the EU/EEA NIS2 classification, **food** — explicitly including the aquaculture/salmon sector — is named as an **"important"** (not just "essential") covered sector |
+| **Implication** | Aquaculture companies above a certain scale are now, or will soon be, legally in scope for baseline cybersecurity risk management and incident reporting obligations, not just voluntary best practice |
+| **Coordinating body** | **Nasjonal sikkerhetsmyndighet (NSM)** — Norway's National Security Authority — acts as the national coordinating body and CSIRT |
+| **Incident reporting** | Companies in scope must follow a structured timeline: 24-hour initial notification → 72-hour fuller report → 30-day final report |
+| **Core obligations** | Perform risk assessments of network/information systems and be able to demonstrate (not just claim) that security risk is being actively managed |
+
+---
+
