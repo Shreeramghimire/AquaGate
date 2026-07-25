@@ -148,7 +148,7 @@ Norway's regulatory reporting is moving the same direction — the Mattilsynet A
 | **Open APIs are standard** | Your data flows between more systems; audit third-party access regularly |
 | **Regulatory reporting is automated** | Efficient, but error-checking has shifted upstream to source systems |
 
-### System-Level Cybersecurity & Data Protection
+## System-Level Cybersecurity & Data Protection
 
 ---
 
