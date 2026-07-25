@@ -50,7 +50,7 @@ Industry market data puts SaaS software at roughly **48% of the entire aquacultu
 
 AKVA Group moved its own internal ERP from on-premises systems to a cloud-based platform (a 10-year SaaS agreement, ~NOK 100 million) specifically framed as "business-critical" to its digitalization strategy.
 
-Its farmer-facing product, **Fishtalk**, has itself been rebuilt as a cloud/browser-based system with open APIs (Fishtalk 5) — a change from its historically more locally-installed footprint.
+Its farmer-facing product, **Fishtalk**, has itself been rebuilt as a cloud/browser-based system with open APIs (Fishtalk 5); a change from its historically more locally-installed footprint.
 
 ---
 
