@@ -12,7 +12,7 @@ Different types of aquaculture data have fundamentally different storage require
 
 | Data Category | Examples | Storage Characteristic |
 |---------------|----------|------------------------|
-| **High-frequency sensor / time-series data** | Water quality readings, camera feeds, feeding sensor logs | Huge volume, append-only, rarely edited after the fact — needs time-series-optimized storage, not a plain relational table |
+| **High-frequency sensor / time-series data** | Water quality readings, camera feeds, feeding sensor logs | Huge volume, append-only, rarely edited after the fact, needs time-series-optimized storage, not a plain relational table |
 | **Transactional / event data** | Stocking events, treatments, harvest records, disease diagnoses | Lower volume, but relationship-heavy (needs joins across batch/site/family) — this is what relational databases are built for |
 | **Media / unstructured data** | Underwater camera footage, X-ray/ultrasound images (breeding), 3D fillet-grading scans | Very large file sizes, usually stored separately from the structured data that references it (object storage + a pointer/URL in the database) |
 
@@ -95,9 +95,9 @@ The shift is both vendor-driven (AKVA's own ERP migration) and farmer-driven (op
 
 ---
 
-#### 1. Your Farm's Data Is No Longer On-Premises
+#### 1. Farm's Data Is No Longer On-Premises
 
-Your farm's data almost certainly isn't sitting on a server in your own building anymore — it's on a vendor's cloud infrastructure (increasingly AWS-based, based on the vendors examined here), accessed via a browser or app.
+Farm's data almost certainly isn't sitting on a server in its own building anymore; it's on a vendor's cloud infrastructure (increasingly AWS-based, based on the vendors examined here), accessed via a browser or app.
 
 **Implications:**
 
@@ -107,7 +107,7 @@ Your farm's data almost certainly isn't sitting on a server in your own building
 | Uptime / availability | Vendor (under SLA) |
 | Breach response | Vendor (under service agreement) |
 
-This is a shift from **self-managed risk** to **vendor-managed risk** — but it's still **your data**, and you remain legally responsible for it under GDPR and Norwegian data protection law.
+This is a shift from **self-managed risk** to **vendor-managed risk**, but it's still **someone´s data**, and he or she remaina legally responsible for it under GDPR and Norwegian data protection law.
 
 ---
 
@@ -129,14 +129,14 @@ Open APIs are becoming standard, which is good for interoperability but means yo
 
 #### 3. Regulatory Reporting Is Moving to Machine-to-Machine
 
-Norway's regulatory reporting is moving the same direction — the Mattilsynet API replacing Altinn manual forms means your farm software may soon report directly to government systems without a human checkpoint in between.
+Norway's regulatory reporting is moving in the same direction; the Mattilsynet API replacing Altinn manual forms means your farm software may soon report directly to government systems without a human checkpoint in between.
 
 **The Trade-off:**
 
 | Aspect | Benefit | Risk |
 |--------|---------|------|
 | **Efficiency** | Data flows automatically; no manual re-entry | A bad data entry propagates automatically rather than getting caught at manual submission |
-| **Error checking** | Fewer transcription errors | The error-checking dynamic changes — you need to catch errors at the source system level, not the reporting step |
+| **Error checking** | Fewer transcription errors | The error-checking dynamic changes; we need to catch errors at the source system level, not the reporting step |
 
 ---
 
@@ -152,31 +152,23 @@ Norway's regulatory reporting is moving the same direction — the Mattilsynet A
 
 ---
 
-#### The Single Most Important Fact for This Section
-
-This isn't hypothetical for Norwegian aquaculture — it has already happened to the sector's leading technology vendor.
-
 **AKVA Group ASA** — the company behind Fishtalk, the farm management system with an estimated ~60% market share among Norwegian salmon farmers — was hit by a cyberattack on **10 January 2021** that took down several key systems and cost the company **NOK 49.7 million (roughly USD 6 million)** in Q1 2021 losses alone.
 
 AKVA worked with Norwegian authorities to contain it and declined to confirm publicly whether a ransom was paid.
-
-**Why this matters:**
-
-> This is worth treating as the sector's own case study, not an abstract "cybersecurity is important" warning — if the dominant vendor's own systems went down, every farm depending on that vendor's software for daily production planning was exposed to the same disruption.
 
 ---
 
 #### The Regulatory Landscape Just Changed
 
-Norway's **Digital Security Act (Digitalsikkerhetsloven)** — the national implementation of the EU's NIS/NIS2 cybersecurity framework — entered into force on **1 October 2025**, with no grace period.
+Norway's **Digital Security Act (Digitalsikkerhetsloven)**, the national implementation of the EU's NIS/NIS2 cybersecurity framework, entered into force on **1 October 2025**, with no grace period.
 
 This is directly relevant to aquaculture specifically:
 
 | Aspect | Detail |
 |--------|--------|
-| **Sector classification** | Under the EU/EEA NIS2 classification, **food** — explicitly including the aquaculture/salmon sector — is named as an **"important"** (not just "essential") covered sector |
+| **Sector classification** | Under the EU/EEA NIS2 classification, **food**, explicitly including the aquaculture/salmon sector, is named as an **"important"** (not just "essential") covered sector |
 | **Implication** | Aquaculture companies above a certain scale are now, or will soon be, legally in scope for baseline cybersecurity risk management and incident reporting obligations, not just voluntary best practice |
-| **Coordinating body** | **Nasjonal sikkerhetsmyndighet (NSM)** — Norway's National Security Authority — acts as the national coordinating body and CSIRT |
+| **Coordinating body** | **Nasjonal sikkerhetsmyndighet (NSM)** — Norway's National Security Authority acts as the national coordinating body and CSIRT |
 | **Incident reporting** | Companies in scope must follow a structured timeline: 24-hour initial notification → 72-hour fuller report → 30-day final report |
 | **Core obligations** | Perform risk assessments of network/information systems and be able to demonstrate (not just claim) that security risk is being actively managed |
 
