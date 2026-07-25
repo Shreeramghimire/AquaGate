@@ -182,3 +182,12 @@ This is directly relevant to aquaculture specifically:
 
 ---
 
+
+#### What This Means Practically for Someone Working in the Industry
+
+**1. You may already be a regulated entity**
+
+If your company operates aquaculture production at meaningful scale, you may already be a legally "regulated entity" under this Act, whether or not anyone has explicitly told you that yet.
+
+> *"If Norway counts your firm as critical, you have had legal digital-security duties since October 2025, and most boards have not noticed."*
+
