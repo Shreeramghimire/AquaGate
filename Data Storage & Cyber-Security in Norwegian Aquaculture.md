@@ -211,4 +211,16 @@ Industry cybersecurity commentary specifically flags that a fish processing/pack
 
 ---
 
+### Summary
+
+| Risk Factor | Implication |
+|-------------|-------------|
+| **Historical incident** | AKVA breach (2021) demonstrates real, demonstrated vulnerability in the sector |
+| **Regulatory change** | NIS2/Digital Security Act now imposes legal obligations on aquaculture companies |
+| **24-hour timeline** | Incident response processes need to be in place *before* an incident occurs |
+| **Vendor concentration** | A single vendor breach can affect multiple farms simultaneously |
+| **Ransomware targeting** | Seafood sector is a recognized target due to time-sensitive operations |
+
+---
+
 
