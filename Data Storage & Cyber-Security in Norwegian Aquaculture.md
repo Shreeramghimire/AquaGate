@@ -42,8 +42,6 @@ The right architecture stores **each type where it belongs**, with the relationa
 
 This is the clearest finding from the market landscape: software-as-a-service is now the default, not an exception.
 
-Industry market data puts SaaS software at roughly **48% of the entire aquaculture data platform market by value**, and the shift among Norwegian vendors specifically has been recent and deliberate.
-
 ---
 
 #### AKVA Group
