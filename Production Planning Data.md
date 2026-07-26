@@ -209,7 +209,7 @@ The data bridging the two planning stages, a single, high-stakes event where res
 
 #### How It's Used
 
-- This is the natural place in our schema for a **stage transition field** — the same fish, same `batch_id`, but the record marks the switch from `facility_type = hatchery` to `facility_type = sea_cage`, and from engineered to natural hydrology
+- This is the natural place in our schema for a **stage transition field**, the same fish, same `batch_id`, but the record marks the switch from `facility_type = hatchery` to `facility_type = sea_cage`, and from engineered to natural hydrology
 
 ---
 
