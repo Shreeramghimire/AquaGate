@@ -166,7 +166,7 @@ This is directly relevant to aquaculture specifically:
 |--------|--------|
 | **Sector classification** | Under the EU/EEA NIS2 classification, **food**, explicitly including the aquaculture/salmon sector, is named as an **"important"** (not just "essential") covered sector |
 | **Implication** | Aquaculture companies above a certain scale are now, or will soon be, legally in scope for baseline cybersecurity risk management and incident reporting obligations, not just voluntary best practice |
-| **Coordinating body** | **Nasjonal sikkerhetsmyndighet (NSM)** — Norway's National Security Authority acts as the national coordinating body and CSIRT |
+| **Coordinating body** | **Nasjonal sikkerhetsmyndighet (NSM)**, Norway's National Security Authority acts as the national coordinating body and CSIRT |
 | **Incident reporting** | Companies in scope must follow a structured timeline: 24-hour initial notification → 72-hour fuller report → 30-day final report |
 | **Core obligations** | Perform risk assessments of network/information systems and be able to demonstrate (not just claim) that security risk is being actively managed |
 
