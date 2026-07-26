@@ -304,10 +304,10 @@ The regulatory framework governing where and how much biomass can be held, inclu
 
 | Application | Description |
 |-------------|-------------|
-| **Stocking decisions** | Every stocking decision has to check remaining MAB headroom at the site *before* committing a cohort; this is a hard constraint that on-growing planning has to clear before biology or logistics even enter the picture. Unlike the hatchery side, where the equivalent capacity check (biofilter loading) is an engineering constraint the operator can often expand by adding equipment, MAB is a **fixed legal ceiling** that can't be engineered around |
-| **Traffic light zone strategy** | Traffic light zone status directly shapes multi-year growth strategy: a green zone allows companies to bid for additional biomass allocation; a red zone forces reduction, this is as much a business-planning input as an operational one |
+| **Stocking decisions** | Every stocking decision must check remaining MAB headroom at the site *before* committing a cohort; this is a hard constraint that on-growing planning must clear before biology or logistics even enter the picture. Unlike the hatchery side, where the equivalent capacity check (biofilter loading) is an engineering constraint the operator can often expand by adding equipment, MAB is a **fixed legal ceiling** that can't be engineered around |
+| **Traffic light zone strategy** | Traffic light zone status directly shapes multi-year growth strategy: a green zone allows companies to bid for additional biomass allocation; a red zone forces reduction; this is as much a business-planning input as an operational one |
 | **Fallowing coordination** | Fallowing scheduling has to be coordinated across a company's site portfolio and, ideally, with neighboring operators' sites, since disease control benefits depend on synchronized rest periods rather than one site fallowing in isolation |
-| **Disease domain linkage** | This is the one part of production planning that ties most directly back to the **disease-related data domain**—MAB and fallowing exist primarily as sea lice and pathogen management tools, not pure production-capacity tools |
+| **Disease domain linkage** | This is the one part of production planning that ties most directly back to the **disease-related data domain**. MAB and fallowing exist primarily as sea lice and pathogen management tools, not pure production-capacity tools |
 
 ---
 ### 3c. Feeding Plan (Net Pen)
@@ -367,7 +367,7 @@ The adaptivity of net pen feeding, responding to current, appetite, and environm
 |----------|---------|
 | **Biomass** | Predicted vs. actual biomass, using TGC models calibrated to ambient (not controlled) sea temperature |
 | **Growth rate** | Specific growth rate (SGR) |
-| **Forecast error** | Biomass growth variance — typically wider than hatchery forecasts |
+| **Forecast error** | Biomass growth variance, typically wider than hatchery forecasts |
 
 #### How It's Used
 
