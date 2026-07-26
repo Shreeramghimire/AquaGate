@@ -69,7 +69,7 @@ This is the core of what makes hatchery planning different; these are **control 
 | **Water exchange** | Water exchange rate (tank volume turnovers per hour/day) |
 | **Specific flow** | Specific water flow relative to biomass (L/kg/min): scales with fish growth, actively re-planned as biomass increases |
 | **Stocking density** | Stocking density (kg/m³): typically 40–80 kg/m³ in RAS (vs. 25 kg/m³ legal cap in sea cages) |
-| **Dissolved oxygen** | DO (mg/L or % saturation) — actively dosed, not just monitored |
+| **Dissolved oxygen** | DO (mg/L or % saturation), actively dosed, not just monitored |
 | **Temperature** | Temperature (°C): actively controlled, manipulated to accelerate/delay smoltification |
 | **Photoperiod** | Hours light/dark: a planning lever unique to hatcheries, used to control smoltification timing |
 | **Water chemistry** | pH, total ammonia nitrogen (TAN), CO₂: managed via biofilter capacity and water exchange rate |
