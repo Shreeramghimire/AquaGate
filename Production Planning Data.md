@@ -133,7 +133,7 @@ This is the core of what makes hatchery planning different; these are **control 
 
 **What it is:**
 
-The day-to-day ration and feeding schedule decisions for cohorts in tanks — a planning task distinct from feed formulation (what's in the feed) and feed logistics (getting feed delivered); this is "how much, how often, adjusted for what."
+The day-to-day ration and feeding schedule decisions for cohorts in tanks, a planning task distinct from feed formulation (what's in the feed) and feed logistics (getting feed delivered); this is "how much, how often, adjusted for what."
 
 ---
 
