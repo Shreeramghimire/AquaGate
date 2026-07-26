@@ -170,7 +170,7 @@ The day-to-day ration and feeding schedule decisions for cohorts in tanks, a pla
 #### How It's Used
 
 - Sets the daily feed order at hatchery scale
-- Because the environment is controlled, a gap between planned and actual intake is a **fast, reliable early-warning signal**—feeding response is one of the first things to drop when fish are stressed, linking directly back to our fish health welfare domain.
+- Because the environment is controlled, a gap between planned and actual intake is a **fast, reliable early-warning signal**,feeding response is one of the first things to drop when fish are stressed, linking directly back to our fish health welfare domain.
 
 ---
 
