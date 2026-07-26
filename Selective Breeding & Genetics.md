@@ -27,7 +27,7 @@ This document follows the structure: what it is → metrics → how it's collect
 
 **What it is:**
 
-Identity and lineage data for breeding fish — the foundation everything else in this domain builds on, since you can't estimate a breeding value without knowing who's related to whom.
+Identity and lineage data for breeding fish, the foundation everything else in this domain builds on, since you can't estimate a breeding value without knowing who's related to whom.
 
 ---
 
