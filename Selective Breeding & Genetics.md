@@ -203,7 +203,7 @@ The statistical output that actually drives which fish get selected as parents, 
 #### How It's Used
 
 - **Decision layer:** Breeding candidates are ranked by selection index, and the top-ranked individuals (subject to inbreeding constraints) become the parents of the next generation
-- **Validation:** Genetic trend data is used to report and validate the breeding program's progress to stakeholders — e.g., demonstrating that disease resistance or growth rate has genuinely improved generation over generation, not just as a marketing claim but as a tracked, auditable number
+- **Validation:** Genetic trend data is used to report and validate the breeding program's progress to stakeholders e.g., demonstrating that disease resistance or growth rate has genuinely improved generation over generation, not just as a marketing claim but as a tracked, auditable number
 
 ---
 
