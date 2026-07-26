@@ -96,7 +96,7 @@ Direct measurements of traits on breeding candidates and their relatives; this i
 - Disease challenge tests in biosecure containment facilities, where sibling groups are exposed to a pathogen under controlled conditions and survival is recorded
 - Non-destructive imaging and sensor-based phenotyping for traits like fillet fat content (e.g., via X-ray or ultrasound-based body composition estimation on live fish)
 
-> **Note on sib testing:** Since we generally can't deliberately infect the actual breeding candidates, a portion of full-sibling family members serve as proxies — a method called "sib testing."
+> **Note on sib testing:** Since we generally can't deliberately infect the actual breeding candidates, a portion of full-sibling family members serve as proxies, a method called "sib testing."
 
 ---
 
