@@ -2,7 +2,7 @@
 
 ---
 
-### Overview
+## Overview
 
 Production planning in salmon aquaculture is really two distinct planning problems that happen to share a supply chain.
 
