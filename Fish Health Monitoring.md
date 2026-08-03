@@ -10,7 +10,7 @@ This document organizes fish health data into five core domains, and for each on
 - Equipment used
 - How it's applied
 
-### Fish Health Data Domains
+## Fish Health Data Domains
 
 | Domain | Scope |
 |--------|-------|
