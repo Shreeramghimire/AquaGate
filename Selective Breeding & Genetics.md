@@ -12,7 +12,7 @@ This document follows the structure: what it is → metrics → how it's collect
 
 ---
 
-### The Five Sub-Domains
+## The Five Sub-Domains
 
 | Sub-Domain | Scope |
 |------------|-------|
