@@ -21,7 +21,7 @@ This document breaks feed data into four sub-domains, following the structure: w
 
 **What it is:**
 
-The recipe itself: which raw materials used and at what inclusion rate, plus where those ingredients came from.
+The recipe itself: which raw materials are used and at what inclusion rate, plus where those ingredients came from.
 
 ---
 
