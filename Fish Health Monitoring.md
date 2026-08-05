@@ -60,7 +60,7 @@ Indicators of the fish's physiological and behavioral state, a proxy for stress,
 | Portable blood analyzers | Point-of-care lactate/glucose measurement |
 | ELISA kits | Cortisol assay in lab |
 
----
+----
 
 #### How It's Used
 
