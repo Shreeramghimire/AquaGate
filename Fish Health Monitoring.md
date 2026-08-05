@@ -1,5 +1,5 @@
 # Fish Health Monitoring
-
+----
 Fish health data is one of the richest and most heterogeneous data streams generated on a fish farm. It spans everything from real-time water chemistry to post-harvest fillet composition, and it's collected through a mix of sensors, manual sampling, imaging, and laboratory analysis.
 
 This document organizes fish health data into five core domains, and for each one covers:
