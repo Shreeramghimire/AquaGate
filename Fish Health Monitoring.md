@@ -345,13 +345,13 @@ Detailed biochemical/nutritional profile of the fish flesh, relevant to nutritio
 
 | Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
 |--------|------|---------------------------|------|----------------|
-| Adult female sea lice per fish (general) | avg. lice/fish/farm | < 0.5 at all times | 🔴 Legal max | Forskrift om lakselusbekjempelse |
-| Adult female sea lice per fish (spring wild-smolt migration window) | avg. lice/fish/farm | < 0.2 (window varies by region: wk 16–21 Trøndelag & south; wk 21–26 Nordland & north) | 🔴 Legal max | Forskrift om lakselusbekjempelse (2017 amendment) |
-| Adult female sea lice per fish (ASC certification) | avg. lice/fish/farm | < 0.1 during sensitive out-migration period | ⚪ Certification | ASC Salmon Standard |
-| Sea lice counting frequency | counts/week | Weekly if water temp > 4°C; biweekly if ≤ 4°C; min. 10–20 fish/cage sampled | 🔴 Legal requirement | Forskrift om lakselusbekjempelse |
-| PCR/qPCR diagnostic result | Ct value | Lab/pathogen-specific; no universal numeric standard, interpreted per assay | 🟡 Lab-specific | Veterinærinstituttet diagnostic protocols |
-| Notifiable disease status (e.g., ILA, PD, IPN) | presence/absence | Zero-tolerance; must be reported immediately on suspicion/confirmation | 🔴 Legal (notifiable) | Norwegian Food Safety Authority (Mattilsynet) list |
-| Biomass cap per license/production area | tonnes MAB (Maximum Allowed Biomass) | Site/region-specific, tied to the "Traffic Light System" (green/yellow/red risk zones) | 🔴 Legal | Produksjonsområdeforskriften(https://lovdata.no/dokument/SF/forskrift/2017-01-16-61) |
+| Adult female sea lice per fish (general) | avg. lice/fish/farm | < 0.5 at all times |  Legal max | Forskrift om lakselusbekjempelse |
+| Adult female sea lice per fish (spring wild-smolt migration window) | avg. lice/fish/farm | < 0.2 (window varies by region: wk 16–21 Trøndelag & south; wk 21–26 Nordland & north) |  Legal max | Forskrift om lakselusbekjempelse (2017 amendment) |
+| Adult female sea lice per fish (ASC certification) | avg. lice/fish/farm | < 0.1 during sensitive out-migration period |  Certification | ASC Salmon Standard |
+| Sea lice counting frequency | counts/week | Weekly if water temp > 4°C; biweekly if ≤ 4°C; min. 10–20 fish/cage sampled |  Legal requirement | Forskrift om lakselusbekjempelse |
+| PCR/qPCR diagnostic result | Ct value | Lab/pathogen-specific; no universal numeric standard, interpreted per assay |  Lab-specific | Veterinærinstituttet diagnostic protocols |
+| Notifiable disease status (e.g., ILA, PD, IPN) | presence/absence | Zero-tolerance; must be reported immediately on suspicion/confirmation |  Legal (notifiable) | Norwegian Food Safety Authority (Mattilsynet) list |
+| Biomass cap per license/production area | tonnes MAB (Maximum Allowed Biomass) | Site/region-specific, tied to the "Traffic Light System" (green/yellow/red risk zones) |  Legal | Produksjonsområdeforskriften(https://lovdata.no/dokument/SF/forskrift/2017-01-16-61) |
 
 ---
 
