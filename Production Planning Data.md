@@ -12,7 +12,7 @@ Production planning in salmon aquaculture is really two distinct planning proble
 
 ---
 
-### Stage Comparison
+## Stage Comparison
 
 | Stage | Environment | What is controlled | What we select for |
 |-------|-------------|------------------|---------------------|
