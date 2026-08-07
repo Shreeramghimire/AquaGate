@@ -359,10 +359,10 @@ Detailed biochemical/nutritional profile of the fish flesh, relevant to nutritio
 
 | Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
 |--------|------|---------------------------|------|----------------|
-| Quality grade | categorical: Superior / Ordinary / Production | Superior: no significant defects; Ordinary: minor defects; Production: fails above criteria — cannot be exported unprocessed | 🔴 Legal grading system | Kvalitetsforskriften for fisk og fiskevarer |
-| Superior-grade typical yield (industry) | % of harvest | Historically ~90–97%, though recent years show ~30–33% falling to Production grade | 🟡 Reported (varies by year/site) | SalmonBusiness / SeafoodSource industry reporting (2024) |
-| Color (pigmentation) | SalmoFan™ score (1–34 scale) | ~24–26 typically associated with premium/superior appearance | 🟡 Industry guideline (not law) | Industry grading practice |
-| Gaping / melanin deposits / bruising | categorical severity | Presence of any disqualifies from Superior; degree determines Ordinary vs. Production | 🔴 Legal grading criterion | Kvalitetsforskriften (https://lovdata.no/dokument/SF/forskrift/2013-06-28-844) |
+| Quality grade | categorical: Superior / Ordinary / Production | Superior: no significant defects; Ordinary: minor defects; Production: fails above criteria — cannot be exported unprocessed |  Legal grading system | Kvalitetsforskriften for fisk og fiskevarer |
+| Superior-grade typical yield (industry) | % of harvest | Historically ~90–97%, though recent years show ~30–33% falling to Production grade |  Reported (varies by year/site) | SalmonBusiness / SeafoodSource industry reporting (2024) |
+| Color (pigmentation) | SalmoFan™ score (1–34 scale) | ~24–26 typically associated with premium/superior appearance |  Industry guideline (not law) | Industry grading practice |
+| Gaping / melanin deposits / bruising | categorical severity | Presence of any disqualifies from Superior; degree determines Ordinary vs. Production |  Legal grading criterion | Kvalitetsforskriften (https://lovdata.no/dokument/SF/forskrift/2013-06-28-844) |
 
 ---
 
@@ -370,11 +370,11 @@ Detailed biochemical/nutritional profile of the fish flesh, relevant to nutritio
 
 | Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
 |--------|------|---------------------------|------|----------------|
-| Crude fat | % of fillet weight | Typically 12–20% in farmed Atlantic salmon (feed-dependent) | 🟡 Typical range (not regulated as a "limit") | Nutritional composition literature |
-| Crude protein | % of fillet weight | ~18–22% typical | 🟡 Typical range | Nutritional composition literature |
-| Omega-3 (EPA+DHA) | g/100g fillet | No legal minimum in Norway, but often reported/labeled; typical farmed salmon ~1–2 g/100g | 🟡 Typical/labeling | Nutrition science, food labeling practice |
-| Astaxanthin (pigment) | mg/kg flesh | Max permitted inclusion in feed regulated (EU/EFSA feed additive limits apply, ~100 mg/kg feed); flesh concentration not separately capped | 🔴 Feed additive regulated | EU/EFSA feed additive regulation (adopted in Norway via EEA) |
-| Contaminants (dioxins/PCBs, heavy metals) | ng/kg or mg/kg | Must comply with EU/EEA maximum levels (e.g., dioxins+DL-PCBs ≤ 3.5 pg WHO-TEQ/g fresh weight for fish) | 🔴 Legal (food safety) | EU Regulation on contaminants, applied via EEA |
+| Crude fat | % of fillet weight | Typically 12–20% in farmed Atlantic salmon (feed-dependent) |  Typical range (not regulated as a "limit") | Nutritional composition literature |
+| Crude protein | % of fillet weight | ~18–22% typical |  Typical range | Nutritional composition literature |
+| Omega-3 (EPA+DHA) | g/100g fillet | No legal minimum in Norway, but often reported/labeled; typical farmed salmon ~1–2 g/100g |  Typical/labeling | Nutrition science, food labeling practice |
+| Astaxanthin (pigment) | mg/kg flesh | Max permitted inclusion in feed regulated (EU/EFSA feed additive limits apply, ~100 mg/kg feed); flesh concentration not separately capped | Feed additive regulated | EU/EFSA feed additive regulation (adopted in Norway via EEA) |
+| Contaminants (dioxins/PCBs, heavy metals) | ng/kg or mg/kg | Must comply with EU/EEA maximum levels (e.g., dioxins+DL-PCBs ≤ 3.5 pg WHO-TEQ/g fresh weight for fish) |  Legal (food safety) | EU Regulation on contaminants, applied via EEA |
 
 ---
 
