@@ -221,9 +221,9 @@ Planning the seawater grow-out phase in open net pens sited in fjords or coastal
 
 ---
 
-### 3a. Site Selection & Hydrological Planning Parameters (Natural)
+### 3a. Site Selection & Hydrological Planning Parameters 
 
-This is the on-growing equivalent of section 1b, and the contrast is the point: these are **conditions you select for and monitor**, not variables we set.
+This is the on-growing equivalent of section 1b, and the contrast is the point: these are **conditions we select for and monitor**, not variables we set.
 
 #### Key Metrics
 
