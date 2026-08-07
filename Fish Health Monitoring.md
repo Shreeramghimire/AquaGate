@@ -330,14 +330,14 @@ Detailed biochemical/nutritional profile of the fish flesh, relevant to nutritio
 
 | Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
 |--------|------|---------------------------|------|----------------|
-| Dissolved oxygen (saturation) | % saturation | ≥ 80% recommended; welfare risk emerging below 70%; severe hypoxia risk < 60% | 🟡 Guideline | Havforskningsinstituttet (HI); Skagseth et al., 2025 |
-| Temperature | °C | Species/life-stage dependent; ~8–14°C optimal growth range for Atlantic salmon at sea | 🟡 Guideline | Standard salmon physiology literature |
-| CO₂ (dissolved) | mg/L | ≤ 10–15 mg/L (restrictive operational limit) | 🟡 Guideline | Thorarensen & Farrell, 2011 |
-| Total ammonia nitrogen (TAN) | mg N/L | Recommended kept low; safe operational target generally < 1–2 mg/L un-ionized | 🟡 Guideline | Norwegian Food Safety Authority / Fivelstad et al. |
-| pH | pH units | ~6.5–8.0 (species/life-stage tolerant range) | 🟡 Guideline | Nofima freshwater intake studies |
-| Labile (inorganic) aluminium | µg/L | ≤ 10 µg/L (in low-pH water) | 🟡 Guideline | Norwegian freshwater intake water quality studies |
-| Salinity | ‰ (PSU) | Full seawater ~34‰ for grow-out; life-stage dependent | 🟡 Guideline | Standard production practice |
-| Specific water flow (RAS/flow-through) | L/kg fish/min | 0.2–0.6 typical operational range depending on system and season | 🟡 Guideline | Nofima RAS/S-CCS studies |
+| Dissolved oxygen (saturation) | % saturation | ≥ 80% recommended; welfare risk emerging below 70%; severe hypoxia risk < 60% |  Guideline | Havforskningsinstituttet (HI); Skagseth et al., 2025 |
+| Temperature | °C | Species/life-stage dependent; ~8–14°C optimal growth range for Atlantic salmon at sea |  Guideline | Standard salmon physiology literature |
+| CO₂ (dissolved) | mg/L | ≤ 10–15 mg/L (restrictive operational limit) |  Guideline | Thorarensen & Farrell, 2011 |
+| Total ammonia nitrogen (TAN) | mg N/L | Recommended kept low; safe operational target generally < 1–2 mg/L un-ionized |  Guideline | Norwegian Food Safety Authority / Fivelstad et al. |
+| pH | pH units | ~6.5–8.0 (species/life-stage tolerant range) |  Guideline | Nofima freshwater intake studies |
+| Labile (inorganic) aluminium | µg/L | ≤ 10 µg/L (in low-pH water) |  Guideline | Norwegian freshwater intake water quality studies |
+| Salinity | ‰ (PSU) | Full seawater ~34‰ for grow-out; life-stage dependent |  Guideline | Standard production practice |
+| Specific water flow (RAS/flow-through) | L/kg fish/min | 0.2–0.6 typical operational range depending on system and season |  Guideline | Nofima RAS/S-CCS studies |
 
 ---
 
