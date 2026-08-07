@@ -317,12 +317,12 @@ Detailed biochemical/nutritional profile of the fish flesh, relevant to nutritio
 
 | Metric | Unit | Acceptable Range (Norway) | Type | Source / Basis |
 |--------|------|---------------------------|------|----------------|
-| Stocking density (sea cage) | kg/m³ | ≤ 25 | 🔴 Legal max | Akvakulturdriftsforskriften (2004) |
-| Stocking density (observed industry avg.) | kg/m³ | 40–50 (commonly exceeds legal cap under exemptions) | 🟡 Reported | Rosten et al., 2007 |
-| Welfare score (skin, fin, eye) | OWI score (0–3 or categorical) | No numeric legal threshold; scored via Nofima's Welfare Indicator protocol | 🟡 Guideline | Noble et al., 2018 (Nofima WFI) |
-| Plasma cortisol (acute stress) | ng/mL | Baseline ~5–20; >50–100 indicates acute stress | 🟡 Guideline | Aquaculture physiology literature |
-| Condition factor (K) | dimensionless | 1.0–1.4 typical healthy range for salmon | 🟡 Guideline | Standard fisheries biology reference |
-| Mortality rate | % per period (weekly/monthly) | No fixed cap, but must be recorded and reported; sustained elevated mortality triggers inspection | 🔴 Reporting obligation | Akvakulturdriftsforskriften(https://lovdata.no/dokument/SF/forskrift/2008-06-17-822) |
+| Stocking density (sea cage) | kg/m³ | ≤ 25 |  Legal max | Akvakulturdriftsforskriften (2004) |
+| Stocking density (observed industry avg.) | kg/m³ | 40–50 (commonly exceeds legal cap under exemptions) |  Reported | Rosten et al., 2007 |
+| Welfare score (skin, fin, eye) | OWI score (0–3 or categorical) | No numeric legal threshold; scored via Nofima's Welfare Indicator protocol |  Guideline | Noble et al., 2018 (Nofima WFI) |
+| Plasma cortisol (acute stress) | ng/mL | Baseline ~5–20; >50–100 indicates acute stress |  Guideline | Aquaculture physiology literature |
+| Condition factor (K) | dimensionless | 1.0–1.4 typical healthy range for salmon |  Guideline | Standard fisheries biology reference |
+| Mortality rate | % per period (weekly/monthly) | No fixed cap, but must be recorded and reported; sustained elevated mortality triggers inspection |  Reporting obligation | Akvakulturdriftsforskriften(https://lovdata.no/dokument/SF/forskrift/2008-06-17-822) |
 
 ---
 
