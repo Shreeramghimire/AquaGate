@@ -1,1 +1,73 @@
+flowchart TD
+    subgraph SOURCE["SOURCE SYSTEMS (The Fish Farms)"]
+        Sensors["Temperature Sensors"]
+        Weighing["Fish Weighing"]
+        HealthLogs["Health Logs"]
+    end
 
+    Sensors --> DataLake
+    Weighing --> DataLake
+    HealthLogs --> DataLake
+
+    subgraph LAKE["RAW DATA LAKE"]
+        DataLake["Schema-on-Read - Cheap Storage<br>AWS S3 / Azure ADLS / Google Cloud Storage"]
+        DL_Content["• Raw temperature readings<br>• Raw fish weights<br>• Raw health observations"]
+    end
+
+    DataLake --> Staging
+
+    subgraph STAGING["STAGING AREA"]
+        Staging["Temporary Clean Room<br>Databricks / Azure Synapse Pipelines / AWS Glue"]
+        Staging_Content["• Validate data types<br>• Remove duplicates<br>• Handle NULLs<br>• Convert units (kg, lbs, etc.)"]
+    end
+
+    Staging --> Warehouse
+
+    subgraph WAREHOUSE["CENTRAL DATA WAREHOUSE (Enterprise)"]
+        Warehouse["Schema-on-Write - Star/Snowflake Schemas<br>Snowflake / Amazon Redshift / Google BigQuery"]
+        Facts["FACT TABLES:<br>• Fact_Daily_Growth (avg weight, FCR, temp)<br>• Fact_Health_Events (diagnoses, treatments)<br>• Fact_Feed_Consumption"]
+        Dims["DIMENSION TABLES:<br>• Dim_Farm_Sites<br>• Dim_Date<br>• Dim_Feed_Suppliers<br>• Dim_Staff<br>• Dim_Species"]
+    end
+
+    Warehouse --> Mart1
+    Warehouse --> Mart2
+    Warehouse --> Mart3
+
+    subgraph MART1["DATA MART 1: Operations (Tactical)"]
+        Mart1["• Daily growth metrics<br>• Feed conversion ratios<br>• Mortality alerts"]
+        EndUser1["END USERS: Farm Managers<br>• Query: 'What are today's oxygen levels and feed rates?'<br>• Tool: Power BI / Tablet Dashboard"]
+        Mart1 --> EndUser1
+    end
+
+    subgraph MART2["DATA MART 2: Research & Breeding (Tactical)"]
+        Mart2["• Genetic lineages<br>• 10-year growth trends<br>• Environmental correlations"]
+        EndUser2["END USERS: Scientists & Biologists<br>• Query: 'Show me FCR trends by water temperature over 5 years'<br>• Tool: Jupyter Notebooks / R / Python"]
+        Mart2 --> EndUser2
+    end
+
+    subgraph MART3["DATA MART 3: Budget & Planning (Tactical)"]
+        Mart3["• Feed costs<br>• Harvest forecasts<br>• Budget vs. actual"]
+        EndUser3["END USERS: Finance & Stakeholders<br>• Query: 'What is our projected FCR for next quarter?'<br>• Tool: Executive Dashboard / Looker"]
+        Mart3 --> EndUser3
+    end
+
+    Warehouse --> Execs
+
+    subgraph EXECS["C-Suite Executives (Strategic)"]
+        Execs["• Global EBITDA per kilo<br>• Production efficiency metrics<br>• Long-term ROI by farm"]
+        EndUser4["END USERS: CEO & Board<br>• Query: 'What is our profitability per region over 5 years?'<br>• Tool: ThoughtSpot / Looker"]
+    end
+
+    classDef source fill:#e1f5fe,stroke:#01579b
+    classDef lake fill:#f3e5f5,stroke:#4a148c
+    classDef staging fill:#fff3e0,stroke:#e65100
+    classDef warehouse fill:#e8f5e9,stroke:#1b5e20
+    classDef mart fill:#fce4ec,stroke:#880e4f
+    classDef enduser fill:#fff9c4,stroke:#f57f17
+
+    class Sensors,Weighing,HealthLogs source
+    class DataLake,DL_Content lake
+    class Staging,Staging_Content staging
+    class Warehouse,Facts,Dims warehouse
+    class Mart1,Mart2,Mart3 mart
+    class EndUser1,EndUser2,EndUser3,EndUser4,Execs enduser
