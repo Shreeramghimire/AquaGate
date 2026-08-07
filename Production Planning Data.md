@@ -56,7 +56,7 @@ Planning the freshwater phase, from egg/fry through parr to smolt, in a closed f
 
 ---
 
-### 1b. Hydrological & Environmental Planning Parameters (Engineered)
+### 1b. Hydrological & Environmental Planning Parameters
 
 This is the core of what makes hatchery planning different; these are **control variables**, not just monitored conditions.
 
