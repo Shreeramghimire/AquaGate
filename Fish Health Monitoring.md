@@ -375,18 +375,7 @@ Detailed biochemical/nutritional profile of the fish flesh, relevant to nutritio
 | Omega-3 (EPA+DHA) | g/100g fillet | No legal minimum in Norway, but often reported/labeled; typical farmed salmon ~1–2 g/100g |  Typical/labeling | Nutrition science, food labeling practice |
 | Astaxanthin (pigment) | mg/kg flesh | Max permitted inclusion in feed regulated (EU/EFSA feed additive limits apply, ~100 mg/kg feed); flesh concentration not separately capped | Feed additive regulated | EU/EFSA feed additive regulation (adopted in Norway via EEA) |
 | Contaminants (dioxins/PCBs, heavy metals) | ng/kg or mg/kg | Must comply with EU/EEA maximum levels (e.g., dioxins+DL-PCBs ≤ 3.5 pg WHO-TEQ/g fresh weight for fish) |  Legal (food safety) | EU Regulation on contaminants, applied via EEA |
-
----
-
-### Legend
-
-| Icon | Meaning |
-|------|---------|
-| 🔴 | Legal requirement / mandatory limit |
-| 🟡 | Guideline / recommended range |
-| ⚪ | Certification requirement / voluntary standard |
-
----
+----
 ### References
 
 Aas, T. S., Åsgård, T., & Ytrestøyl, T. (2022). Utilization of feed resources in the production of Atlantic salmon (*Salmo salar*) in Norway: An update for 2020. *Aquaculture Reports, 26*, Article 101316. https://doi.org/10.1016/j.aqrep.2022.101316
