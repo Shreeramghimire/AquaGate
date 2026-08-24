@@ -73,7 +73,7 @@ To overcome this fragility, we must move from a single "expert" to a "committee"
 
 These three models represent the "gold standard" for tabular biological data. I used them specifically for predicting **salmon lice infestation levels** in Norwegian fjords (the results can be found on https://github.com/Shreeramghimire/Norwegian_Salmon_Lice_Data_Book).
 
-### 3.1. Random Forest (Bagging)
+### 3.1. Random Forest 
 
 **Methodology:** Random Forest applies **Bootstrap Aggregating (Bagging)**. It builds hundreds of deep decision trees **independently** and in **parallel**. 
 
