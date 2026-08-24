@@ -156,3 +156,10 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 **What it is:** Another boosting framework developed by Microsoft. It is often considered XGBoost's direct competitor.
 
 **Key Innovation:** Unlike XGBoost, which grows trees **level-wise** (balanced, horizontal growth), LightGBM grows trees **leaf-wise** (vertical, asymmetric growth). It grows the branch that reduces the error the most, leading to faster convergence.
+
+**Application in Aquaculture:** Perfect for **real-time feeding optimization**. When a camera detects fish feeding behavior, the model must predict optimal feed dosage in milliseconds. LightGBM is significantly faster than XGBoost on massive datasets (millions of rows) while maintaining comparable accuracy.
+
+## 5. Comparative Analysis: Which Model to Choose?
+
+
+
