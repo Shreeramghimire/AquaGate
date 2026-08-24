@@ -79,4 +79,6 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Random Data:** Each tree is trained on a random subset of the data (bootstrapped).
 
+**Random Features:** At each split, only a random subset of features is considered (e.g., only `temperature` and `salinity`, but not `chlorophyll`).
+
 
