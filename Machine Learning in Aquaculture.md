@@ -173,6 +173,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 - **Welfare & Behavior Monitoring**: CNN-based video analysis can flag abnormal swimming patterns, surface gasping (a low-oxygen behavioral signal), or reduced feeding activity, complementing sensor-based DO forecasting (Section 4.1) with a direct visual read on fish response.
 
+**Why use it**:
 ---
 
 ## 5. Comparative Analysis: Which Model to Choose?
