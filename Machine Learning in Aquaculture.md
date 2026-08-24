@@ -109,4 +109,6 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 - **Regularization (L1/L2):** Actively punishes overly complex trees, preventing the model from memorizing specific treatment failures.
 
--
+- **Second-Order Gradients:** Analyzes the *curvature* of the error, allowing faster convergence.
+
+- 
