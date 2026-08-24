@@ -163,5 +163,16 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 The "best" model depends entirely on the **specific aquaculture problem** you are solving. Use the table below as your decision-making cheat sheet.
 
+| Problem Domain | Recommended Model | Why? | Priority |
+| :--- | :--- | :--- | :--- |
+| **Lice Infestation Prediction** | **XGBoost** | Captures biological time-lags and regularizes against noisy treatment data. | Accuracy |
+| **Lice Infestation Explanation** (Regulatory) | **Random Forest** | Provides stable, legally defensible feature importance charts. | Interpretability |
+| **Dissolved Oxygen (DO) Forecasting** (24hrs) | **LSTM** | Remembers the sequence and momentum of water chemistry trends. | Memory |
+| **Biomass/Harvest Weight Forecasting** | **Prophet** | Explicitly handles seasonal summer/winter growth cycles. | Trend & Seasonality |
+| **Spatial Spread (Neighboring Farms)** | **Gaussian Process (GPR)** | Models covariance based on ocean currents and geographic distance. | Spatial Awareness |
+| **Real-time Feeding Control (Edge Devices)** | **LightGBM** | Ultra-fast inference speed; lower memory footprint than XGBoost. | Speed & Efficiency |
+| **General Baseline / "First Try"** | **Random Forest** | Zero hyperparameter tuning required; works well out-of-the-box. | Robustness |
+
+
 
 
