@@ -9,7 +9,9 @@
 ## Contents
 
 1. [Introduction: Why Tree-Based & Hybrid Models?]
+   
 2. [The Building Block: Decision Trees]
+   
 3. [The Core Ensemble Trio]
 
    - 3.1 Random Forest (Bagging)
@@ -28,4 +30,6 @@
   
    - 4.4 LightGBM:  *The Alternative to XGBoost*
      
-   
+5. [Comparative Analysis: Which Model to Choose?]
+
+6. [Final Recommendation for Aquaculture Practitioners]
