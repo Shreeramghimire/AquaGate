@@ -42,3 +42,7 @@ Aquaculture is a data-rich industry. Modern salmon farms are equipped with **sen
 
 (**Chlorophyll-a** measures ocean and lake color (blue-to-green light reflectance) to estimate phytoplankton biomass and water health. Sensors like MODIS and Copernicus OLCI provide global and regional concentration estimates in milligrams per cubic meter (mg/m³).)
 
+However, this data is notoriously difficult to model due to three inherent challenges:
+
+
+
