@@ -57,5 +57,5 @@ To tackle these challenges, data scientists rely on a spectrum of models from hi
 
 ## 2. The Building Block: Decision Trees
 
-
+Before diving into complex ensembles, we must understand their fundamental building block: the **Decision Tree**. 
 
