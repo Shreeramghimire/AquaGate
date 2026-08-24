@@ -46,5 +46,7 @@ However, this data is notoriously difficult to model due to three inherent chall
 
 1. **Non-Linearity:** Fish growth and lice reproduction do not follow straight lines. They thrive in optimal ranges and crash outside them.
 
-2. 
+2. **Temporal Dependence:** Today's oxygen level depends on yesterday's temperature and last week's algal bloom.
+
+3. 
 
