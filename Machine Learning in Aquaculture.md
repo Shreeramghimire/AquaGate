@@ -171,7 +171,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 - **Biomass & Morphometric Estimation**: Paired with stereo cameras, CNNs perform semantic segmentation or keypoint detection to isolate individual fish silhouettes from a video frame, from which length, width, and estimated weight are derived. This is the same domain your KDE calibration work sits in — a CNN typically handles the detection/segmentation step, while techniques like KDE can be applied downstream to filter noise (e.g., swim-angle variation) or calibrate the length-to-weight conversion.
 
-- 
+- **Welfare & Behavior Monitoring**:
 
 ---
 
