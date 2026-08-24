@@ -87,4 +87,7 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Cons:** Does not inherently understand the *flow of time*; it treats each weekly observation as an independent snapshot.
 
+### 3.2. Gradient Boosting Machine (GBM)
+
+
 
