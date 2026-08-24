@@ -48,5 +48,8 @@ However, this data is notoriously difficult to model due to three inherent chall
 
 2. **Temporal Dependence:** Today's oxygen level depends on yesterday's temperature and last week's algal bloom.
 
-3. 
+3. **Spatial Connectivity:** A lice outbreak at Farm A will inevitably spread to Farm B 5 km away if the current flows in that direction.
+
+
+
 
