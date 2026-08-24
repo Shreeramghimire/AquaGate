@@ -197,11 +197,12 @@ The "best" model depends entirely on the **specific aquaculture problem** you ar
 
 If you are building a production-ready decision-support system for a Norwegian salmon farm, **do not pick just one model**. Implement a **hybrid stack**:
 
-1. **Use XGBoost** as your primary lice early-warning system (sends SMS alerts to farmers).
+1. **Use XGBoost** as your primary lice early-warning system (sends SMS alerts to farmers)
 
-3. **Use an LSTM** as a safety net to forecast critical low-oxygen events.
-4. **Use Random Forest** once a month to generate automated reports for the Norwegian Food Safety Authority (Mattilsynet), explaining *which* environmental factors triggered the current risk level.
-5. **Experiment with LightGBM** if you plan to deploy the model directly onto the farm's edge-computing devices (feeding barges) to minimize latency.
+2. **Use an LSTM** as a safety net to forecast critical low-oxygen events.
+
+3. **Use Random Forest** once a month to generate automated reports for the Norwegian Food Safety Authority (Mattilsynet), explaining *which* environmental factors triggered the current risk level.
+4. **Experiment with LightGBM** if you plan to deploy the model directly onto the farm's edge-computing devices (feeding barges) to minimize latency.
 
 Finally, remember the golden rule of aquaculture modelling: **Data quality > Model complexity.** A simple Random Forest trained on high-frequency, clean oxygen data will *always* beat a fancy LSTM trained on sparse, manually-recorded spreadsheets. Invest heavily in your sensor infrastructure, and these models will reward you with substantial operational savings.
 
