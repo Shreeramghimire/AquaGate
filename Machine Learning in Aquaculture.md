@@ -111,4 +111,4 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 - **Second-Order Gradients:** Analyzes the *curvature* of the error, allowing faster convergence.
 
-- 
+- **Parallelized Split-Finding:** Utilizes all CPU cores to find the best splits within each tree level.
