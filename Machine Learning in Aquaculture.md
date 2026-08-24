@@ -83,5 +83,8 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Prediction:** The final output (lice count) is the **average** of all individual tree predictions.
 
+**Pros for Aquaculture:** Exceptionally robust to missing sensor data and outliers. Provides highly stable **feature importance** rankings (e.g., proving to regulators that Temperature drives lice more than Salinity). 
+
+
 
 
