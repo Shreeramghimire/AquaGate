@@ -95,5 +95,5 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 2. Tree #2 is trained specifically on the **errors (residuals)** that Tree #1 made, correcting them.
 
-3. 
+3. Tree #3 corrects the combined errors of Trees #1 and #2, and so on.
 
