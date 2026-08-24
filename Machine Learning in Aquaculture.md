@@ -190,6 +190,7 @@ The "best" model depends entirely on the **specific aquaculture problem** you ar
 | **Biomass/Harvest Weight Forecasting** | **Prophet** | Explicitly handles seasonal summer/winter growth cycles. | Trend & Seasonality |
 | **Spatial Spread (Neighboring Farms)** | **Gaussian Process (GPR)** | Models covariance based on ocean currents and geographic distance. | Spatial Awareness |
 | **Real-time Feeding Control (Edge Devices)** | **LightGBM** | Ultra-fast inference speed; lower memory footprint than XGBoost. | Speed & Efficiency |
+| **Automated Lice Counting (Camera-Based)** | **CNN (YOLO / Faster R-CNN)** | Detects and classifies individual lice directly from image/video, at scale. | Vision & Scale | 
 | **General Baseline / "First Try"** | **Random Forest** | Zero hyperparameter tuning required; works well out-of-the-box. | Robustness |
 
 ## 6. Final Recommendation for Aquaculture Practitioners
