@@ -122,3 +122,5 @@ These three models represent the "gold standard" for tabular biological data. I 
 While the trio above is excellent for tabular lice data, aquaculture involves other complex problems—like forecasting oxygen dips, estimating total biomass, and modelling spatial spread. For these, we turn to specialized models.
 
 ### 4.1. Long Short-Term Memory (LSTM): *For Dissolved Oxygen & Temperature Forecasting*
+
+**What it is:** A specialized type of Recurrent Neural Network (RNN) designed explicitly for **time-series data**. Unlike tree-based models, LSTMs have "memory cells" that allow them to remember patterns from weeks or months ago.
