@@ -81,4 +81,7 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Random Features:** At each split, only a random subset of features is considered (e.g., only `temperature` and `salinity`, but not `chlorophyll`).
 
+**Prediction:** The final output (lice count) is the **average** of all individual tree predictions.
+
+
 
