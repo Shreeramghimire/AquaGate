@@ -17,5 +17,7 @@
    - 3.2 Gradient Boosting Machine (GBM)
   
    - 3.3 XGBoost (eXtreme Gradient Boosting)
+4. [Expanded Models for Broader Aquaculture Applications]
+5. 
      
    
