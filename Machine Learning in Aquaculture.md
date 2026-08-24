@@ -100,4 +100,4 @@ These three models represent the "gold standard" for tabular biological data. I 
 **Pros for Aquaculture:** Exceptional at focusing on rare, high-impact events (e.g., unexpected lice explosions following a sudden spring warming event).
 
 
-
+**Cons:** Traditional GBM is **slow** due to its sequential nature. It is also prone to overfitting if the learning rate is not carefully tuned.
