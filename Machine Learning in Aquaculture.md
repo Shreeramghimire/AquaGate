@@ -165,8 +165,11 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **What it is**: A deep learning architecture purpose-built for image data. Instead of receiving pre-computed numeric features (temperature, salinity, etc.), a CNN learns directly from raw pixels — applying stacked layers of learned filters that detect edges, textures, and eventually complex shapes like a lice body or a fish silhouette. This is the model family behind most of the industry's shift from manual sampling to camera-based monitoring.
 
+**Application in Aquaculture**: Two use cases dominate:
 
+- **Automated Lice Counting/Detection**: Object-detection variants (e.g., YOLO, Faster R-CNN) scan underwater or surface camera feeds to locate and classify individual sea lice on fish — distinguishing adult females, males, and chalimus stages — replacing the manual net-and-count process that is labor-intensive, stressful for the fish, and only samples a small fraction of the population. This is the core technique behind commercial systems like Aquabyte's lice-counting cameras.
 
+- 
 
 ---
 
