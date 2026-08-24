@@ -67,4 +67,7 @@ Before diving into complex ensembles, we must understand their fundamental build
 
 To overcome this fragility, we must move from a single "expert" to a "committee" of trees. This leads us to the three core ensemble methods.
 
+---
+
+## 3. The Core Ensemble Trio (Salmon Lice Focus)
 
