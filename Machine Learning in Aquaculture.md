@@ -6,3 +6,5 @@
 
 **Context:** Predictive modelling for Norwegian Salmon Aquaculture (Lice Infestation, Biomass Estimation, Feed Optimization, and Water Quality Forecasting).
 
+## Contents
+
