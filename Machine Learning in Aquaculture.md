@@ -65,4 +65,6 @@ Before diving into complex ensembles, we must understand their fundamental build
 
 **The Fatal Flaw:** A single decision tree suffers from **high variance**. It is highly sensitive to small fluctuations in the training data, leading to severe **overfitting**. 
 
+To overcome this fragility, we must move from a single "expert" to a "committee" of trees. This leads us to the three core ensemble methods.
+
 
