@@ -163,7 +163,9 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 ### 4.5 Convolutional Neural Networks (CNN): *For Automated Visual Lice Counting & Biomass Estimation*
 
-**What it is**: A deep learning architecture purpose-built for image data. Instead of receiving pre-computed numeric features (temperature, salinity, etc.), a CNN learns directly from raw pixels — applying stacked layers of learned filters that detect edges, textures, and eventually complex shapes like a lice body or a fish silhouette. This is the model family behind most of the industry's shift from manual sampling to camera-based monitoring.
+**What it is**: 
+
+
 ---
 
 ## 5. Comparative Analysis: Which Model to Choose?
