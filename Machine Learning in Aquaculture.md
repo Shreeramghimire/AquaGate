@@ -135,4 +135,6 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **What it is:** An open-source forecasting model developed by Facebook (Meta). It is designed for business time-series that have strong **seasonal patterns** and holiday effects.
 
+**Application in Aquaculture:** Predicting **Biomass Growth Curves**. Salmon grow predictably with the seasons—fast in the summer (long photoperiod, warm water) and slow in the winter.
+
 
