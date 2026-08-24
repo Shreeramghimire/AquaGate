@@ -141,3 +141,4 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **Limitation:** Assumes the future will look like the past. Cannot handle sudden external shocks (e.g., a new disease outbreak).
 
+### 4.3. Gaussian Process Regression (GPR): *For Spatially-Aware Lice Dispersion*
