@@ -117,4 +117,5 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Cons:** More computationally expensive than Random Forest; requires careful hyperparameter tuning.
 
+## 4. Expanded Models for Broader Aquaculture Applications
 
