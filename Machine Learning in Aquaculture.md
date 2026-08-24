@@ -44,5 +44,7 @@ Aquaculture is a data-rich industry. Modern salmon farms are equipped with **sen
 
 However, this data is notoriously difficult to model due to three inherent challenges:
 
+1. **Non-Linearity:** Fish growth and lice reproduction do not follow straight lines. They thrive in optimal ranges and crash outside them.
 
+2. 
 
