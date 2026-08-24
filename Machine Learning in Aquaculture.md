@@ -18,6 +18,9 @@
   
    - 3.3 XGBoost (eXtreme Gradient Boosting)
 4. [Expanded Models for Broader Aquaculture Applications]
-5. 
+   
+   - 4.1 Long Short-Term Memory (LSTM)
+     
+   - 
      
    
