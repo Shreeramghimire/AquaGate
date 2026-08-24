@@ -17,6 +17,7 @@
    - 3.2 Gradient Boosting Machine (GBM)
   
    - 3.3 XGBoost (eXtreme Gradient Boosting)
+     
 4. [Expanded Models for Broader Aquaculture Applications]
    
    - 4.1 Long Short-Term Memory (LSTM): *For Dissolved Oxygen & Temperature Forecasting*
@@ -24,5 +25,7 @@
    - 4.2 Prophet (Meta's Time-Series Model): *For Seasonal Biomass Growth Curves*
   
    - 4.3 Gaussian Process Regression (GPR): *For Spatially-Aware Lice Dispersion*
+  
+   - 4.4 LightGBM:  *The Alternative to XGBoost*
      
    
