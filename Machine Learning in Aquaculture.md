@@ -161,5 +161,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 ## 5. Comparative Analysis: Which Model to Choose?
 
+The "best" model depends entirely on the **specific aquaculture problem** you are solving. Use the table below as your decision-making cheat sheet.
+
 
 
