@@ -107,6 +107,6 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Key Innovations:**
 
--**Regularization (L1/L2):** Actively punishes overly complex trees, preventing the model from memorizing specific treatment failures.
+- **Regularization (L1/L2):** Actively punishes overly complex trees, preventing the model from memorizing specific treatment failures.
 
 -
