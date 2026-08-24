@@ -115,4 +115,6 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Pros for Aquaculture:** Acts as a "surgical scalpel." Perfect for capturing 3-week lag effects (e.g., linking Week 10's temperature to Week 13's adult lice). Its regularization prevents overfitting to weird local anomalies in specific Norwegian fjords.
 
+**Cons:** More computationally expensive than Random Forest; requires careful hyperparameter tuning.
+
 
