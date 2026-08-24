@@ -101,3 +101,6 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 
 **Cons:** Traditional GBM is **slow** due to its sequential nature. It is also prone to overfitting if the learning rate is not carefully tuned.
+
+### 3.3. XGBoost (eXtreme Gradient Boosting)
+
