@@ -150,3 +150,5 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 **Why use it:** It not only gives you a prediction (e.g., "Farm B will have 2 adult lice/fish next week"), but it also gives you the **uncertainty** (e.g., "± 0.5 lice"). This is vital for risk-based management.
 
 **Limitation:** Computationally heavy with large datasets (O(n³) complexity). Best used for smaller, high-resolution spatial studies.
+
+### 4.4. LightGBM: *The Alternative to XGBoost*
