@@ -131,3 +131,4 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **Limitation:** Requires massive amounts of continuous data (thousands of hourly timesteps) and significant GPU power.
 
+### 4.2. Prophet (Meta's Time-Series Model): *For Seasonal Biomass Growth Curves*
