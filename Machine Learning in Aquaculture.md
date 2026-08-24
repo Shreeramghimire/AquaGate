@@ -53,6 +53,9 @@ However, this data is notoriously difficult to model due to three inherent chall
 
 To tackle these challenges, data scientists rely on a spectrum of models from highly interpretable tree-based ensembles to deep learning architectures. This document provides a comprehensive overview of all viable models, starting from the simplest building block.
 
+---
+
+## 2. The Building Block: Decision Trees
 
 
 
