@@ -4,4 +4,5 @@
 
 **Date: 24 August 2026**
 
-**Context:** 
+**Context:** Predictive modelling for Norwegian Salmon Aquaculture (Lice Infestation, Biomass Estimation, Feed Optimization, and Water Quality Forecasting).
+
