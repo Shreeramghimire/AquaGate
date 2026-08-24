@@ -29,6 +29,8 @@
    - 4.3 Gaussian Process Regression (GPR): *For Spatially-Aware Lice Dispersion*
   
    - 4.4 LightGBM:  *The Alternative to XGBoost*
+  
+   - 4.5 Convolutional Neural Networks (CNN): *For Automated Visual Lice Counting & Biomass Estimation*
      
 5. [Comparative Analysis: Which Model to Choose?]
 
