@@ -85,6 +85,6 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Pros for Aquaculture:** Exceptionally robust to missing sensor data and outliers. Provides highly stable **feature importance** rankings (e.g., proving to regulators that Temperature drives lice more than Salinity). 
 
-
+**Cons:** Does not inherently understand the *flow of time*; it treats each weekly observation as an independent snapshot.
 
 
