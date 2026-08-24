@@ -62,3 +62,7 @@ Before diving into complex ensembles, we must understand their fundamental build
 **What it is:** A flowchart-like structure where each internal node represents a "test" on a feature (e.g., *"Is temperature > 12°C?"*), each branch represents the outcome of the test, and each leaf node represents a predicted value (e.g., *"Lice count = 0.5 adults per fish"*).
 
 **How it learns:** The algorithm recursively splits the data using the feature that creates the "purest" sub-groups, minimizing the variance of the target variable in each child node.
+
+**The Fatal Flaw:** A single decision tree suffers from **high variance**. It is highly sensitive to small fluctuations in the training data, leading to severe **overfitting**. 
+
+
