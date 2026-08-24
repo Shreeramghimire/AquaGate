@@ -15,5 +15,7 @@
    - 3.1 Random Forest (Bagging)
   
    - 3.2 Gradient Boosting Machine (GBM)
+  
+   - 3.3 XGBoost (eXtreme Gradient Boosting)
      
    
