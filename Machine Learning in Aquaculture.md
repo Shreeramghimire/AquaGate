@@ -152,3 +152,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 **Limitation:** Computationally heavy with large datasets (O(n³) complexity). Best used for smaller, high-resolution spatial studies.
 
 ### 4.4. LightGBM: *The Alternative to XGBoost*
+
+**What it is:** Another boosting framework developed by Microsoft. It is often considered XGBoost's direct competitor.
+
+**Key Innovation:** Unlike XGBoost, which grows trees **level-wise** (balanced, horizontal growth), LightGBM grows trees **leaf-wise** (vertical, asymmetric growth). It grows the branch that reduces the error the most, leading to faster convergence.
