@@ -22,5 +22,7 @@
    - 4.1 Long Short-Term Memory (LSTM): *For Dissolved Oxygen & Temperature Forecasting*
      
    - 4.2 Prophet (Meta's Time-Series Model): *For Seasonal Biomass Growth Curves*
+  
+   - 4.3 Gaussian Process Regression (GPR): *For Spatially-Aware Lice Dispersion*
      
    
