@@ -148,3 +148,5 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 **Application in Aquaculture:** Predicting lice dispersion between neighboring farms. Lice larvae drift with ocean currents. A GPR can model the covariance between Farm A's lice count and Farm B's lice count, based on the distance between them and the dominant current direction.
 
 **Why use it:** It not only gives you a prediction (e.g., "Farm B will have 2 adult lice/fish next week"), but it also gives you the **uncertainty** (e.g., "± 0.5 lice"). This is vital for risk-based management.
+
+**Limitation:** Computationally heavy with large datasets (O(n³) complexity). Best used for smaller, high-resolution spatial studies.
