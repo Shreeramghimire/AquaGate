@@ -89,5 +89,6 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 ### 3.2. Gradient Boosting Machine (GBM)
 
+**Methodology:** GBM builds trees **sequentially** and **dependently**
 
 
