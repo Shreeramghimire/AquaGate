@@ -129,3 +129,5 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **Why use it:** It understands the "momentum" of water chemistry—if oxygen has been dropping for 3 days, it knows the trend is likely to continue.
 
+**Limitation:** Requires massive amounts of continuous data (thousands of hourly timesteps) and significant GPU power.
+
