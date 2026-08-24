@@ -71,3 +71,9 @@ To overcome this fragility, we must move from a single "expert" to a "committee"
 
 ## 3. The Core Ensemble Trio (Salmon Lice Focus)
 
+These three models represent the "gold standard" for tabular biological data. I used them specifically for predicting **salmon lice infestation levels** in Norwegian fjords (the results can be found on https://github.com/Shreeramghimire/Norwegian_Salmon_Lice_Data_Book).
+
+
+
+
+
