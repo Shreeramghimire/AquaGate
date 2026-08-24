@@ -93,5 +93,7 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 1. Tree #1 predicts the lice count.
 
-2. 
+2. Tree #2 is trained specifically on the **errors (residuals)** that Tree #1 made, correcting them.
+
+3. 
 
