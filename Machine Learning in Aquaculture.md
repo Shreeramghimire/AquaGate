@@ -121,3 +121,4 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 While the trio above is excellent for tabular lice data, aquaculture involves other complex problems—like forecasting oxygen dips, estimating total biomass, and modelling spatial spread. For these, we turn to specialized models.
 
+### 4.1. Long Short-Term Memory (LSTM): *For Dissolved Oxygen & Temperature Forecasting*
