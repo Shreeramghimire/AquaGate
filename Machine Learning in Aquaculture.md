@@ -13,5 +13,7 @@
 3. [The Core Ensemble Trio]
 
    - 3.1 Random Forest (Bagging)
+  
+   - 3.2 Gradient Boosting Machine (GBM)
      
    
