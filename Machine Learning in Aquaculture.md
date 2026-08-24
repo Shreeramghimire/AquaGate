@@ -97,3 +97,7 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 3. Tree #3 corrects the combined errors of Trees #1 and #2, and so on.
 
+**Pros for Aquaculture:** Exceptional at focusing on rare, high-impact events (e.g., unexpected lice explosions following a sudden spring warming event).
+
+
+
