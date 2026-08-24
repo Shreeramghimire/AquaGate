@@ -173,13 +173,13 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 - **Welfare & Behavior Monitoring**: CNN-based video analysis can flag abnormal swimming patterns, surface gasping (a low-oxygen behavioral signal), or reduced feeding activity, complementing sensor-based DO forecasting (Section 4.1) with a direct visual read on fish response.
 
-**Why use it**: 
+**Why use it**: Cameras are already deployed across most modern farms (feeding control, welfare cameras, biomass cages), so a CNN turns existing video infrastructure into a continuous, non-invasive monitoring stream — counting lice or estimating biomass on every fish that passes the camera, rather than a manual sample of ~20 fish per cage per week.
+
 ---
 
 ## 5. Comparative Analysis: Which Model to Choose?
 
-The "best" model depends entirely on the **specific aquaculture problem** you are solving. Use the table below as your decision-making cheat sheet.
-
+The "best" model depends entirely on the **specific aquaculture problem** you are solving. Use the table below as your decision-making cheat sheet. 
 | Problem Domain | Recommended Model | Why? | Priority |
 | :--- | :--- | :--- | :--- |
 | **Lice Infestation Prediction** | **XGBoost** | Captures biological time-lags and regularizes against noisy treatment data. | Accuracy |
