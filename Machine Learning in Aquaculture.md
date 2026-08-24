@@ -91,4 +91,7 @@ These three models represent the "gold standard" for tabular biological data. I 
 
 **Methodology:** GBM builds trees **sequentially** and **dependently**
 
+1. Tree #1 predicts the lice count.
+
+2. 
 
