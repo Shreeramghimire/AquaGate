@@ -144,3 +144,6 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 ### 4.3. Gaussian Process Regression (GPR): *For Spatially-Aware Lice Dispersion*
 
 **What it is:** A probabilistic, non-parametric model that defines a probability distribution over possible functions. It excels at modelling **spatial correlation**—things that are close together are more similar than things far apart.
+
+**Application in Aquaculture:** Predicting lice dispersion between neighboring farms. Lice larvae drift with ocean currents. A GPR can model the covariance between Farm A's lice count and Farm B's lice count, based on the distance between them and the dominant current direction.
+
