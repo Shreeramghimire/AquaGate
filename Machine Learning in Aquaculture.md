@@ -161,7 +161,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **Application in Aquaculture:** Perfect for **real-time feeding optimization**. When a camera detects fish feeding behavior, the model must predict optimal feed dosage in milliseconds. LightGBM is significantly faster than XGBoost on massive datasets (millions of rows) while maintaining comparable accuracy.
 
-### 4.5 
+### 4.5 Convolutional Neural Networks (CNN): *For Automated Visual Lice Counting & Biomass Estimation*
 ---
 
 ## 5. Comparative Analysis: Which Model to Choose?
