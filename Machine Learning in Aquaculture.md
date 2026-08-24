@@ -10,4 +10,5 @@
 
 1. [Introduction: Why Tree-Based & Hybrid Models?]
 2. [The Building Block: Decision Trees]
-3. 
+3. [The Core Ensemble Trio]
+4. 
