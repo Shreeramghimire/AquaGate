@@ -67,7 +67,7 @@ Before diving into complex ensembles, we must understand their fundamental build
 
 **How it learns:** The algorithm recursively splits the data using the feature that creates the "purest" sub-groups, minimizing the variance of the target variable in each child node.
 
-**The Fatal Flaw:** A single decision tree suffers from **high variance**. It is highly sensitive to small fluctuations in the training data, leading to severe **overfitting**. 
+**The Fatal Flaw:** A single decision tree suffers from **high variance**. It is highly sensitive to small fluctuations in the training data, leading to severe **overfitting** (Palaiokostas, 2024). 
 
 To overcome this fragility, we must move from a single "expert" to a "committee" of trees. This leads us to the three core ensemble methods.
 
