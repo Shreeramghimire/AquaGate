@@ -221,6 +221,10 @@ Some outputs aren't continuous; they're categorical: "is this a lice or not," "a
 
 - **Confusion Matrix:** Breaks errors down by class (e.g., adult females mistaken for chalimus), which is often more actionable for a CNN lice-counting model than any single summary metric; it tells you which life stage needs more labeled training data.
 
+**Rule of thumb:** for regulatory-facing classification tasks, prioritize recall over precision. A false alarm costs a wasted treatment; a missed detection risks a Mattilsynet compliance violation.
+
+### 5.3 Explainability: SHAP & LIME
+
 
 
 ---
