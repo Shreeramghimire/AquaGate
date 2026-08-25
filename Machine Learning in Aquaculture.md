@@ -225,13 +225,14 @@ Some outputs aren't continuous; they're categorical: "is this a lice or not," "a
 
 ### 5.3 Explainability: SHAP & LIME
 
+The comparison table in Section 6 flags Random Forest as the go-to model when Interpretability is the priority; for example, generating a monthly report for Mattilsynet on which environmental factors are driving lice risk. In practice, "Random Forest is interpretable" only gets you feature importance rankings (which features mattered on average, across the whole dataset). To explain a specific prediction- "why did the model flag Cage 4 as high-risk this week?" you need a dedicated explainability tool:
 
 
 ---
 
 ## 6. Comparative Analysis: Which Model to Choose?
 
-The "best" model depends entirely on the **specific aquaculture problem** you are solving (Roy et al., 2025; Alnemari et al., 2025). Use the table below as your decision-making cheat sheet. 
+The "best" model depends entirely on the **specific aquaculture problem** you are solving (Roy et al., 2025; Alnemari et al., 2025). Use the table below as your decision-making cheat sheet.  
 
 | Problem Domain | Recommended Model | Why? | Priority |
 | :--- | :--- | :--- | :--- |
