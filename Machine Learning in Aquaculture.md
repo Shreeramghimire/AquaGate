@@ -187,7 +187,7 @@ The "best" model depends entirely on the **specific aquaculture problem** you ar
 
 | Problem Domain | Recommended Model | Why? | Priority |
 | :--- | :--- | :--- | :--- |
-| **Lice Infestation Prediction** | **XGBoost** | Captures biological time-lags and regularizes against noisy treatment data. | Accuracy |
+| **Lice Infestation Prediction** | **XGBoost** | Captures biological time-lags and regularizes against noisy treatment data(Palaiokostas, 2024). | Accuracy |
 | **Lice Infestation Explanation** (Regulatory) | **Random Forest** | Provides stable, legally defensible feature importance charts. | Interpretability |
 | **Dissolved Oxygen (DO) Forecasting** (24hrs) | **LSTM** | Remembers the sequence and momentum of water chemistry trends. | Memory |
 | **Biomass/Harvest Weight Forecasting** | **Prophet** | Explicitly handles seasonal summer/winter growth cycles. | Trend & Seasonality |
