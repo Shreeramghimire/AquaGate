@@ -127,7 +127,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 ### 4.1. Long Short-Term Memory (LSTM): *For Dissolved Oxygen & Temperature Forecasting*
 
-**What it is:** A specialized type of Recurrent Neural Network (RNN) designed explicitly for **time-series data**. Unlike tree-based models, LSTMs have "memory cells" that allow them to remember patterns from weeks or months ago.
+**What it is:** A specialized type of Recurrent Neural Network (RNN) designed explicitly for **time-series data**. Unlike tree-based models, LSTMs have "memory cells" that allow them to remember patterns from weeks or months ago (Khabusi & Huang, 2022; Yu et al., 2025).
 
 **Application in Aquaculture:** Forecasting **Dissolved Oxygen (DO)** levels 24-48 hours in advance. DO is the #1 acute mortality risk in salmon farms (fish suffocate if oxygen drops below 70% saturation). An LSTM takes the last 7 days of temperature, salinity, wind speed, and algal biomass to predict tomorrow's minimum DO.
 
