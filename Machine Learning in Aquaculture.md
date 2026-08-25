@@ -241,4 +241,6 @@ Su, B., Bjørnson, F. O., Tsarau, A., Endresen, P. C., Ohrem, S. J., Føre, M., 
 
 Wu, A. Q., Li, K. L., Song, Z. Y., Lou, X., Hu, P., Yang, W., & Wang, R. F. (2025). Deep learning for sustainable aquaculture: Opportunities and challenges. Sustainability, 17(11), 5084.
 
+Yu, W., Wu, M., & Ha, Z. (2025). Research on a Pearson‐LSTM‐AM‐based water quality prediction model for freshwater aquaculture. Journal of the World Aquaculture Society, 56(4), e70041.
+
 Zhang, Q., & Su, B. (2025). A hybrid approach towards real-time monitoring of fish distributions in aquaculture net cage. Aquacultural Engineering, 110, 102527.
