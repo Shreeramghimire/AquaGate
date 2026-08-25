@@ -149,11 +149,11 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **What it is:** A probabilistic, non-parametric model that defines a probability distribution over possible functions. It excels at modelling **spatial correlation**—things that are close together are more similar than things far apart (Katsidoniotaki et al., 2025).
 
-**Application in Aquaculture:** Predicting lice dispersion between neighboring farms. Lice larvae drift with ocean currents. A GPR can model the covariance between Farm A's lice count and Farm B's lice count, based on the distance between them and the dominant current direction.
+**Application in Aquaculture:** Predicting lice dispersion between neighboring farms. Lice larvae drift with ocean currents. A GPR can model the covariance between Farm A's lice count and Farm B's lice count, based on the distance between them and the dominant current direction (Katsidoniotaki et al., 2025; Su et al., 2023).
 
-**Why use it:** It not only gives you a prediction (e.g., "Farm B will have 2 adult lice/fish next week"), but it also gives you the **uncertainty** (e.g., "± 0.5 lice"). This is vital for risk-based management.
+**Why use it:** It not only gives you a prediction (e.g., "Farm B will have 2 adult lice/fish next week"), but it also gives you the **uncertainty** (e.g., "± 0.5 lice"). This is vital for risk-based management (Katsidoniotaki et al., 2025).
 
-**Limitation:** Computationally heavy with large datasets (O(n³) complexity). Best used for smaller, high-resolution spatial studies.
+**Limitation:** Computationally heavy with large datasets (O(n³) complexity). Best used for smaller, high-resolution spatial studies (Katsidoniotaki et al., 2025).
 
 ### 4.4. LightGBM: *The Alternative to XGBoost*
 
