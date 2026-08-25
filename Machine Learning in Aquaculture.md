@@ -107,7 +107,7 @@ These three models represent the "gold standard" for tabular biological data (Al
 
 ### 3.3. XGBoost (eXtreme Gradient Boosting)
 
-**Methodology:** XGBoost uses the same *sequential boosting* logic as GBM but is a complete system-level re-engineering for speed and power.
+**Methodology:** XGBoost uses the same *sequential boosting* logic as GBM but is a complete system-level re-engineering for speed and power (Palaiokostas, 2024).
 
 **Key Innovations:**
 
