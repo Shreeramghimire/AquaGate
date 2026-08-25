@@ -111,8 +111,8 @@ These three models represent the "gold standard" for tabular biological data (Al
 
 **Key Innovations:**
 
-- **Regularization (L1/L2):** Actively punishes overly complex trees, preventing the model from memorizing specific treatment failures.
-
+- **Regularization (L1/L2):** Actively punishes overly complex trees, preventing the model from memorizing specific treatment failures (Palaiokostas, 2024).
+  
 - **Second-Order Gradients:** Analyzes the *curvature* of the error, allowing faster convergence.
 
 - **Parallelized Split-Finding:** Utilizes all CPU cores to find the best splits within each tree level.
