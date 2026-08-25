@@ -195,10 +195,11 @@ Picking the right model architecture is only half the job. You also need a defen
 
 ### 5.1 Regression Metrics: For Continuous Predictions (Biomass, DO, Growth)
 
-
-
 Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a continuous number (a lice count, a DO level, a weight in kg), so their performance should be evaluated with regression metrics:
 
+- RMSE (Root Mean Squared Error): Squares errors before averaging, so it penalizes large misses heavily. Use this where a big miss is dangerous   e.g., an LSTM underestimating a DO crash by 2 mg/L is far worse than being off by 0.2 mg/L six times.
+
+- 
 ---
 
 ## 6. Comparative Analysis: Which Model to Choose?
