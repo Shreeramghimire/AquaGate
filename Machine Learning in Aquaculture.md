@@ -183,7 +183,8 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 ## 5. Comparative Analysis: Which Model to Choose?
 
-The "best" model depends entirely on the **specific aquaculture problem** you are solving. Use the table below as your decision-making cheat sheet. 
+The "best" model depends entirely on the **specific aquaculture problem** you are solving (Roy et al., 2025; Alnemari et al., 2025). Use the table below as your decision-making cheat sheet. 
+
 | Problem Domain | Recommended Model | Why? | Priority |
 | :--- | :--- | :--- | :--- |
 | **Lice Infestation Prediction** | **XGBoost** | Captures biological time-lags and regularizes against noisy treatment data. | Accuracy |
