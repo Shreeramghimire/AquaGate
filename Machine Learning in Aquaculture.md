@@ -227,6 +227,10 @@ Some outputs aren't continuous; they're categorical: "is this a lice or not," "a
 
 The comparison table in Section 6 flags Random Forest as the go-to model when Interpretability is the priority; for example, generating a monthly report for Mattilsynet on which environmental factors are driving lice risk. In practice, "Random Forest is interpretable" only gets you feature importance rankings (which features mattered on average, across the whole dataset). To explain a specific prediction- "why did the model flag Cage 4 as high-risk this week?" you need a dedicated explainability tool:
 
+- SHAP (SHapley Additive exPlanations): Assigns each input feature a contribution value for a single prediction, grounded in cooperative game theory (Lundberg & Lee, 2017). Works on any of the tree-based models (Random Forest, GBM, XGBoost, LightGBM) and produces the kind of per-decision breakdown ("Temperature contributed +0.4 lice, Salinity contributed -0.1 lice") that a regulator or farm manager can actually act on, rather than a single global ranking.
+
+- 
+
 
 ---
 
