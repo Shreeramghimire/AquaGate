@@ -219,6 +219,8 @@ Liu, S., Du, Z., Wang, G., Zhang, P., Xu, W., Yu, J., & Li, D. (2026). From Trad
 
 Nuangpirom, P., Pitjamit, S., Jaikampan, V., Peerakam, C., Nakkiew, W., & Jewpanya, P. (2025). Machine learning on low-cost edge devices for real-time water quality prediction in tilapia aquaculture. Sensors, 25(19), 6159.
 
+Palaiokostas, C. (2024). Predicting for disease resistance in aquaculture species using machine learning models. AGRIS - International Agricultural Science and Technology Information System.
+
 Roy, S. M., Beg, M. M., Bhagat, S. K., Charan, D., Pareek, C. M., Moulick, S., & Kim, T. (2025). Application of artificial intelligence in aquaculture–Recent developments and prospects. Aquacultural Engineering, 111, 102570.
 
 
