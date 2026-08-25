@@ -205,6 +205,7 @@ Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a cont
 
 - MAPE (Mean Absolute Percentage Error): Expresses error as a percentage rather than an absolute value, which makes it easier to compare model performance across farms or cages of different sizes.
 
+**Rule of thumb:** report RMSE and MAE together; RMSE tells you about your worst mistakes, MAE tells you about your typical mistake. A large gap between the two is itself a diagnostic signal (it means the model has a few very bad predictions rather than uniformly mediocre ones).
 
 ---
 
