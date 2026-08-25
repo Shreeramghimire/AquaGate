@@ -207,6 +207,11 @@ Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a cont
 
 **Rule of thumb:** report RMSE and MAE together; RMSE tells you about your worst mistakes, MAE tells you about your typical mistake. A large gap between the two is itself a diagnostic signal (it means the model has a few very bad predictions rather than uniformly mediocre ones).
 
+### 5.2 Classification Metrics — For Lice Counting & CNN Detection Tasks
+
+Some outputs aren't continuous; they're categorical: "is this a lice or not," "adult female/male / chalimus," or "has this cage crossed the Mattilsynet legal treatment threshold (yes/no)." These need classification metrics, not regression ones:
+
+
 ---
 
 ## 6. Comparative Analysis: Which Model to Choose?
