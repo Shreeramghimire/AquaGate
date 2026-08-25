@@ -217,6 +217,8 @@ Hridoy, M. A. A. M., Shawkat, A. I., Bordin, C., Acharjee, M. R., Masood, A., Ba
 
 Liu, S., Du, Z., Wang, G., Zhang, P., Xu, W., Yu, J., & Li, D. (2026). From Traditional Machine Learning Models to Multimodal Large Models: A Review of Aquaculture. Reviews in Aquaculture, 18(1), 1. doi:10.1111/raq.70111 
 
+LSTM-Based Predictive Modeling of Dissolved Oxygen Using Water Quality and Environmental Parameters. (2025). IEEE Xplore. Conference: Cebu City, Philippines
+
 Nuangpirom, P., Pitjamit, S., Jaikampan, V., Peerakam, C., Nakkiew, W., & Jewpanya, P. (2025). Machine learning on low-cost edge devices for real-time water quality prediction in tilapia aquaculture. Sensors, 25(19), 6159.
 
 Palaiokostas, C. (2024). Predicting for disease resistance in aquaculture species using machine learning models. AGRIS - International Agricultural Science and Technology Information System.
