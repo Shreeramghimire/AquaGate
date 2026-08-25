@@ -36,6 +36,8 @@
 
 6. [Final Recommendation for Aquaculture Practitioners]
 
+7. [References]
+
 ----
 
 ## 1. Introduction: Why Tree-Based & Hybrid Models?
