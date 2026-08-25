@@ -211,6 +211,13 @@ Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a cont
 
 Some outputs aren't continuous; they're categorical: "is this a lice or not," "adult female/male / chalimus," or "has this cage crossed the Mattilsynet legal treatment threshold (yes/no)." These need classification metrics, not regression ones:
 
+- **Precision:** Of everything the model flagged as lice (or as "over threshold"), what fraction was actually correct. Low precision means false alarms, treatment triggered when it wasn't needed.
+
+- **Recall:** Of all the actual lice present (or all cages actually over threshold), what fraction did the model catch? This is the regulatory-critical number: a missed adult female lice, or a missed threshold breach, is a compliance risk, not just a modeling error.
+
+- **F1-score:** The harmonic mean of precision and recall, useful as a single number when you need to balance both rather than optimizing one at the other's expense.
+- 
+
 
 ---
 
