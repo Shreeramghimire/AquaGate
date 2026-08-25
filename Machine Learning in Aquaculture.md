@@ -237,4 +237,4 @@ Satrio, C. B. A., Darmawan, W., Nadia, B. U., & Hanafiah, N. (2021). Time series
 
 Su, B., Bjørnson, F. O., Tsarau, A., Endresen, P. C., Ohrem, S. J., Føre, M., ... & Bjelland, H. V. (2023). Towards a holistic digital twin solution for real-time monitoring of aquaculture net cage systems. Marine Structures, 91, 103469.
 
-
+Wu, A. Q., Li, K. L., Song, Z. Y., Lou, X., Hu, P., Yang, W., & Wang, R. F. (2025). Deep learning for sustainable aquaculture: Opportunities and challenges. Sustainability, 17(11), 5084.
