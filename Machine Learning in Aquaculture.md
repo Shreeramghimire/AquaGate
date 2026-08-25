@@ -87,7 +87,7 @@ These three models represent the "gold standard" for tabular biological data (Al
 
 **Prediction:** The final output (lice count) is the **average** of all individual tree predictions.
 
-**Pros for Aquaculture:** Exceptionally robust to missing sensor data and outliers. Provides highly stable **feature importance** rankings (e.g., proving to regulators that Temperature drives lice more than Salinity). 
+**Pros for Aquaculture:** Exceptionally robust to missing sensor data and outliers. Provides highly stable **feature importance** rankings (e.g., proving to regulators that Temperature drives lice more than Salinity) (Palaiokostas, 2024). Nuangpirom et al. (2025) also demonstrated Random Forest's effectiveness on low-cost edge devices for real-time water quality prediction.
 
 **Cons:** Does not inherently understand the *flow of time*; it treats each weekly observation as an independent snapshot.
 
