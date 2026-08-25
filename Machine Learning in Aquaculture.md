@@ -214,7 +214,7 @@ As Liu et al. (2026) note, the industry is evolving toward multimodal large mode
 
 Finally, remember the golden rule of aquaculture modelling: **Data quality > Model complexity.** A simple Random Forest trained on high-frequency, clean oxygen data will *always* beat a fancy LSTM trained on sparse, manually-recorded spreadsheets. Invest heavily in your sensor infrastructure (Roy et al., 2025), and these models will reward you with substantial operational savings.
 
-## References
+## 7. References
 
 Alnemari, A.M., Elmessery, W.M., Qazaq, A.S., Moustapha, M.E., Rakhimgaliyeva, S., Abuhussein, M.F.A., ... & Elwakeel, A.E. (2025). Developing highly accurate machine learning models for optimizing water quality management decisions in tilapia aquaculture. Scientific Reports, 15(1), 35600. 
 
