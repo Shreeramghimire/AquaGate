@@ -191,6 +191,14 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 ## 5. How to Evaluate: Metrics & Explainability
 
+Picking the right model architecture is only half the job. You also need a defensible way to answer two follow-up questions: "How do you know it's working?" and "Can you explain the output to Mattilsynet?" This section covers the metrics and explainability tools that answer each.
+
+### 5.1 Regression Metrics: For Continuous Predictions (Biomass, DO, Growth)
+
+
+
+Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a continuous number (a lice count, a DO level, a weight in kg), so their performance should be evaluated with regression metrics:
+
 ---
 
 ## 6. Comparative Analysis: Which Model to Choose?
