@@ -199,6 +199,8 @@ Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a cont
 
 - RMSE (Root Mean Squared Error): Squares errors before averaging, so it penalizes large misses heavily. Use this where a big miss is dangerous   e.g., an LSTM underestimating a DO crash by 2 mg/L is far worse than being off by 0.2 mg/L six times.
 
+- MAE (Mean Absolute Error): The average absolute size of the error, in the same units as the prediction (e.g., "off by 0.3 lice per fish on average"). More robust to outliers than RMSE and easier to communicate to non-technical stakeholders.
+
 - 
 ---
 
