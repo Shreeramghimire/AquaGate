@@ -229,6 +229,8 @@ The comparison table in Section 6 flags Random Forest as the go-to model when In
 
 - SHAP (SHapley Additive exPlanations): Assigns each input feature a contribution value for a single prediction, grounded in cooperative game theory (Lundberg & Lee, 2017). Works on any of the tree-based models (Random Forest, GBM, XGBoost, LightGBM) and produces the kind of per-decision breakdown ("Temperature contributed +0.4 lice, Salinity contributed -0.1 lice") that a regulator or farm manager can actually act on, rather than a single global ranking.
 
+- LIME (Local Interpretable Model-Agnostic Explanations): Builds a simple, interpretable surrogate model around one individual prediction to approximate how the black-box model behaved locally (Ribeiro et al., 2016). More model-agnostic than SHAP (it can explain a CNN's lice-detection output as easily as a tree model's), though its explanations are approximate rather than exact.
+
 - 
 
 
