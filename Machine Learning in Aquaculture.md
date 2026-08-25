@@ -189,7 +189,7 @@ The "best" model depends entirely on the **specific aquaculture problem** you ar
 | :--- | :--- | :--- | :--- |
 | **Lice Infestation Prediction** | **XGBoost** | Captures biological time-lags and regularizes against noisy treatment data(Palaiokostas, 2024). | Accuracy |
 | **Lice Infestation Explanation** (Regulatory) | **Random Forest** | Provides stable, legally defensible feature importance charts(Palaiokostas, 2024). | Interpretability |
-| **Dissolved Oxygen (DO) Forecasting** (24hrs) | **LSTM** | Remembers the sequence and momentum of water chemistry trends. | Memory |
+| **Dissolved Oxygen (DO) Forecasting** (24hrs) | **LSTM** | Remembers the sequence and momentum of water chemistry trends (Khabusi & Huang, 2022; Yu et al., 2025). | Memory |
 | **Biomass/Harvest Weight Forecasting** | **Prophet** | Explicitly handles seasonal summer/winter growth cycles. | Trend & Seasonality |
 | **Spatial Spread (Neighboring Farms)** | **Gaussian Process (GPR)** | Models covariance based on ocean currents and geographic distance. | Spatial Awareness |
 | **Real-time Feeding Control (Edge Devices)** | **LightGBM** | Ultra-fast inference speed; lower memory footprint than XGBoost. | Speed & Efficiency |
