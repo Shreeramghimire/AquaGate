@@ -215,6 +215,8 @@ Alnemari, A.M., Elmessery, W.M., Qazaq, A.S., Moustapha, M.E., Rakhimgaliyeva, S
 
 Hridoy, M. A. A. M., Shawkat, A. I., Bordin, C., Acharjee, M. R., Masood, A., Baki, A. O., & Al Mamun, M. A. (2025). Advanced machine learning models for accurate water quality classification and WQI prediction: Implications for aquatic disease risk management. Science of the Total Environment, 1008, 180965.
 
+Katsidoniotaki, E., Su, B., Kelasidi, E., & Sapsis, T. P. (2025). Multifidelity digital twin for real-time monitoring of structural dynamics in aquaculture net cages. Scientific Reports, 15(1), 44281.
+
 Khabusi, S. P., & Huang, Y. P. (2022, August). A deep learning approach to predict dissolved oxygen in aquaculture. In 2022 International Conference on Advanced Robotics and Intelligent Systems (ARIS) (pp. 1-6). IEEE.
 
 Liu, S., Du, Z., Wang, G., Zhang, P., Xu, W., Yu, J., & Li, D. (2026). From Traditional Machine Learning Models to Multimodal Large Models: A Review of Aquaculture. Reviews in Aquaculture, 18(1), 1. doi:10.1111/raq.70111 
@@ -228,5 +230,7 @@ Palaiokostas, C. (2024). Predicting for disease resistance in aquaculture specie
 LSTM-Based Predictive Modeling of Dissolved Oxygen Using Water Quality and Environmental Parameters. (2025). IEEE Xplore. Conference: Cebu City, Philippines
 
 Roy, S. M., Beg, M. M., Bhagat, S. K., Charan, D., Pareek, C. M., Moulick, S., & Kim, T. (2025). Application of artificial intelligence in aquaculture–Recent developments and prospects. Aquacultural Engineering, 111, 102570.
+
+Su, B., Bjørnson, F. O., Tsarau, A., Endresen, P. C., Ohrem, S. J., Føre, M., ... & Bjelland, H. V. (2023). Towards a holistic digital twin solution for real-time monitoring of aquaculture net cage systems. Marine Structures, 91, 103469.
 
 
