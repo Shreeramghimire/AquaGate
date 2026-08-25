@@ -201,6 +201,8 @@ Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a cont
 
 - MAE (Mean Absolute Error): The average absolute size of the error, in the same units as the prediction (e.g., "off by 0.3 lice per fish on average"). More robust to outliers than RMSE and easier to communicate to non-technical stakeholders.
 
+- R² (Coefficient of Determination): The proportion of variance in the outcome the model explains. Useful as a single headline number, but should never be reported alone; a high R² can hide systematic bias at the extremes (e.g., a Prophet model that nails average growth but misses harvest-week spikes).
+
 - 
 ---
 
