@@ -221,6 +221,8 @@ Nuangpirom, P., Pitjamit, S., Jaikampan, V., Peerakam, C., Nakkiew, W., & Jewpan
 
 Palaiokostas, C. (2024). Predicting for disease resistance in aquaculture species using machine learning models. AGRIS - International Agricultural Science and Technology Information System.
 
+LSTM-Based Predictive Modeling of Dissolved Oxygen Using Water Quality and Environmental Parameters. (2025). IEEE Xplore. Conference: Cebu City, Philippines
+
 Roy, S. M., Beg, M. M., Bhagat, S. K., Charan, D., Pareek, C. M., Moulick, S., & Kim, T. (2025). Application of artificial intelligence in aquaculture–Recent developments and prospects. Aquacultural Engineering, 111, 102570.
 
 
