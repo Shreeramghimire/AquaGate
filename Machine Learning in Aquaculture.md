@@ -101,7 +101,7 @@ These three models represent the "gold standard" for tabular biological data (Al
 
 3. Tree #3 corrects the combined errors of Trees #1 and #2, and so on.
 
-**Pros for Aquaculture:** Exceptional at focusing on rare, high-impact events (e.g., unexpected lice explosions following a sudden spring warming event).
+**Pros for Aquaculture:** Exceptional at focusing on rare, high-impact events (e.g., unexpected lice explosions following a sudden spring warming event). Alnemari et al. (2025) found Gradient Boosting achieved high accuracy for aquaculture management decisions.
 
 **Cons:** Traditional GBM is **slow** due to its sequential nature. It is also prone to overfitting if the learning rate is not carefully tuned.
 
