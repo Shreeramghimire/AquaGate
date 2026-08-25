@@ -34,11 +34,11 @@
 
 5. [How to Evaluate: Metrics & Explainability]
 
-- 5.1 Regression Metrics — For Continuous Predictions (Biomass, DO, Growth)
+   - 5.1 Regression Metrics — For Continuous Predictions (Biomass, DO, Growth)
 
-- 5.2 Classification Metrics — For Lice Counting & CNN Detection Tasks
+   - 5.2 Classification Metrics — For Lice Counting & CNN Detection Tasks
 
-- 5.3 Explainability: SHAP & LIME
+   - 5.3 Explainability: SHAP & LIME
      
 6. [Comparative Analysis: Which Model to Choose?]
 
