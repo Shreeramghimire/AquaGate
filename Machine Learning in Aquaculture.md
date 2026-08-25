@@ -211,3 +211,5 @@ Finally, remember the golden rule of aquaculture modelling: **Data quality > Mod
 
 ## References
 
+Liu, S., Du, Z., Wang, G., Zhang, P., Xu, W., Yu, J., & Li, D. (2026). From Traditional Machine Learning Models to Multimodal Large Models: A Review of Aquaculture. Reviews in Aquaculture, 18(1), 1. doi:10.1111/raq.70111 
+
