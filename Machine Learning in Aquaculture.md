@@ -55,7 +55,7 @@ However, this data is notoriously difficult to model due to three inherent chall
 3. **Spatial Connectivity:** A lice outbreak at Farm A will inevitably spread to Farm B 5 km away if the current flows in that direction.
 
 
-To tackle these challenges, data scientists rely on a spectrum of models from highly interpretable tree-based ensembles to deep learning architectures. This document provides a comprehensive overview of all viable models, starting from the simplest building block.
+To tackle these challenges, data scientists rely on a spectrum of models from highly interpretable tree-based ensembles to deep learning architectures (Wu et al., 2025; Kaur et al., 2023). This document provides a comprehensive overview of all viable models, starting from the simplest building block.
 
 ---
 
