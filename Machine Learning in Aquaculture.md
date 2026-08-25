@@ -192,9 +192,9 @@ The "best" model depends entirely on the **specific aquaculture problem** you ar
 | **Dissolved Oxygen (DO) Forecasting** (24hrs) | **LSTM** | Remembers the sequence and momentum of water chemistry trends (Khabusi & Huang, 2022; Yu et al., 2025). | Memory |
 | **Biomass/Harvest Weight Forecasting** | **Prophet** | Explicitly handles seasonal summer/winter growth cycles (Lima et al., 2023). | Trend & Seasonality |
 | **Spatial Spread (Neighboring Farms)** | **Gaussian Process (GPR)** | Models covariance based on ocean currents and geographic distance (Katsidoniotaki et al., 2025; Su et al., 2023). | Spatial Awareness |
-| **Real-time Feeding Control (Edge Devices)** | **LightGBM** | Ultra-fast inference speed; lower memory footprint than XGBoost. | Speed & Efficiency |
-| **Automated Lice Counting (Camera-Based)** | **CNN (YOLO / Faster R-CNN)** | Detects and classifies individual lice directly from image/video, at scale. | Vision & Scale | 
-| **General Baseline / "First Try"** | **Random Forest** | Zero hyperparameter tuning required; works well out-of-the-box. | Robustness |
+| **Real-time Feeding Control (Edge Devices)** | **LightGBM** | Ultra-fast inference speed; lower memory footprint than XGBoost (Nuangpirom et al., 2025). | Speed & Efficiency |
+| **Automated Lice Counting (Camera-Based)** | **CNN (YOLO / Faster R-CNN)** | Detects and classifies individual lice directly from image/video, at scale (Kaur et al., 2023; Zhang & Su, 2025). | Vision & Scale | 
+| **General Baseline / "First Try"** | **Random Forest** | Zero hyperparameter tuning required; works well out-of-the-box(Palaiokostas, 2024). | Robustness |
 
 ## 6. Final Recommendation for Aquaculture Practitioners
 
