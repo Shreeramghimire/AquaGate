@@ -231,8 +231,7 @@ The comparison table in Section 6 flags Random Forest as the go-to model when In
 
 - LIME (Local Interpretable Model-Agnostic Explanations): Builds a simple, interpretable surrogate model around one individual prediction to approximate how the black-box model behaved locally (Ribeiro et al., 2016). More model-agnostic than SHAP (it can explain a CNN's lice-detection output as easily as a tree model's), though its explanations are approximate rather than exact.
 
-- 
-
+**Practical guidance:** pair XGBoost + SHAP for the lice early-warning system in Section 7's hybrid stack; SHAP gives you the per-cage, per-week explanation that a global Random Forest feature-importance chart cannot, while still using the model with the best raw accuracy for the prediction itself.
 
 ---
 
