@@ -131,13 +131,13 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **Application in Aquaculture:** Forecasting **Dissolved Oxygen (DO)** levels 24-48 hours in advance. DO is the #1 acute mortality risk in salmon farms (fish suffocate if oxygen drops below 70% saturation). An LSTM takes the last 7 days of temperature, salinity, wind speed, and algal biomass to predict tomorrow's minimum DO (Khabusi & Huang, 2022; "LSTM-Based Predictive Modeling," 2025).
 
-**Why use it:** It understands the "momentum" of water chemistry—if oxygen has been dropping for 3 days, it knows the trend is likely to continue.
+**Why use it:**  It understands the "momentum" of water chemistry—if oxygen has been dropping for 3 days, it knows the trend is likely to continue (Yu et al., 2025).
 
-**Limitation:** Requires massive amounts of continuous data (thousands of hourly timesteps) and significant GPU power.
+**Limitation:** Requires massive amounts of continuous data (thousands of hourly timesteps) and significant GPU power. Wu et al. (2025) note that while deep learning offers opportunities for sustainable aquaculture, challenges remain in data availability and model generalizability.
 
 ### 4.2. Prophet (Meta's Time-Series Model): *For Seasonal Biomass Growth Curves*
 
-**What it is:** An open-source forecasting model developed by Facebook (Meta). It is designed for business time-series that have strong **seasonal patterns** and holiday effects.
+**What it is:** An open-source forecasting model developed by Facebook (Meta). It is designed for business time-series that have strong **seasonal patterns** and holiday effects (Satrio et al., 2021).
 
 **Application in Aquaculture:** Predicting **Biomass Growth Curves**. Salmon grow predictably with the seasons—fast in the summer (long photoperiod, warm water) and slow in the winter.
 
