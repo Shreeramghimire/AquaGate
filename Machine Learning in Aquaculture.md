@@ -143,7 +143,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **Why use it:** Prophet is incredibly user-friendly. It explicitly decomposes the time-series into three components: **Trend** (overall growth), **Seasonality** (summer/winter cycles), and **Holidays** (e.g., feeding stops during treatments). You can feed it 5 years of weekly weight samples, and it will predict the exact week your fish will hit 5 kg market weight (Lima et al., 2023).
 
-**Limitation:** Assumes the future will look like the past. Cannot handle sudden external shocks (e.g., a new disease outbreak).
+**Limitation:** Assumes the future will look like the past. Cannot handle sudden external shocks (e.g., a new disease outbreak) (Satrio et al., 2021).
 
 ### 4.3. Gaussian Process Regression (GPR): *For Spatially-Aware Lice Dispersion*
 
