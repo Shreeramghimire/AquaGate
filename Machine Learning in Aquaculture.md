@@ -203,7 +203,9 @@ Random Forest, GBM, XGBoost, LSTM, Prophet, and GPR all ultimately output a cont
 
 - R² (Coefficient of Determination): The proportion of variance in the outcome the model explains. Useful as a single headline number, but should never be reported alone; a high R² can hide systematic bias at the extremes (e.g., a Prophet model that nails average growth but misses harvest-week spikes).
 
-- 
+- MAPE (Mean Absolute Percentage Error): Expresses error as a percentage rather than an absolute value, which makes it easier to compare model performance across farms or cages of different sizes.
+
+
 ---
 
 ## 6. Comparative Analysis: Which Model to Choose?
