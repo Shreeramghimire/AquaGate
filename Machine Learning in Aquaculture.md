@@ -210,6 +210,8 @@ If you are building a production-ready decision-support system for a Norwegian s
 
 5. Layer in a CNN wherever cameras are already installed; it turns passive video feeds into automated lice counts and biomass estimates, feeding cleaner, higher-frequency input into the models above instead of relying solely on manual sampling (Kaur et al., 2023; Zhang & Su, 2025).
 
+As Liu et al. (2026) note, the industry is evolving toward multimodal large models that integrate multi-source data such as images, sensor readings, video, audio, and text, promising enhanced precision, sustainability, and automation. Su et al. (2023) and Lima et al. (2023) further emphasize the role of digital twins in achieving holistic, real-time monitoring of aquaculture systems.
+
 Finally, remember the golden rule of aquaculture modelling: **Data quality > Model complexity.** A simple Random Forest trained on high-frequency, clean oxygen data will *always* beat a fancy LSTM trained on sparse, manually-recorded spreadsheets. Invest heavily in your sensor infrastructure, and these models will reward you with substantial operational savings.
 
 ## References
