@@ -198,17 +198,17 @@ The "best" model depends entirely on the **specific aquaculture problem** you ar
 
 ## 6. Final Recommendation for Aquaculture Practitioners
 
-If you are building a production-ready decision-support system for a Norwegian salmon farm, **do not pick just one model**. Implement a **hybrid stack**:
+If you are building a production-ready decision-support system for a Norwegian salmon farm, **do not pick just one model**. Implement a **hybrid stack** (Roy et al., 2025; Su et al., 2023):
 
-1. **Use XGBoost** as your primary lice early-warning system (sends SMS alerts to farmers)
+1. **Use XGBoost** as your primary lice early-warning system (sends SMS alerts to farmers) (Palaiokostas, 2024).
 
-2. **Use an LSTM** as a safety net to forecast critical low-oxygen events.
+2. **Use an LSTM** as a safety net to forecast critical low-oxygen events (Khabusi & Huang, 2022; Yu et al., 2025).
 
-3. **Use Random Forest** once a month to generate automated reports for the Norwegian Food Safety Authority (Mattilsynet), explaining *which* environmental factors triggered the current risk level.
+3. **Use Random Forest** once a month to generate automated reports for the Norwegian Food Safety Authority (Mattilsynet), explaining *which* environmental factors triggered the current risk level (Palaiokostas, 2024).
 
-4. **Experiment with LightGBM** if you plan to deploy the model directly onto the farm's edge-computing devices (feeding barges) to minimize latency.
+4. **Experiment with LightGBM** if you plan to deploy the model directly onto the farm's edge-computing devices (feeding barges) to minimize latency (Nuangpirom et al., 2025).
 
-5. Layer in a CNN wherever cameras are already installed; it turns passive video feeds into automated lice counts and biomass estimates, feeding cleaner, higher-frequency input into the models above instead of relying solely on manual sampling.
+5. Layer in a CNN wherever cameras are already installed; it turns passive video feeds into automated lice counts and biomass estimates, feeding cleaner, higher-frequency input into the models above instead of relying solely on manual sampling (Kaur et al., 2023; Zhang & Su, 2025).
 
 Finally, remember the golden rule of aquaculture modelling: **Data quality > Model complexity.** A simple Random Forest trained on high-frequency, clean oxygen data will *always* beat a fancy LSTM trained on sparse, manually-recorded spreadsheets. Invest heavily in your sensor infrastructure, and these models will reward you with substantial operational savings.
 
