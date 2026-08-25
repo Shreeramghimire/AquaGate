@@ -217,6 +217,8 @@ Hridoy, M. A. A. M., Shawkat, A. I., Bordin, C., Acharjee, M. R., Masood, A., Ba
 
 Katsidoniotaki, E., Su, B., Kelasidi, E., & Sapsis, T. P. (2025). Multifidelity digital twin for real-time monitoring of structural dynamics in aquaculture net cages. Scientific Reports, 15(1), 44281.
 
+Kaur, G., Adhikari, N., Krishnapriya, S., Wawale, S. G., Malik, R. Q., Zamani, A. S., ... & Osei-Owusu, J. (2023). Recent advancements in deep learning frameworks for precision fish farming opportunities, challenges, and applications. Journal of Food Quality, 2023(1), 4399512.
+
 Khabusi, S. P., & Huang, Y. P. (2022, August). A deep learning approach to predict dissolved oxygen in aquaculture. In 2022 International Conference on Advanced Robotics and Intelligent Systems (ARIS) (pp. 1-6). IEEE.
 
 Lima, A. C., Royer, E., Bolzonella, M., & Pastres, R. (2023). Digital twins for land-based aquaculture: A case study for rainbow trout (Oncorhynchus mykiss). Open Research Europe, 2, 16.
