@@ -211,6 +211,8 @@ Finally, remember the golden rule of aquaculture modelling: **Data quality > Mod
 
 ## References
 
+Alnemari, A.M., Elmessery, W.M., Qazaq, A.S., Moustapha, M.E., Rakhimgaliyeva, S., Abuhussein, M.F.A., ... & Elwakeel, A.E. (2025). Developing highly accurate machine learning models for optimizing water quality management decisions in tilapia aquaculture. Scientific Reports, 15(1), 35600. 
+
 Hridoy, M. A. A. M., Shawkat, A. I., Bordin, C., Acharjee, M. R., Masood, A., Baki, A. O., & Al Mamun, M. A. (2025). Advanced machine learning models for accurate water quality classification and WQI prediction: Implications for aquatic disease risk management. Science of the Total Environment, 1008, 180965.
 
 Liu, S., Du, Z., Wang, G., Zhang, P., Xu, W., Yu, J., & Li, D. (2026). From Traditional Machine Learning Models to Multimodal Large Models: A Review of Aquaculture. Reviews in Aquaculture, 18(1), 1. doi:10.1111/raq.70111 
