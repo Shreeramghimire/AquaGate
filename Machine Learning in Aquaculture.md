@@ -216,7 +216,11 @@ Some outputs aren't continuous; they're categorical: "is this a lice or not," "a
 - **Recall:** Of all the actual lice present (or all cages actually over threshold), what fraction did the model catch? This is the regulatory-critical number: a missed adult female lice, or a missed threshold breach, is a compliance risk, not just a modeling error.
 
 - **F1-score:** The harmonic mean of precision and recall, useful as a single number when you need to balance both rather than optimizing one at the other's expense.
-- 
+
+- **mAP (mean Average Precision):** The standard metric for object-detection models like YOLO or Faster R-CNN; it accounts for both whether a lice was detected and whether the bounding box location was accurate.
+
+- **Confusion Matrix:** Breaks errors down by class (e.g., adult females mistaken for chalimus), which is often more actionable for a CNN lice-counting model than any single summary metric; it tells you which life stage needs more labeled training data.
+
 
 
 ---
