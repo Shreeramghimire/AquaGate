@@ -63,7 +63,7 @@ To tackle these challenges, data scientists rely on a spectrum of models from hi
 
 Before diving into complex ensembles, we must understand their fundamental building block: the **Decision Tree**. 
 
-**What it is:** A flowchart-like structure where each internal node represents a "test" on a feature (e.g., *"Is temperature > 12°C?"*), each branch represents the outcome of the test, and each leaf node represents a predicted value (e.g., *"Lice count = 0.5 adults per fish"*).
+**What it is:** A flowchart-like structure where each internal node represents a "test" on a feature (e.g., *"Is temperature > 12°C?"*), each branch represents the outcome of the test, and each leaf node represents a predicted value (e.g., *"Lice count = 0.5 adults per fish"*)(Palaiokostas, 2024).
 
 **How it learns:** The algorithm recursively splits the data using the feature that creates the "purest" sub-groups, minimizing the variance of the target variable in each child node.
 
