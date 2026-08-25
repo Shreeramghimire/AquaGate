@@ -233,6 +233,8 @@ LSTM-Based Predictive Modeling of Dissolved Oxygen Using Water Quality and Envir
 
 Roy, S. M., Beg, M. M., Bhagat, S. K., Charan, D., Pareek, C. M., Moulick, S., & Kim, T. (2025). Application of artificial intelligence in aquaculture–Recent developments and prospects. Aquacultural Engineering, 111, 102570.
 
+Satrio, C. B. A., Darmawan, W., Nadia, B. U., & Hanafiah, N. (2021). Time series analysis and forecasting of coronavirus disease in Indonesia using ARIMA model and PROPHET. Procedia Computer Science, 179, 524-532.
+
 Su, B., Bjørnson, F. O., Tsarau, A., Endresen, P. C., Ohrem, S. J., Føre, M., ... & Bjelland, H. V. (2023). Towards a holistic digital twin solution for real-time monitoring of aquaculture net cage systems. Marine Structures, 91, 103469.
 
 
