@@ -219,6 +219,8 @@ Katsidoniotaki, E., Su, B., Kelasidi, E., & Sapsis, T. P. (2025). Multifidelity 
 
 Khabusi, S. P., & Huang, Y. P. (2022, August). A deep learning approach to predict dissolved oxygen in aquaculture. In 2022 International Conference on Advanced Robotics and Intelligent Systems (ARIS) (pp. 1-6). IEEE.
 
+Lima, A. C., Royer, E., Bolzonella, M., & Pastres, R. (2023). Digital twins for land-based aquaculture: A case study for rainbow trout (Oncorhynchus mykiss). Open Research Europe, 2, 16.
+
 Liu, S., Du, Z., Wang, G., Zhang, P., Xu, W., Yu, J., & Li, D. (2026). From Traditional Machine Learning Models to Multimodal Large Models: A Review of Aquaculture. Reviews in Aquaculture, 18(1), 1. doi:10.1111/raq.70111 
 
 LSTM-Based Predictive Modeling of Dissolved Oxygen Using Water Quality and Environmental Parameters. (2025). IEEE Xplore. Conference: Cebu City, Philippines
