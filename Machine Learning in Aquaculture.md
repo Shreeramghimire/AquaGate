@@ -175,7 +175,7 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 - **Welfare & Behavior Monitoring**: CNN-based video analysis can flag abnormal swimming patterns, surface gasping (a low-oxygen behavioral signal), or reduced feeding activity, complementing sensor-based DO forecasting (Section 4.1) with a direct visual read on fish response (Kaur et al., 2023; Roy et al., 2025).
   
-**Why use it**: Cameras are already deployed across most modern farms (feeding control, welfare cameras, biomass cages), so a CNN turns existing video infrastructure into a continuous, non-invasive monitoring stream — counting lice or estimating biomass on every fish that passes the camera, rather than a manual sample of ~20 fish per cage per week.
+**Why use it**: Cameras are already deployed across most modern farms (feeding control, welfare cameras, biomass cages), so a CNN turns existing video infrastructure into a continuous, non-invasive monitoring stream — counting lice or estimating biomass on every fish that passes the camera, rather than a manual sample of ~20 fish per cage per week (Kaur et al., 2023; Zhang & Su, 2025).
 
 **Limitation**: Requires large, accurately labeled image datasets (thousands of annotated lice/fish instances) to train from scratch, which is expensive to produce. Performance also degrades in turbid water, low light, or high fish density (occlusion), and models trained on one farm's camera setup/lighting often need re-calibration or fine-tuning before transferring to another site. Most production deployments therefore use transfer learning — fine-tuning a model pre-trained on large general image datasets rather than training from zero.
 
