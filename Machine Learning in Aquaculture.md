@@ -159,9 +159,9 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 **What it is:** Another boosting framework developed by Microsoft. It is often considered XGBoost's direct competitor (Nuangpirom et al., 2025).
 
-**Key Innovation:** Unlike XGBoost, which grows trees **level-wise** (balanced, horizontal growth), LightGBM grows trees **leaf-wise** (vertical, asymmetric growth). It grows the branch that reduces the error the most, leading to faster convergence.
+**Key Innovation:** Unlike XGBoost, which grows trees **level-wise** (balanced, horizontal growth), LightGBM grows trees **leaf-wise** (vertical, asymmetric growth). It grows the branch that reduces the error the most, leading to faster convergence (Nuangpirom et al., 2025).
 
-**Application in Aquaculture:** Perfect for **real-time feeding optimization**. When a camera detects fish feeding behavior, the model must predict optimal feed dosage in milliseconds. LightGBM is significantly faster than XGBoost on massive datasets (millions of rows) while maintaining comparable accuracy.
+**Application in Aquaculture:** Perfect for **real-time feeding optimization** and water quality prediction on edge devices. Nuangpirom et al. (2025) demonstrated that LightGBM on low-cost edge devices can achieve substantial accuracy for water quality prediction in tilapia aquaculture, enabling real-time decision support in resource-limited settings.
 
 ### 4.5 Convolutional Neural Networks (CNN): *For Automated Visual Lice Counting & Biomass Estimation*
 
