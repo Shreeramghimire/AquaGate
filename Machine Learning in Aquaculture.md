@@ -31,12 +31,20 @@
    - 4.4 LightGBM:  *The Alternative to XGBoost*
   
    - 4.5 Convolutional Neural Networks (CNN): *For Automated Visual Lice Counting & Biomass Estimation*
+
+5. [How to Evaluate: Metrics & Explainability]
+
+- 5.1 Regression Metrics — For Continuous Predictions (Biomass, DO, Growth)
+
+- 5.2 Classification Metrics — For Lice Counting & CNN Detection Tasks
+
+- 5.3 Explainability: SHAP & LIME
      
-5. [Comparative Analysis: Which Model to Choose?]
+6. [Comparative Analysis: Which Model to Choose?]
 
-6. [Final Recommendation for Aquaculture Practitioners]
+7. [Final Recommendation for Aquaculture Practitioners]
 
-7. [References]
+8. [References]
 
 ----
 
