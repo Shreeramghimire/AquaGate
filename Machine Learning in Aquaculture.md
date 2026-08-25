@@ -93,7 +93,7 @@ These three models represent the "gold standard" for tabular biological data (Al
 
 ### 3.2. Gradient Boosting Machine (GBM)
 
-**Methodology:** GBM builds trees **sequentially** and **dependently**
+**Methodology:** GBM builds trees **sequentially** and **dependently** (Alnemari et al., 2025).
 
 1. Tree #1 predicts the lice count.
 
