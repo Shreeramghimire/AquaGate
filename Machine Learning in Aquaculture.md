@@ -189,7 +189,11 @@ While the trio above is excellent for tabular lice data, aquaculture involves ot
 
 ---
 
-## 5. Comparative Analysis: Which Model to Choose?
+## 5. How to Evaluate: Metrics & Explainability
+
+---
+
+## 6. Comparative Analysis: Which Model to Choose?
 
 The "best" model depends entirely on the **specific aquaculture problem** you are solving (Roy et al., 2025; Alnemari et al., 2025). Use the table below as your decision-making cheat sheet. 
 
@@ -204,7 +208,7 @@ The "best" model depends entirely on the **specific aquaculture problem** you ar
 | **Automated Lice Counting (Camera-Based)** | **CNN (YOLO / Faster R-CNN)** | Detects and classifies individual lice directly from image/video, at scale (Kaur et al., 2023; Zhang & Su, 2025). | Vision & Scale | 
 | **General Baseline / "First Try"** | **Random Forest** | Zero hyperparameter tuning required; works well out-of-the-box(Palaiokostas, 2024). | Robustness |
 
-## 6. Final Recommendation for Aquaculture Practitioners
+## 7. Final Recommendation for Aquaculture Practitioners
 
 If you are building a production-ready decision-support system for a Norwegian salmon farm, **do not pick just one model**. Implement a **hybrid stack** (Roy et al., 2025; Su et al., 2023):
 
@@ -222,7 +226,7 @@ As Liu et al. (2026) note, the industry is evolving toward multimodal large mode
 
 Finally, remember the golden rule of aquaculture modelling: **Data quality > Model complexity.** A simple Random Forest trained on high-frequency, clean oxygen data will *always* beat a fancy LSTM trained on sparse, manually-recorded spreadsheets. Invest heavily in your sensor infrastructure (Roy et al., 2025), and these models will reward you with substantial operational savings.
 
-## 7. References
+## 8. References
 
 Alnemari, A.M., Elmessery, W.M., Qazaq, A.S., Moustapha, M.E., Rakhimgaliyeva, S., Abuhussein, M.F.A., ... & Elwakeel, A.E. (2025). Developing highly accurate machine learning models for optimizing water quality management decisions in tilapia aquaculture. Scientific Reports, 15(1), 35600. 
 
