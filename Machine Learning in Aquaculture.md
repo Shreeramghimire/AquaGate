@@ -79,7 +79,7 @@ These three models represent the "gold standard" for tabular biological data (Al
 
 ### 3.1. Random Forest 
 
-**Methodology:** Random Forest applies **Bootstrap Aggregating (Bagging)**. It builds hundreds of deep decision trees **independently** and in **parallel**. 
+**Methodology:** Random Forest applies **Bootstrap Aggregating (Bagging)**. It builds hundreds of deep decision trees **independently** and in **parallel** (Palaiokostas, 2024). 
 
 **Random Data:** Each tree is trained on a random subset of the data (bootstrapped).
 
