@@ -209,4 +209,5 @@ If you are building a production-ready decision-support system for a Norwegian s
 
 Finally, remember the golden rule of aquaculture modelling: **Data quality > Model complexity.** A simple Random Forest trained on high-frequency, clean oxygen data will *always* beat a fancy LSTM trained on sparse, manually-recorded spreadsheets. Invest heavily in your sensor infrastructure, and these models will reward you with substantial operational savings.
 
+## References
 
